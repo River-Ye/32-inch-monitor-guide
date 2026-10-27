@@ -29,6 +29,7 @@
       "所有已查賣場的兩台供貨數量仍未確認；單價乘2是估算，配件、運費及活動條件另計。",
       "原廠典型亮度、面板規格最低公差及HDR小視窗峰值，不能當成最低可調亮度或全白持續亮度。",
       "部分獨立實測數值屬會員內容，僅採可公開核對的結論，沒有推算未讀取數字。",
+      "獨立實測只代表原文受測樣機；海外受測型號與台灣區域尾碼不同時另註，不據此確認台灣批次或韌體表現。",
       "機身一橫一直寬度採兩台間隔2cm的平面外廓估算；VESA偏心、視距、支臂行程、桌緣夾具及線材仍須核對。",
       "尚未指定Windows顯示卡或Mac型號，因此雙台同時輸出與實際解析度／更新率未驗證。"
     ]
@@ -1383,6 +1384,160 @@
       "offers": []
     },
     {
+      "id": "asus-ha3281a",
+      "brand": "ASUS",
+      "model": "HA3281A",
+      "sizeInches": 31.5,
+      "flat": null,
+      "resolution": [
+        3840,
+        2160
+      ],
+      "refreshHz": 60,
+      "panel": "OLED",
+      "screenType": "OLED",
+      "specSourceIds": [
+        "asus-catalog-31-complete",
+        "asus-ha3281a-catalog-detail-link",
+        "asus-ha3281a-qualification-audit",
+        "asus-ha3281a-us-techspec-audit"
+      ],
+      "ports": "原廠同型號列HDMI2.0×3、DP1.4×1、USB-C影像DP Alt Mode（15W）、USB-A3.2 Gen2×4、耳機孔。",
+      "weightKg": 7.4,
+      "dimensionsMm": {
+        "width": 735.4,
+        "height": 466.9,
+        "depth": 54.4
+      },
+      "vesa": "100×100 mm",
+      "portrait": "unknown",
+      "mountNotes": "同型號原廠表列裸機7.4kg、VESA100×100及底座±90°pivot；不能據此確認Arco旋轉淨空與直立操作的全部限制。",
+      "comfort": [
+        {
+          "topic": "長時間閱讀／最低亮度／閃爍",
+          "value": "尚未取得精確型號獨立實測，保留未知。",
+          "kind": "unknown",
+          "sourceIds": []
+        }
+      ],
+      "cautions": [
+        "台灣正文與官方同型號手冊已證實31.5吋、3840×2160、60Hz級；手冊精確時序表為59.94Hz。",
+        "原廠完整表與手冊未找到平面／曲率明文，該資格欄仍待確認；沒有台灣已確認供貨賣場。",
+        "海外原廠表的保固不移植至台灣或平輸賣場。"
+      ],
+      "offers": [],
+      "manufacturerUrl": "https://www.asus.com/tw/displays-desktops/monitors/healthcare/ha3281a/"
+    },
+    {
+      "id": "asus-ms32uc",
+      "brand": "ASUS",
+      "model": "MS32UC",
+      "sizeInches": 31.5,
+      "flat": null,
+      "resolution": [
+        3840,
+        2160
+      ],
+      "refreshHz": 60,
+      "panel": "IPS",
+      "screenType": "LCD",
+      "specSourceIds": [
+        "asus-catalog-31-complete",
+        "asus-ms32uc-spec",
+        "asus-ms32uc-qualification-audit"
+      ],
+      "ports": "USB-C DP Alt PD90W、DP1.4、HDMI2.0、USB2.0×2、耳機孔",
+      "weightKg": 6.92,
+      "dimensionsMm": {
+        "width": 714,
+        "height": 449,
+        "depth": 50
+      },
+      "vesa": "100×100",
+      "portrait": "unknown",
+      "mountNotes": "原廠已列裸機6.92kg、VESA100×100及714×449×50mm；直立操作與Arco板件、螺絲及旋轉淨空仍未確認。",
+      "comfort": [
+        {
+          "topic": "長時間閱讀／最低亮度／閃爍",
+          "value": "尚未取得精確型號獨立實測，保留未知。",
+          "kind": "unknown",
+          "sourceIds": []
+        },
+        {
+          "topic": "表面／閃爍／低藍光",
+          "value": "原廠列抗眩光、典型350nit、不閃屏及低藍光；最低可調亮度與實測未確認。",
+          "kind": "manufacturer",
+          "sourceIds": [
+            "asus-ms32uc-spec"
+          ]
+        }
+      ],
+      "cautions": [
+        "完整台灣規格已核對31.5吋、3840×2160與60Hz；原廠表未明列平面／曲率，仍待該項證據。",
+        "原廠目錄到貨通知與官方商品頁購物按鈕／配送文字不一致，不能據後者直接宣稱現貨。17900元為原廠目錄參考價。"
+      ],
+      "offers": [
+        {
+          "seller": "ASUS台灣官方商城",
+          "url": "https://shop.asus.com/tw/90lm0ayh-b01od1-zenscreen-smart-monitor-ms32uc.html",
+          "priceTwd": 17900,
+          "kind": "official",
+          "status": "unconfirmed",
+          "warranty": "官方賣場列三年；保固條款依訂單",
+          "warrantySourceIds": [
+            "asus-ms32uc-shop"
+          ],
+          "pairAvailability": "unknown",
+          "sourceId": "asus-catalog-31-complete",
+          "checkedAt": "2026-10-27",
+          "priceEvidence": "index",
+          "listingTitle": "ASUS 原廠目錄 ZenScreen MS32UC：17900元；目錄到貨通知與商品頁購物按鈕矛盾"
+        }
+      ],
+      "manufacturerUrl": "https://www.asus.com/tw/displays-desktops/monitors/zenscreen/zenscreen-smart-monitor-ms32uc/"
+    },
+    {
+      "id": "asus-pa328qv",
+      "brand": "ASUS",
+      "model": "PA328QV",
+      "sizeInches": 31.5,
+      "flat": null,
+      "resolution": [
+        2560,
+        1440
+      ],
+      "refreshHz": null,
+      "panel": "IPS",
+      "screenType": "LCD",
+      "specSourceIds": [
+        "asus-catalog-31-complete",
+        "asus-pa328qv-catalog-detail-link"
+      ],
+      "ports": "介面與供電細節尚未完成精確型號核對。",
+      "weightKg": null,
+      "dimensionsMm": {
+        "width": null,
+        "height": null,
+        "depth": null
+      },
+      "vesa": null,
+      "portrait": "unknown",
+      "mountNotes": "本次目錄補漏候選；裸機重量、孔距、直立方向及接頭淨空未確認，不宣稱Arco安裝通過。",
+      "comfort": [
+        {
+          "topic": "長時間閱讀／最低亮度／閃爍",
+          "value": "尚未取得精確型號獨立實測，保留未知。",
+          "kind": "unknown",
+          "sourceIds": []
+        }
+      ],
+      "cautions": [
+        "原廠目錄明列解析度低於4K，因此排除；其餘未確認欄位不補造。"
+      ],
+      "offers": [],
+      "manufacturerUrl": "https://www.asus.com/tw/displays-desktops/monitors/proart/proart-display-pa328qv/"
+    },
+    {
       "id": "asus-pa329cdv",
       "brand": "ASUS",
       "model": "PA329CDV",
@@ -2587,6 +2742,89 @@
       "offers": []
     },
     {
+      "id": "asus-va329he",
+      "brand": "ASUS",
+      "model": "VA329HE",
+      "sizeInches": 31.5,
+      "flat": null,
+      "resolution": [
+        1920,
+        1080
+      ],
+      "refreshHz": 75,
+      "panel": null,
+      "screenType": null,
+      "specSourceIds": [
+        "asus-catalog-31-complete",
+        "asus-va329he-catalog-detail-link"
+      ],
+      "ports": "介面與供電細節尚未完成精確型號核對。",
+      "weightKg": null,
+      "dimensionsMm": {
+        "width": null,
+        "height": null,
+        "depth": null
+      },
+      "vesa": null,
+      "portrait": "unknown",
+      "mountNotes": "本次目錄補漏候選；裸機重量、孔距、直立方向及接頭淨空未確認，不宣稱Arco安裝通過。",
+      "comfort": [
+        {
+          "topic": "長時間閱讀／最低亮度／閃爍",
+          "value": "尚未取得精確型號獨立實測，保留未知。",
+          "kind": "unknown",
+          "sourceIds": []
+        }
+      ],
+      "cautions": [
+        "原廠目錄明列解析度低於4K，因此排除；其餘未確認欄位不補造。"
+      ],
+      "offers": [],
+      "manufacturerUrl": "https://www.asus.com/tw/displays-desktops/monitors/eye-care/va329he/"
+    },
+    {
+      "id": "asus-va329qg3",
+      "brand": "ASUS",
+      "model": "VA329QG3",
+      "sizeInches": 31.5,
+      "flat": null,
+      "resolution": [
+        1920,
+        1080
+      ],
+      "refreshHz": 180,
+      "panel": "VA",
+      "screenType": "LCD",
+      "specSourceIds": [
+        "asus-catalog-31-complete",
+        "asus-va329qg3-catalog-detail-link",
+        "asus-va329qg3-qualification-audit"
+      ],
+      "ports": "DP1.4×1、HDMI2.1 TMDS×2、耳機孔。",
+      "weightKg": 5.11,
+      "dimensionsMm": {
+        "width": 714.6,
+        "height": 423.7,
+        "depth": 53.3
+      },
+      "vesa": "100×100 mm",
+      "portrait": "unknown",
+      "mountNotes": "原廠已列裸機5.11kg、VESA100×100；直立操作與Arco完整安裝相容未確認。",
+      "comfort": [
+        {
+          "topic": "長時間閱讀／最低亮度／閃爍",
+          "value": "尚未取得精確型號獨立實測，保留未知。",
+          "kind": "unknown",
+          "sourceIds": []
+        }
+      ],
+      "cautions": [
+        "精確台灣原廠產品頁與技術表均為31.5吋FHD1920×1080，低於4K門檻；從待確認改為排除。"
+      ],
+      "offers": [],
+      "manufacturerUrl": "https://www.asus.com/tw/displays-desktops/monitors/eye-care/va329qg3/"
+    },
+    {
       "id": "asus-va32uq",
       "brand": "ASUS",
       "model": "VA32UQ",
@@ -3219,6 +3457,47 @@
       ]
     },
     {
+      "id": "asus-xg32wcs",
+      "brand": "ASUS",
+      "model": "XG32WCS",
+      "sizeInches": 31.5,
+      "flat": false,
+      "resolution": [
+        2560,
+        1440
+      ],
+      "refreshHz": 180,
+      "panel": "Fast VA",
+      "screenType": "LCD",
+      "specSourceIds": [
+        "asus-catalog-31-complete",
+        "asus-xg32wcs-catalog-detail-link"
+      ],
+      "ports": "介面與供電細節尚未完成精確型號核對。",
+      "weightKg": null,
+      "dimensionsMm": {
+        "width": null,
+        "height": null,
+        "depth": null
+      },
+      "vesa": null,
+      "portrait": "unknown",
+      "mountNotes": "本次目錄補漏候選；裸機重量、孔距、直立方向及接頭淨空未確認，不宣稱Arco安裝通過。",
+      "comfort": [
+        {
+          "topic": "長時間閱讀／最低亮度／閃爍",
+          "value": "尚未取得精確型號獨立實測，保留未知。",
+          "kind": "unknown",
+          "sourceIds": []
+        }
+      ],
+      "cautions": [
+        "原廠目錄明列解析度低於4K，因此排除；其餘未確認欄位不補造。"
+      ],
+      "offers": [],
+      "manufacturerUrl": "https://rog.asus.com/tw/monitors/27-to-31-5-inches/rog-strix-xg32wcs/"
+    },
+    {
       "id": "benq-ew3270u",
       "brand": "BenQ",
       "model": "EW3270U",
@@ -3421,10 +3700,13 @@
           "priceTwd": 14888,
           "kind": "official",
           "status": "inStock",
-          "warranty": "BenQ 公司貨；本頁未列完整保固年限，見原廠條款",
+          "warranty": "BenQ 台灣原廠3年（面板與機身），本島到府收送；保固除外與專案例外以原廠條款為準。",
           "pairAvailability": "unknown",
           "sourceId": "benq-ew3290u-buy",
-          "checkedAt": "2026-10-27"
+          "checkedAt": "2026-10-27",
+          "warrantySourceIds": [
+            "benq-tw-lcd-warranty"
+          ]
         },
         {
           "seller": "原價屋估價單",
@@ -3534,10 +3816,13 @@
           "priceTwd": null,
           "kind": "official",
           "status": "outOfStock",
-          "warranty": "官網停售，購買條件未確認",
+          "warranty": "BenQ 台灣原廠3年（面板與機身），本島到府收送；保固除外與專案例外以原廠條款為準。",
           "pairAvailability": "unknown",
           "sourceId": "benq-catalog",
-          "checkedAt": "2026-10-27"
+          "checkedAt": "2026-10-27",
+          "warrantySourceIds": [
+            "benq-tw-lcd-warranty"
+          ]
         }
       ]
     },
@@ -3721,10 +4006,13 @@
           "priceTwd": 11888,
           "kind": "official",
           "status": "unconfirmed",
-          "warranty": "BenQ 公司貨；本頁未列完整保固年限，見原廠條款",
+          "warranty": "BenQ 台灣原廠3年（面板與機身），本島到府收送；保固除外與專案例外以原廠條款為準。",
           "pairAvailability": "unknown",
           "sourceId": "benq-gw3290qt-buy",
-          "checkedAt": "2026-10-27"
+          "checkedAt": "2026-10-27",
+          "warrantySourceIds": [
+            "benq-tw-lcd-warranty"
+          ]
         }
       ]
     },
@@ -3806,10 +4094,13 @@
           "priceTwd": 19888,
           "kind": "official",
           "status": "inStock",
-          "warranty": "BenQ 公司貨；本頁未列完整保固年限，見原廠條款",
+          "warranty": "BenQ 台灣原廠3年（面板與機身），本島到府收送；保固除外與專案例外以原廠條款為準。",
           "pairAvailability": "unknown",
           "sourceId": "benq-ma320u-buy",
-          "checkedAt": "2026-10-27"
+          "checkedAt": "2026-10-27",
+          "warrantySourceIds": [
+            "benq-tw-lcd-warranty"
+          ]
         },
         {
           "seller": "原價屋估價單",
@@ -3943,10 +4234,13 @@
           "priceTwd": 29888,
           "kind": "official",
           "status": "inStock",
-          "warranty": "BenQ 公司貨；本頁未列完整保固年限，見原廠條款",
+          "warranty": "BenQ 台灣原廠3年（面板與機身），本島到府收送；保固除外與專案例外以原廠條款為準。",
           "pairAvailability": "unknown",
           "sourceId": "benq-ma320ug-buy",
-          "checkedAt": "2026-10-27"
+          "checkedAt": "2026-10-27",
+          "warrantySourceIds": [
+            "benq-tw-lcd-warranty"
+          ]
         },
         {
           "seller": "原價屋估價單",
@@ -4067,10 +4361,13 @@
           "priceTwd": 17888,
           "kind": "official",
           "status": "inStock",
-          "warranty": "BenQ 公司貨；本頁未列完整保固年限，見原廠條款",
+          "warranty": "BenQ 台灣原廠3年（面板與機身），本島到府收送；保固除外與專案例外以原廠條款為準。",
           "pairAvailability": "unknown",
           "sourceId": "benq-ma320up-buy",
-          "checkedAt": "2026-10-27"
+          "checkedAt": "2026-10-27",
+          "warrantySourceIds": [
+            "benq-tw-lcd-warranty"
+          ]
         },
         {
           "seller": "原價屋估價單",
@@ -4194,10 +4491,13 @@
           "priceTwd": null,
           "kind": "official",
           "status": "outOfStock",
-          "warranty": "官網停售，購買條件未確認",
+          "warranty": "BenQ 台灣原廠3年（面板與機身），本島到府收送；保固除外與專案例外以原廠條款為準。PD系列保內備機另依條款。",
           "pairAvailability": "unknown",
           "sourceId": "benq-catalog",
-          "checkedAt": "2026-10-27"
+          "checkedAt": "2026-10-27",
+          "warrantySourceIds": [
+            "benq-tw-lcd-warranty"
+          ]
         }
       ]
     },
@@ -4281,10 +4581,13 @@
           "priceTwd": null,
           "kind": "official",
           "status": "outOfStock",
-          "warranty": "官網停售，購買條件未確認",
+          "warranty": "BenQ 台灣原廠3年（面板與機身），本島到府收送；保固除外與專案例外以原廠條款為準。PD系列保內備機另依條款。",
           "pairAvailability": "unknown",
           "sourceId": "benq-catalog",
-          "checkedAt": "2026-10-27"
+          "checkedAt": "2026-10-27",
+          "warrantySourceIds": [
+            "benq-tw-lcd-warranty"
+          ]
         }
       ]
     },
@@ -4344,10 +4647,13 @@
           "priceTwd": null,
           "kind": "official",
           "status": "outOfStock",
-          "warranty": "未確認",
+          "warranty": "BenQ 台灣原廠3年（面板與機身），本島到府收送；保固除外與專案例外以原廠條款為準。PD系列保內備機另依條款。",
           "pairAvailability": "unknown",
           "sourceId": "benq-catalog",
-          "checkedAt": "2026-10-27"
+          "checkedAt": "2026-10-27",
+          "warrantySourceIds": [
+            "benq-tw-lcd-warranty"
+          ]
         },
         {
           "seller": "PChome 24h",
@@ -4455,10 +4761,13 @@
           "priceTwd": null,
           "kind": "official",
           "status": "outOfStock",
-          "warranty": "官網停售，購買條件未確認",
+          "warranty": "BenQ 台灣原廠3年（面板與機身），本島到府收送；保固除外與專案例外以原廠條款為準。PD系列保內備機另依條款。",
           "pairAvailability": "unknown",
           "sourceId": "benq-catalog",
-          "checkedAt": "2026-10-27"
+          "checkedAt": "2026-10-27",
+          "warrantySourceIds": [
+            "benq-tw-lcd-warranty"
+          ]
         },
         {
           "seller": "原價屋估價單",
@@ -4555,10 +4864,13 @@
           "priceTwd": 32888,
           "kind": "official",
           "status": "inStock",
-          "warranty": "BenQ 公司貨；本頁未列完整保固年限，見原廠條款",
+          "warranty": "BenQ 台灣原廠3年（面板與機身），本島到府收送；保固除外與專案例外以原廠條款為準。PD系列保內備機另依條款。",
           "pairAvailability": "unknown",
           "sourceId": "benq-pd3225u-buy",
-          "checkedAt": "2026-10-27"
+          "checkedAt": "2026-10-27",
+          "warrantySourceIds": [
+            "benq-tw-lcd-warranty"
+          ]
         },
         {
           "seller": "PChome 平台賣場（供應商未核）",
@@ -4653,10 +4965,13 @@
           "priceTwd": 19888,
           "kind": "official",
           "status": "inStock",
-          "warranty": "BenQ 公司貨；本頁未列完整保固年限，見原廠條款",
+          "warranty": "BenQ 台灣原廠3年（面板與機身），本島到府收送；保固除外與專案例外以原廠條款為準。",
           "pairAvailability": "unknown",
           "sourceId": "benq-pv3200u-buy",
-          "checkedAt": "2026-10-27"
+          "checkedAt": "2026-10-27",
+          "warrantySourceIds": [
+            "benq-tw-lcd-warranty"
+          ]
         },
         {
           "seller": "原價屋估價單",
@@ -4777,10 +5092,13 @@
           "priceTwd": 19888,
           "kind": "official",
           "status": "inStock",
-          "warranty": "BenQ 公司貨；本頁未列完整保固年限，見原廠條款",
+          "warranty": "BenQ 台灣原廠3年（面板與機身），本島到府收送；保固除外與專案例外以原廠條款為準。",
           "pairAvailability": "unknown",
           "sourceId": "benq-rd320u-buy",
-          "checkedAt": "2026-10-27"
+          "checkedAt": "2026-10-27",
+          "warrantySourceIds": [
+            "benq-tw-lcd-warranty"
+          ]
         },
         {
           "seller": "原價屋估價單",
@@ -5191,7 +5509,7 @@
         "depth": null
       },
       "vesa": "100×100",
-      "portrait": "yes",
+      "portrait": "unknown",
       "mountNotes": "需再核對支臂承重下限、VESA 快拆板及接頭空間。",
       "comfort": [
         {
@@ -5214,7 +5532,7 @@
         }
       ],
       "cautions": [
-        "當次使用通路明列規格；原廠全文未完整取得。欣亞標題4年保固，未擅自改稱原廠4年。"
+        "當次使用通路明列規格；原廠全文未完整取得。賣場列樞軸功能，原廠直立限制仍待核；欣亞標題4年保固，未擅自改稱原廠4年。"
       ],
       "offers": [
         {
@@ -6029,6 +6347,137 @@
       "offers": []
     },
     {
+      "id": "gigabyte-aorus-elite-fo32u24g",
+      "brand": "GIGABYTE",
+      "model": "AORUS ELITE FO32U24G",
+      "sizeInches": 31.5,
+      "flat": true,
+      "resolution": [
+        3840,
+        2160
+      ],
+      "refreshHz": 240,
+      "panel": "WOLED",
+      "screenType": "OLED",
+      "specSourceIds": [
+        "gigabyte-catalog-page-2",
+        "gigabyte-fo32u24g-spec"
+      ],
+      "ports": "HDMI2.1×2（其中一個eARC）、DP2.1、USB-C DP Alt PD65W、USB-B、USB-A×2、耳機孔",
+      "weightKg": null,
+      "dimensionsMm": {
+        "width": null,
+        "height": null,
+        "depth": null
+      },
+      "vesa": null,
+      "portrait": "yes",
+      "mountNotes": "原廠列順時針0–90度；裸機重量、外廓與VESA仍未查得，不能確認Arco相容。",
+      "comfort": [
+        {
+          "topic": "長時間閱讀／最低亮度／閃爍",
+          "value": "尚未取得精確型號獨立實測，保留未知。",
+          "kind": "unknown",
+          "sourceIds": []
+        },
+        {
+          "topic": "反光／亮度／閃爍",
+          "value": "原廠列Glossy、HDR小視窗峰值1500nit與不閃屏；不等於持續亮度、最低亮度或VRR實測。",
+          "kind": "manufacturer",
+          "sourceIds": [
+            "gigabyte-fo32u24g-spec"
+          ]
+        }
+      ],
+      "cautions": [
+        "原廠規格符合基本像素／Hz；台灣賣場供貨與文字舒適度仍未確認。"
+      ],
+      "offers": [],
+      "manufacturerUrl": "https://www.gigabyte.com/tw/Monitor/FO32U24G"
+    },
+    {
+      "id": "gigabyte-aorus-fi32q",
+      "brand": "GIGABYTE",
+      "model": "AORUS FI32Q",
+      "sizeInches": 31.5,
+      "flat": true,
+      "resolution": [
+        2560,
+        1440
+      ],
+      "refreshHz": 165,
+      "panel": "IPS",
+      "screenType": "LCD",
+      "specSourceIds": [
+        "gigabyte-catalog-page-7",
+        "gigabyte-aorus-fi32q-catalog-detail-link"
+      ],
+      "ports": "介面與供電細節尚未完成精確型號核對。",
+      "weightKg": null,
+      "dimensionsMm": {
+        "width": null,
+        "height": null,
+        "depth": null
+      },
+      "vesa": null,
+      "portrait": "unknown",
+      "mountNotes": "本次目錄補漏候選；裸機重量、孔距、直立方向及接頭淨空未確認，不宣稱Arco安裝通過。",
+      "comfort": [
+        {
+          "topic": "長時間閱讀／最低亮度／閃爍",
+          "value": "尚未取得精確型號獨立實測，保留未知。",
+          "kind": "unknown",
+          "sourceIds": []
+        }
+      ],
+      "cautions": [
+        "原廠目錄明列QHD或曲面，不符合本次平面4K門檻。"
+      ],
+      "offers": [],
+      "manufacturerUrl": "https://www.gigabyte.com/tw/Monitor/AORUS-FI32Q"
+    },
+    {
+      "id": "gigabyte-aorus-fi32q-x",
+      "brand": "GIGABYTE",
+      "model": "AORUS FI32Q X",
+      "sizeInches": 31.5,
+      "flat": true,
+      "resolution": [
+        2560,
+        1440
+      ],
+      "refreshHz": 240,
+      "panel": "IPS",
+      "screenType": "LCD",
+      "specSourceIds": [
+        "gigabyte-catalog-page-7",
+        "gigabyte-aorus-fi32q-x-catalog-detail-link"
+      ],
+      "ports": "介面與供電細節尚未完成精確型號核對。",
+      "weightKg": null,
+      "dimensionsMm": {
+        "width": null,
+        "height": null,
+        "depth": null
+      },
+      "vesa": null,
+      "portrait": "unknown",
+      "mountNotes": "本次目錄補漏候選；裸機重量、孔距、直立方向及接頭淨空未確認，不宣稱Arco安裝通過。",
+      "comfort": [
+        {
+          "topic": "長時間閱讀／最低亮度／閃爍",
+          "value": "尚未取得精確型號獨立實測，保留未知。",
+          "kind": "unknown",
+          "sourceIds": []
+        }
+      ],
+      "cautions": [
+        "原廠目錄明列QHD或曲面，不符合本次平面4K門檻。"
+      ],
+      "offers": [],
+      "manufacturerUrl": "https://www.gigabyte.com/tw/Monitor/AORUS-FI32Q-X"
+    },
+    {
       "id": "gigabyte-aorus-fi32u",
       "brand": "GIGABYTE",
       "model": "AORUS FI32U",
@@ -6226,6 +6675,293 @@
       "offers": []
     },
     {
+      "id": "gigabyte-g32qc-a",
+      "brand": "GIGABYTE",
+      "model": "G32QC A",
+      "sizeInches": 31.5,
+      "flat": false,
+      "resolution": [
+        2560,
+        1440
+      ],
+      "refreshHz": 165,
+      "panel": "VA",
+      "screenType": "LCD",
+      "specSourceIds": [
+        "gigabyte-catalog-page-7",
+        "gigabyte-g32qc-a-catalog-detail-link"
+      ],
+      "ports": "介面與供電細節尚未完成精確型號核對。",
+      "weightKg": null,
+      "dimensionsMm": {
+        "width": null,
+        "height": null,
+        "depth": null
+      },
+      "vesa": null,
+      "portrait": "unknown",
+      "mountNotes": "本次目錄補漏候選；裸機重量、孔距、直立方向及接頭淨空未確認，不宣稱Arco安裝通過。",
+      "comfort": [
+        {
+          "topic": "長時間閱讀／最低亮度／閃爍",
+          "value": "尚未取得精確型號獨立實測，保留未知。",
+          "kind": "unknown",
+          "sourceIds": []
+        }
+      ],
+      "cautions": [
+        "原廠目錄明列QHD或曲面，不符合本次平面4K門檻。"
+      ],
+      "offers": [],
+      "manufacturerUrl": "https://www.gigabyte.com/tw/Monitor/G32QC-A"
+    },
+    {
+      "id": "gigabyte-gs32q",
+      "brand": "GIGABYTE",
+      "model": "GS32Q",
+      "sizeInches": 31.5,
+      "flat": true,
+      "resolution": [
+        2560,
+        1440
+      ],
+      "refreshHz": 165,
+      "panel": "IPS",
+      "screenType": "LCD",
+      "specSourceIds": [
+        "gigabyte-catalog-page-5",
+        "gigabyte-gs32q-catalog-detail-link"
+      ],
+      "ports": "介面與供電細節尚未完成精確型號核對。",
+      "weightKg": null,
+      "dimensionsMm": {
+        "width": null,
+        "height": null,
+        "depth": null
+      },
+      "vesa": null,
+      "portrait": "unknown",
+      "mountNotes": "本次目錄補漏候選；裸機重量、孔距、直立方向及接頭淨空未確認，不宣稱Arco安裝通過。",
+      "comfort": [
+        {
+          "topic": "長時間閱讀／最低亮度／閃爍",
+          "value": "尚未取得精確型號獨立實測，保留未知。",
+          "kind": "unknown",
+          "sourceIds": []
+        }
+      ],
+      "cautions": [
+        "原廠目錄明列QHD或曲面，不符合本次平面4K門檻。"
+      ],
+      "offers": [],
+      "manufacturerUrl": "https://www.gigabyte.com/tw/Monitor/GS32Q"
+    },
+    {
+      "id": "gigabyte-gs32qa",
+      "brand": "GIGABYTE",
+      "model": "GS32QA",
+      "sizeInches": 31.5,
+      "flat": true,
+      "resolution": [
+        2560,
+        1440
+      ],
+      "refreshHz": 180,
+      "panel": "IPS",
+      "screenType": "LCD",
+      "specSourceIds": [
+        "gigabyte-catalog-page-6",
+        "gigabyte-gs32qa-catalog-detail-link"
+      ],
+      "ports": "介面與供電細節尚未完成精確型號核對。",
+      "weightKg": null,
+      "dimensionsMm": {
+        "width": null,
+        "height": null,
+        "depth": null
+      },
+      "vesa": null,
+      "portrait": "unknown",
+      "mountNotes": "本次目錄補漏候選；裸機重量、孔距、直立方向及接頭淨空未確認，不宣稱Arco安裝通過。",
+      "comfort": [
+        {
+          "topic": "長時間閱讀／最低亮度／閃爍",
+          "value": "尚未取得精確型號獨立實測，保留未知。",
+          "kind": "unknown",
+          "sourceIds": []
+        }
+      ],
+      "cautions": [
+        "原廠目錄明列QHD或曲面，不符合本次平面4K門檻。"
+      ],
+      "offers": [],
+      "manufacturerUrl": "https://www.gigabyte.com/tw/Monitor/GS32QA"
+    },
+    {
+      "id": "gigabyte-gs32qc",
+      "brand": "GIGABYTE",
+      "model": "GS32QC",
+      "sizeInches": 31.5,
+      "flat": false,
+      "resolution": [
+        2560,
+        1440
+      ],
+      "refreshHz": 165,
+      "panel": "VA",
+      "screenType": "LCD",
+      "specSourceIds": [
+        "gigabyte-catalog-page-6",
+        "gigabyte-gs32qc-catalog-detail-link"
+      ],
+      "ports": "介面與供電細節尚未完成精確型號核對。",
+      "weightKg": null,
+      "dimensionsMm": {
+        "width": null,
+        "height": null,
+        "depth": null
+      },
+      "vesa": null,
+      "portrait": "unknown",
+      "mountNotes": "本次目錄補漏候選；裸機重量、孔距、直立方向及接頭淨空未確認，不宣稱Arco安裝通過。",
+      "comfort": [
+        {
+          "topic": "長時間閱讀／最低亮度／閃爍",
+          "value": "尚未取得精確型號獨立實測，保留未知。",
+          "kind": "unknown",
+          "sourceIds": []
+        }
+      ],
+      "cautions": [
+        "原廠目錄明列QHD或曲面，不符合本次平面4K門檻。"
+      ],
+      "offers": [],
+      "manufacturerUrl": "https://www.gigabyte.com/tw/Monitor/GS32QC"
+    },
+    {
+      "id": "gigabyte-gs32qca",
+      "brand": "GIGABYTE",
+      "model": "GS32QCA",
+      "sizeInches": 31.5,
+      "flat": false,
+      "resolution": [
+        2560,
+        1440
+      ],
+      "refreshHz": 180,
+      "panel": "VA",
+      "screenType": "LCD",
+      "specSourceIds": [
+        "gigabyte-catalog-page-4",
+        "gigabyte-gs32qca-catalog-detail-link"
+      ],
+      "ports": "介面與供電細節尚未完成精確型號核對。",
+      "weightKg": null,
+      "dimensionsMm": {
+        "width": null,
+        "height": null,
+        "depth": null
+      },
+      "vesa": null,
+      "portrait": "unknown",
+      "mountNotes": "本次目錄補漏候選；裸機重量、孔距、直立方向及接頭淨空未確認，不宣稱Arco安裝通過。",
+      "comfort": [
+        {
+          "topic": "長時間閱讀／最低亮度／閃爍",
+          "value": "尚未取得精確型號獨立實測，保留未知。",
+          "kind": "unknown",
+          "sourceIds": []
+        }
+      ],
+      "cautions": [
+        "原廠目錄明列QHD或曲面，不符合本次平面4K門檻。"
+      ],
+      "offers": [],
+      "manufacturerUrl": "https://www.gigabyte.com/tw/Monitor/GS32QCA"
+    },
+    {
+      "id": "gigabyte-m32q",
+      "brand": "GIGABYTE",
+      "model": "M32Q",
+      "sizeInches": 31.5,
+      "flat": true,
+      "resolution": [
+        2560,
+        1440
+      ],
+      "refreshHz": 165,
+      "panel": "IPS",
+      "screenType": "LCD",
+      "specSourceIds": [
+        "gigabyte-catalog-page-8",
+        "gigabyte-m32q-catalog-detail-link"
+      ],
+      "ports": "介面與供電細節尚未完成精確型號核對。",
+      "weightKg": null,
+      "dimensionsMm": {
+        "width": null,
+        "height": null,
+        "depth": null
+      },
+      "vesa": null,
+      "portrait": "unknown",
+      "mountNotes": "本次目錄補漏候選；裸機重量、孔距、直立方向及接頭淨空未確認，不宣稱Arco安裝通過。",
+      "comfort": [
+        {
+          "topic": "長時間閱讀／最低亮度／閃爍",
+          "value": "尚未取得精確型號獨立實測，保留未知。",
+          "kind": "unknown",
+          "sourceIds": []
+        }
+      ],
+      "cautions": [
+        "原廠目錄明列QHD或曲面，不符合本次平面4K門檻。"
+      ],
+      "offers": [],
+      "manufacturerUrl": "https://www.gigabyte.com/tw/Monitor/M32Q"
+    },
+    {
+      "id": "gigabyte-m32qc",
+      "brand": "GIGABYTE",
+      "model": "M32QC",
+      "sizeInches": 31.5,
+      "flat": false,
+      "resolution": [
+        2560,
+        1440
+      ],
+      "refreshHz": 165,
+      "panel": "VA",
+      "screenType": "LCD",
+      "specSourceIds": [
+        "gigabyte-catalog-page-8",
+        "gigabyte-m32qc-catalog-detail-link"
+      ],
+      "ports": "介面與供電細節尚未完成精確型號核對。",
+      "weightKg": null,
+      "dimensionsMm": {
+        "width": null,
+        "height": null,
+        "depth": null
+      },
+      "vesa": null,
+      "portrait": "unknown",
+      "mountNotes": "本次目錄補漏候選；裸機重量、孔距、直立方向及接頭淨空未確認，不宣稱Arco安裝通過。",
+      "comfort": [
+        {
+          "topic": "長時間閱讀／最低亮度／閃爍",
+          "value": "尚未取得精確型號獨立實測，保留未知。",
+          "kind": "unknown",
+          "sourceIds": []
+        }
+      ],
+      "cautions": [
+        "原廠目錄明列QHD或曲面，不符合本次平面4K門檻。"
+      ],
+      "offers": [],
+      "manufacturerUrl": "https://www.gigabyte.com/tw/Monitor/M32QC"
+    },
+    {
       "id": "gigabyte-m32u",
       "brand": "GIGABYTE",
       "model": "M32U",
@@ -6287,6 +7023,48 @@
       ],
       "cautions": [],
       "offers": []
+    },
+    {
+      "id": "gigabyte-m32u-arm-edition",
+      "brand": "GIGABYTE",
+      "model": "M32U Arm Edition",
+      "sizeInches": 31.5,
+      "flat": true,
+      "resolution": [
+        3840,
+        2160
+      ],
+      "refreshHz": 144,
+      "panel": "IPS",
+      "screenType": "LCD",
+      "specSourceIds": [
+        "gigabyte-catalog-page-8",
+        "gigabyte-m32u-ae-spec"
+      ],
+      "ports": "HDMI2.1×2、DP1.4 DSC、USB-C DP Alt PD18W、USB3.2；4K144 4:4:4需DSC，否則4:2:0",
+      "weightKg": 7.21,
+      "dimensionsMm": {
+        "width": 715.8,
+        "height": 423.7,
+        "depth": 68.2
+      },
+      "vesa": "100×100",
+      "portrait": "yes",
+      "mountNotes": "本次目錄補漏候選；裸機重量、孔距、直立方向及接頭淨空未確認，不宣稱Arco安裝通過。",
+      "comfort": [
+        {
+          "topic": "長時間閱讀／最低亮度／閃爍",
+          "value": "尚未取得精確型號獨立實測，保留未知。",
+          "kind": "unknown",
+          "sourceIds": []
+        }
+      ],
+      "cautions": [
+        "原廠規格符合基本像素／Hz；台灣賣場供貨與文字舒適度仍未確認。",
+        "Arm Edition原廠裸機重量7.21kg，不與一般M32U混用；內附支臂不等於已核對使用者Arco。"
+      ],
+      "offers": [],
+      "manufacturerUrl": "https://www.gigabyte.com/tw/Monitor/M32U-AE"
     },
     {
       "id": "gigabyte-m32uc",
@@ -6527,6 +7305,101 @@
           "priceEvidence": "index"
         }
       ]
+    },
+    {
+      "id": "hp-e32k-g5",
+      "brand": "HP",
+      "model": "E32k G5（6N4D6AA）",
+      "sizeInches": 31.5,
+      "flat": true,
+      "resolution": [
+        3840,
+        2160
+      ],
+      "refreshHz": 60,
+      "panel": "IPS",
+      "screenType": "LCD",
+      "specSourceIds": [
+        "hp-e32k-g5-tw-spec"
+      ],
+      "ports": "HDMI2.0×1、DP1.4×1、USB-C影像（DP Alt Mode1.4）最高65W；USB-A×3、USB-C資料15W與RJ45。",
+      "weightKg": null,
+      "dimensionsMm": {
+        "width": 714,
+        "height": 421.2,
+        "depth": 47
+      },
+      "vesa": "100×100 mm",
+      "portrait": "unknown",
+      "mountNotes": "原廠列轉軸±90°；8.4kg是含底座，裸機重量未知。外廓深47mm為不帶轉軸，帶轉軸74.7mm；VESA板、線材與Arco淨空仍待確認。",
+      "comfort": [
+        {
+          "topic": "長時間閱讀實測",
+          "value": "尚未取得精確型號獨立文字、閃爍與最低亮度實測。",
+          "kind": "unknown",
+          "sourceIds": []
+        },
+        {
+          "topic": "反光／亮度",
+          "value": "原廠列防眩光、標稱350nit與環境光感應器；最低亮度與反射獨立實測未確認。",
+          "kind": "manufacturer",
+          "sourceIds": [
+            "hp-e32k-g5-tw-spec"
+          ]
+        },
+        {
+          "topic": "閃爍／低藍光",
+          "value": "原廠列不閃爍與HP Eye Ease；不是全模式獨立波形實測或不疲勞保證。",
+          "kind": "manufacturer",
+          "sourceIds": [
+            "hp-e32k-g5-tw-spec"
+          ]
+        }
+      ],
+      "cautions": [
+        "台灣官方規格頁存在，但尚未取得已確認可供貨的台灣全新品賣場。",
+        "HP原廠規格列三年有限保固；尚無特定賣場，不能推定平輸服務範圍。"
+      ],
+      "offers": []
+    },
+    {
+      "id": "hp-532sf",
+      "brand": "HP",
+      "model": "Series 5 532sf（94F51AA）",
+      "sizeInches": 31.5,
+      "flat": null,
+      "resolution": [
+        1920,
+        1080
+      ],
+      "refreshHz": null,
+      "panel": "VA",
+      "screenType": "LCD",
+      "specSourceIds": [
+        "hp-532sf-tw-catalog"
+      ],
+      "ports": "未確認",
+      "weightKg": null,
+      "dimensionsMm": {
+        "width": null,
+        "height": null,
+        "depth": null
+      },
+      "vesa": null,
+      "portrait": "unknown",
+      "mountNotes": "直立操作與 Arco 完整安裝相容仍待核對。",
+      "comfort": [
+        {
+          "topic": "長時間閱讀實測",
+          "value": "尚未取得精確型號獨立文字、閃爍與最低亮度實測。",
+          "kind": "unknown",
+          "sourceIds": []
+        }
+      ],
+      "cautions": [
+        "台灣原廠目錄為FHD1920×1080，低於本研究4K基本門檻；保留排除紀錄。"
+      ],
+      "offers": []
     },
     {
       "id": "hp-732pk",
@@ -6976,6 +7849,59 @@
       "offers": []
     },
     {
+      "id": "lenovo-loq-32q-10",
+      "brand": "Lenovo",
+      "model": "LOQ 32Q-10",
+      "sizeInches": 31.5,
+      "flat": true,
+      "resolution": [
+        2560,
+        1440
+      ],
+      "refreshHz": 180,
+      "panel": "VA",
+      "screenType": "LCD",
+      "specSourceIds": [
+        "lenovo-loq32q10-tw",
+        "lenovo-loq32q10-psref"
+      ],
+      "ports": "HDMI2.1 TMDS×2（QHD最高144Hz）、DP1.4×1；無已確認USB-C影像或供電。",
+      "weightKg": 6.3,
+      "dimensionsMm": {
+        "width": 713.9,
+        "height": 423.2,
+        "depth": 52.3
+      },
+      "vesa": "100×100 mm",
+      "portrait": "unknown",
+      "mountNotes": "直立操作與 Arco 完整安裝相容仍待核對。",
+      "comfort": [
+        {
+          "topic": "長時間閱讀實測",
+          "value": "尚未取得精確型號獨立文字、閃爍與最低亮度實測。",
+          "kind": "unknown",
+          "sourceIds": []
+        }
+      ],
+      "cautions": [
+        "原生2560×1440低於4K門檻，保留排除紀錄。",
+        "台灣頁中間行銷段落錯寫27吋Fast IPS；規格採31.5吋VA的SKU關鍵細節與官方PSREF。"
+      ],
+      "offers": [
+        {
+          "seller": "Lenovo 台灣官網",
+          "url": "https://www.lenovo.com/tw/zh/p/accessories-and-software/monitors/gaming/68f7gac1tw",
+          "priceTwd": 6201,
+          "kind": "official",
+          "status": "unconfirmed",
+          "warranty": "台灣SKU基本保固年限與服務方式未核實；不直接轉用全球PSREF三年。",
+          "pairAvailability": "unknown",
+          "sourceId": "lenovo-loq32q10-tw",
+          "checkedAt": "2026-10-27"
+        }
+      ]
+    },
+    {
       "id": "lenovo-p32p-20",
       "brand": "Lenovo",
       "model": "ThinkVision P32p-20",
@@ -7180,7 +8106,7 @@
         }
       ],
       "cautions": [
-        "目前可下單；兩台同時供貨及交期尚未確認。",
+        "台灣原頁有購物按鈕，但現貨、正式預購承諾、雙台數量與交期尚未確認。",
         "官方低藍光／節能宣稱不等同精確型號獨立文字與閃爍量測。"
       ],
       "offers": [
@@ -7303,7 +8229,8 @@
       "panel": "IPS",
       "screenType": "LCD",
       "specSourceIds": [
-        "lenovo-t32ud40-psref"
+        "lenovo-t32ud40-psref",
+        "lenovo-t32ud40-tw"
       ],
       "ports": "USB-C最高100W（DP1.4）、HDMI2.1 TMDS、DP1.4、USB與1GbE。",
       "weightKg": 6.3,
@@ -7325,9 +8252,21 @@
       ],
       "cautions": [
         "原廠PSREF為最高60Hz；第三方75Hz資料未採用。",
-        "目前台灣全新品賣場與供貨尚未確認。"
+        "台灣商品頁標示預估約2–3周由工廠出貨；現貨、正式預購承諾、雙台數量與實際交期仍待確認。"
       ],
-      "offers": []
+      "offers": [
+        {
+          "seller": "Lenovo 台灣官網",
+          "url": "https://www.lenovo.com/tw/zh/p/accessories-and-software/monitors/office/64b0gar1tw",
+          "priceTwd": 12592,
+          "kind": "official",
+          "status": "unconfirmed",
+          "warranty": "基本保固年限與服務方式未完整確認；頁面3年頂級服務NT$385為另購選項。",
+          "pairAvailability": "unknown",
+          "sourceId": "lenovo-t32ud40-tw",
+          "checkedAt": "2026-10-27"
+        }
+      ]
     },
     {
       "id": "lenovo-t32ud-4v",
@@ -7365,6 +8304,45 @@
       ],
       "cautions": [
         "僅確認全球發表規格；台灣可下單與平面／安裝細節尚未確認。"
+      ],
+      "offers": []
+    },
+    {
+      "id": "lg-32g600a-b",
+      "brand": "LG",
+      "model": "32G600A-B",
+      "sizeInches": 32,
+      "flat": false,
+      "resolution": [
+        2560,
+        1440
+      ],
+      "refreshHz": 180,
+      "panel": null,
+      "screenType": "LCD",
+      "specSourceIds": [
+        "lg-32g600a-b-catalog"
+      ],
+      "ports": "尚未確認",
+      "weightKg": null,
+      "dimensionsMm": {
+        "width": null,
+        "height": null,
+        "depth": null
+      },
+      "vesa": null,
+      "portrait": "unknown",
+      "mountNotes": "安裝方向、孔位周邊與接頭空間待手冊核對。",
+      "comfort": [
+        {
+          "topic": "文字／舒適度",
+          "value": "尚未取得精確型號獨立實測；最低可調亮度、持續亮度及閃爍波形未確認。",
+          "kind": "unknown",
+          "sourceIds": []
+        }
+      ],
+      "cautions": [
+        "官方目錄標32吋QHD180Hz曲面，同時不符平面及4K，排除。"
       ],
       "offers": []
     },
@@ -7426,6 +8404,17 @@
           "warranty": "賣場標3年，實際保固服務者未確認",
           "pairAvailability": "unknown",
           "sourceId": "lg-32g810sa-w-offer-2",
+          "checkedAt": "2026-10-27"
+        },
+        {
+          "seller": "欣亞數位",
+          "url": "https://www.sinya.com.tw/prod/213731",
+          "priceTwd": 16900,
+          "kind": "unknown",
+          "status": "unconfirmed",
+          "warranty": "標題列三年保固；公司貨屬性及實際服務者待確認",
+          "pairAvailability": "unknown",
+          "sourceId": "lg-32g810sa-w-sinya",
           "checkedAt": "2026-10-27"
         },
         {
@@ -7696,6 +8685,99 @@
         "原廠台灣頁核31.5吋4K IPS，同基礎型號英國原廠確認60Hz；台灣現售供貨仍待確認。"
       ],
       "offers": []
+    },
+    {
+      "id": "lg-32u501sb-w",
+      "brand": "LG",
+      "model": "32U501SB-W",
+      "sizeInches": 32,
+      "flat": null,
+      "resolution": [
+        1920,
+        1080
+      ],
+      "refreshHz": null,
+      "panel": null,
+      "screenType": "LCD",
+      "specSourceIds": [
+        "lg-32u501sb-w-catalog"
+      ],
+      "ports": "尚未確認",
+      "weightKg": null,
+      "dimensionsMm": {
+        "width": null,
+        "height": null,
+        "depth": null
+      },
+      "vesa": null,
+      "portrait": "unknown",
+      "mountNotes": "安裝方向、孔位周邊與接頭空間待手冊核對。",
+      "comfort": [
+        {
+          "topic": "文字／舒適度",
+          "value": "尚未取得精確型號獨立實測；最低可調亮度、持續亮度及閃爍波形未確認。",
+          "kind": "unknown",
+          "sourceIds": []
+        }
+      ],
+      "cautions": [
+        "官方目錄標32吋FHD，低於4K，排除；詳細安裝與更新率未補填。"
+      ],
+      "offers": []
+    },
+    {
+      "id": "lg-32u701sb-b",
+      "brand": "LG",
+      "model": "32U701SB-B",
+      "sizeInches": 31.5,
+      "flat": true,
+      "resolution": [
+        3840,
+        2160
+      ],
+      "refreshHz": 60,
+      "panel": "VA",
+      "screenType": "LCD",
+      "specSourceIds": [
+        "lg-32u701sb-b-spec"
+      ],
+      "ports": "HDMI 2.0 ×2、USB-A 2.0 ×1；精確規格未列USB-C/DisplayPort",
+      "weightKg": 4.5,
+      "dimensionsMm": {
+        "width": 714.1,
+        "height": 423.3,
+        "depth": 43.9
+      },
+      "vesa": "100×100 mm",
+      "portrait": "unknown",
+      "mountNotes": "裸機4.5kg、VESA100×100；直立操作許可、轉接板與接頭淨空待手冊核對。",
+      "comfort": [
+        {
+          "topic": "反光／閃爍／閱讀",
+          "value": "原廠列Anti-Glare、Flicker Safe、Reader Mode與自動亮度；屬功能宣稱，尚無精確型號獨立波形或最低亮度實測。",
+          "kind": "manufacturer",
+          "sourceIds": [
+            "lg-32u701sb-b-spec"
+          ]
+        }
+      ],
+      "cautions": [
+        "新型號雖在台灣官網有購買頁，但現貨及兩台供貨未確認。",
+        "原廠規格250nit典型／200nit Min.是額定容差，不能當作最低可調亮度。"
+      ],
+      "offers": [
+        {
+          "seller": "LG官方商城",
+          "url": "https://www.lg.com/tw/monitors/myview-smart-monitors/32u701sb-b/buy",
+          "priceTwd": 9111,
+          "kind": "official",
+          "status": "unconfirmed",
+          "warranty": "LG台灣官方銷售；保固年限待核對",
+          "pairAvailability": "unknown",
+          "sourceId": "lg-32u701sb-b-buy",
+          "checkedAt": "2026-10-27"
+        }
+      ]
     },
     {
       "id": "lg-32u720sa-w",
@@ -7978,7 +9060,7 @@
         },
         {
           "topic": "文字與反光實測",
-          "value": "AVForums：6K文字精細、Mac縮放體驗佳；霧面擴散適合室內，也可能讓在意塗層的人覺得較柔。",
+          "value": "受測樣機結果（精確型號依來源，個體／韌體差異未驗證）：AVForums：6K文字精細、Mac縮放體驗佳；霧面擴散適合室內，也可能讓在意塗層的人覺得較柔。",
           "kind": "measured",
           "sourceIds": [
             "lg-32u990a-avforums"
@@ -7986,7 +9068,7 @@
         },
         {
           "topic": "亮度與影片實測",
-          "value": "AVForums測得HDR峰值704nit、對比1726:1；邊緣式調光區少，暗室黑位、漏光與均勻度有取捨。",
+          "value": "受測樣機結果（精確型號依來源，個體／韌體差異未驗證）：AVForums測得HDR峰值704nit、對比1726:1；邊緣式調光區少，暗室黑位、漏光與均勻度有取捨。",
           "kind": "measured",
           "sourceIds": [
             "lg-32u990a-avforums"
@@ -7994,7 +9076,7 @@
         },
         {
           "topic": "SDR亮度實測",
-          "value": "PCWorld測得最高SDR480nit、對比1500:1；60Hz下捲動文字的動態清晰度有限，環境自動亮度有時偏暗。",
+          "value": "受測樣機結果（精確型號依來源，個體／韌體差異未驗證）：PCWorld測得最高SDR480nit、對比1500:1；60Hz下捲動文字的動態清晰度有限，環境自動亮度有時偏暗。",
           "kind": "measured",
           "sourceIds": [
             "lg-32u990a-pcworld"
@@ -8087,52 +9169,53 @@
       "id": "lg-32uq85rv-w",
       "brand": "LG",
       "model": "32UQ85RV-W",
-      "sizeInches": null,
+      "sizeInches": 31.5,
       "flat": true,
       "resolution": [
         3840,
         2160
       ],
-      "refreshHz": null,
+      "refreshHz": 60,
       "panel": "IPS",
       "screenType": "LCD",
       "specSourceIds": [
         "lg-32uq85rv-w-spec"
       ],
-      "ports": "未確認",
-      "weightKg": null,
+      "ports": "HDMI ×2、DisplayPort 1.4 ×1、USB-C 90W、USB上下行；無菊鏈",
+      "weightKg": 5.35,
       "dimensionsMm": {
-        "width": null,
-        "height": null,
-        "depth": null
+        "width": 714.5,
+        "height": 449.3,
+        "depth": 58.1
       },
-      "vesa": null,
+      "vesa": "100×100 mm",
       "portrait": "unknown",
-      "mountNotes": "需再核對支臂承重下限、VESA 快拆板及接頭空間。",
+      "mountNotes": "原廠支架順時針90°樞軸旋轉；外接Arco直立長時間運作許可及插頭淨空待手冊核對。",
       "comfort": [
         {
-          "topic": "文字清晰度／色度取樣",
-          "value": "尚未取得精確型號獨立實測",
-          "kind": "unknown",
-          "sourceIds": []
-        },
-        {
-          "topic": "使用者可調最低亮度",
-          "value": "尚未取得精確型號獨立實測",
-          "kind": "unknown",
-          "sourceIds": []
-        },
-        {
-          "topic": "持續亮度／亮度變化",
-          "value": "尚未取得精確型號獨立實測",
-          "kind": "unknown",
-          "sourceIds": []
+          "topic": "亮度／閃爍／校色",
+          "value": "原廠列400nit典型、2000:1對比、硬體校色與不閃屏；閱讀模式及自動亮度為No。精確型號最低可調亮度實測未確認。",
+          "kind": "manufacturer",
+          "sourceIds": [
+            "lg-32uq85rv-w-spec"
+          ]
         }
       ],
       "cautions": [
-        "原價屋32吋4K分類可見本型號；原廠精確型號頁、原生像素、更新率、裸機重量與直立限制尚待確認。"
+        "Yahoo 精確型號為缺貨；不以同系列32UQ850/32UQ85R或海外後綴的供貨代替。"
       ],
       "offers": [
+        {
+          "seller": "Yahoo購物中心",
+          "url": "https://tw.buy.yahoo.com/gdsale/LG-樂金-32UQ85RV-W-UltraFine-UHD-4K-IPS-高畫質編輯螢幕-自動色彩-11045686.html",
+          "priceTwd": 18490,
+          "kind": "unknown",
+          "status": "outOfStock",
+          "warranty": "未確認",
+          "pairAvailability": "unknown",
+          "sourceId": "lg-32uq85rv-w-yahoo",
+          "checkedAt": "2026-10-27"
+        },
         {
           "seller": "原價屋估價單",
           "url": "https://www.coolpc.com.tw/evaluate.php",
@@ -9182,6 +10265,384 @@
       "offers": []
     },
     {
+      "id": "philips-322e1c-96",
+      "brand": "Philips",
+      "model": "322E1C/96",
+      "sizeInches": 31.5,
+      "flat": false,
+      "resolution": [
+        1920,
+        1080
+      ],
+      "refreshHz": null,
+      "panel": null,
+      "screenType": "LCD",
+      "specSourceIds": [
+        "philips-catalog-page-4",
+        "philips-322e1c-96-catalog-detail-link"
+      ],
+      "ports": "介面與供電細節尚未完成精確型號核對。",
+      "weightKg": null,
+      "dimensionsMm": {
+        "width": null,
+        "height": null,
+        "depth": null
+      },
+      "vesa": null,
+      "portrait": "unknown",
+      "mountNotes": "本次目錄補漏候選；裸機重量、孔距、直立方向及接頭淨空未確認，不宣稱Arco安裝通過。",
+      "comfort": [
+        {
+          "topic": "長時間閱讀／最低亮度／閃爍",
+          "value": "尚未取得精確型號獨立實測，保留未知。",
+          "kind": "unknown",
+          "sourceIds": []
+        }
+      ],
+      "cautions": [
+        "原廠目錄明列低於4K或曲面，因此排除。"
+      ],
+      "offers": [],
+      "manufacturerUrl": "https://www.philips.com.tw/c-p/322E1C_96/full-hd-curved-lcd-display"
+    },
+    {
+      "id": "philips-322m8cp-96",
+      "brand": "Philips",
+      "model": "322M8CP/96",
+      "sizeInches": 31.5,
+      "flat": false,
+      "resolution": [
+        1920,
+        1080
+      ],
+      "refreshHz": null,
+      "panel": null,
+      "screenType": "LCD",
+      "specSourceIds": [
+        "philips-catalog-page-6",
+        "philips-322m8cp-96-catalog-detail-link"
+      ],
+      "ports": "介面與供電細節尚未完成精確型號核對。",
+      "weightKg": null,
+      "dimensionsMm": {
+        "width": null,
+        "height": null,
+        "depth": null
+      },
+      "vesa": null,
+      "portrait": "unknown",
+      "mountNotes": "本次目錄補漏候選；裸機重量、孔距、直立方向及接頭淨空未確認，不宣稱Arco安裝通過。",
+      "comfort": [
+        {
+          "topic": "長時間閱讀／最低亮度／閃爍",
+          "value": "尚未取得精確型號獨立實測，保留未知。",
+          "kind": "unknown",
+          "sourceIds": []
+        }
+      ],
+      "cautions": [
+        "原廠目錄明列低於4K或曲面，因此排除。"
+      ],
+      "offers": [],
+      "manufacturerUrl": "https://www.philips.com.tw/c-p/322M8CP_96/gaming-monitor-full-hd-curved-lcd-display"
+    },
+    {
+      "id": "philips-322m8cz-96",
+      "brand": "Philips",
+      "model": "322M8CZ/96",
+      "sizeInches": 31.5,
+      "flat": false,
+      "resolution": [
+        1920,
+        1080
+      ],
+      "refreshHz": null,
+      "panel": null,
+      "screenType": "LCD",
+      "specSourceIds": [
+        "philips-catalog-page-4",
+        "philips-322m8cz-96-catalog-detail-link"
+      ],
+      "ports": "介面與供電細節尚未完成精確型號核對。",
+      "weightKg": null,
+      "dimensionsMm": {
+        "width": null,
+        "height": null,
+        "depth": null
+      },
+      "vesa": null,
+      "portrait": "unknown",
+      "mountNotes": "本次目錄補漏候選；裸機重量、孔距、直立方向及接頭淨空未確認，不宣稱Arco安裝通過。",
+      "comfort": [
+        {
+          "topic": "長時間閱讀／最低亮度／閃爍",
+          "value": "尚未取得精確型號獨立實測，保留未知。",
+          "kind": "unknown",
+          "sourceIds": []
+        }
+      ],
+      "cautions": [
+        "原廠目錄明列低於4K或曲面，因此排除。"
+      ],
+      "offers": [],
+      "manufacturerUrl": "https://www.philips.com.tw/c-p/322M8CZ_96/gaming-monitor-full-hd-curved-lcd-display"
+    },
+    {
+      "id": "philips-325e8-96",
+      "brand": "Philips",
+      "model": "325E8/96",
+      "sizeInches": 31.5,
+      "flat": null,
+      "resolution": [
+        2560,
+        1440
+      ],
+      "refreshHz": null,
+      "panel": null,
+      "screenType": "LCD",
+      "specSourceIds": [
+        "philips-catalog-page-2",
+        "philips-325e8-96-catalog-detail-link"
+      ],
+      "ports": "介面與供電細節尚未完成精確型號核對。",
+      "weightKg": null,
+      "dimensionsMm": {
+        "width": null,
+        "height": null,
+        "depth": null
+      },
+      "vesa": null,
+      "portrait": "unknown",
+      "mountNotes": "本次目錄補漏候選；裸機重量、孔距、直立方向及接頭淨空未確認，不宣稱Arco安裝通過。",
+      "comfort": [
+        {
+          "topic": "長時間閱讀／最低亮度／閃爍",
+          "value": "尚未取得精確型號獨立實測，保留未知。",
+          "kind": "unknown",
+          "sourceIds": []
+        }
+      ],
+      "cautions": [
+        "原廠目錄明列低於4K或曲面，因此排除。"
+      ],
+      "offers": [],
+      "manufacturerUrl": "https://www.philips.com.tw/c-p/325E8_96/qhd-lcd-monitor"
+    },
+    {
+      "id": "philips-325m2crz-96",
+      "brand": "Philips",
+      "model": "325M2CRZ/96",
+      "sizeInches": 31.5,
+      "flat": false,
+      "resolution": [
+        2560,
+        1440
+      ],
+      "refreshHz": null,
+      "panel": null,
+      "screenType": "LCD",
+      "specSourceIds": [
+        "philips-catalog-page-5",
+        "philips-325m2crz-96-catalog-detail-link"
+      ],
+      "ports": "介面與供電細節尚未完成精確型號核對。",
+      "weightKg": null,
+      "dimensionsMm": {
+        "width": null,
+        "height": null,
+        "depth": null
+      },
+      "vesa": null,
+      "portrait": "unknown",
+      "mountNotes": "本次目錄補漏候選；裸機重量、孔距、直立方向及接頭淨空未確認，不宣稱Arco安裝通過。",
+      "comfort": [
+        {
+          "topic": "長時間閱讀／最低亮度／閃爍",
+          "value": "尚未取得精確型號獨立實測，保留未知。",
+          "kind": "unknown",
+          "sourceIds": []
+        }
+      ],
+      "cautions": [
+        "原廠目錄明列低於4K或曲面，因此排除。"
+      ],
+      "offers": [],
+      "manufacturerUrl": "https://www.philips.com.tw/c-p/325M2CRZ_96/gaming-monitor-curved-qhd-lcd-display"
+    },
+    {
+      "id": "philips-325m8c-96",
+      "brand": "Philips",
+      "model": "325M8C/96",
+      "sizeInches": 31.5,
+      "flat": false,
+      "resolution": [
+        2560,
+        1440
+      ],
+      "refreshHz": null,
+      "panel": null,
+      "screenType": "LCD",
+      "specSourceIds": [
+        "philips-catalog-page-3",
+        "philips-325m8c-96-catalog-detail-link"
+      ],
+      "ports": "介面與供電細節尚未完成精確型號核對。",
+      "weightKg": null,
+      "dimensionsMm": {
+        "width": null,
+        "height": null,
+        "depth": null
+      },
+      "vesa": null,
+      "portrait": "unknown",
+      "mountNotes": "本次目錄補漏候選；裸機重量、孔距、直立方向及接頭淨空未確認，不宣稱Arco安裝通過。",
+      "comfort": [
+        {
+          "topic": "長時間閱讀／最低亮度／閃爍",
+          "value": "尚未取得精確型號獨立實測，保留未知。",
+          "kind": "unknown",
+          "sourceIds": []
+        }
+      ],
+      "cautions": [
+        "原廠目錄明列低於4K或曲面，因此排除。"
+      ],
+      "offers": [],
+      "manufacturerUrl": "https://www.philips.com.tw/c-p/325M8C_96/momentum-curved-qhd-lcd-display"
+    },
+    {
+      "id": "philips-328b1-96",
+      "brand": "Philips",
+      "model": "328B1/96",
+      "sizeInches": 31.5,
+      "flat": null,
+      "resolution": [
+        3840,
+        2160
+      ],
+      "refreshHz": 60,
+      "panel": "VA",
+      "screenType": "LCD",
+      "specSourceIds": [
+        "philips-catalog-page-2",
+        "philips-328b1-96-spec",
+        "philips-328b1-96-qualification-audit"
+      ],
+      "ports": "DP1.2、HDMI2.0×2、USB-B上行、USB3.2×4、音訊輸出",
+      "weightKg": 7.54,
+      "dimensionsMm": {
+        "width": 714,
+        "height": 422,
+        "depth": 62
+      },
+      "vesa": "100×100 mm",
+      "portrait": "unknown",
+      "mountNotes": "完整表列裸機7.54kg、VESA100×100及原附底座旋轉±90°；底座pivot不直接等於原廠已確認直立操作與Arco安裝淨空。",
+      "comfort": [
+        {
+          "topic": "長時間閱讀／最低亮度／閃爍",
+          "value": "尚未取得精確型號獨立實測，保留未知。",
+          "kind": "unknown",
+          "sourceIds": []
+        },
+        {
+          "topic": "表面／閱讀功能",
+          "value": "原廠列抗眩光25%霧度、EasyRead、LowBlue與不閃爍；典型350nit不是最低亮度實測。",
+          "kind": "manufacturer",
+          "sourceIds": [
+            "philips-328b1-96-spec"
+          ]
+        }
+      ],
+      "cautions": [
+        "已核對精確/96完整技術表的31.5吋、3840×2160@60Hz；仍缺平面／曲率明文，保留待確認。台灣供貨尚未確認。"
+      ],
+      "offers": [],
+      "manufacturerUrl": "https://www.philips.com.tw/c-p/328B1_96/lcd-monitor-with-powersensor"
+    },
+    {
+      "id": "philips-328e1ca-96",
+      "brand": "Philips",
+      "model": "328E1CA/96",
+      "sizeInches": 31.5,
+      "flat": false,
+      "resolution": [
+        3840,
+        2160
+      ],
+      "refreshHz": null,
+      "panel": null,
+      "screenType": null,
+      "specSourceIds": [
+        "philips-catalog-page-4",
+        "philips-328e1ca-96-catalog-detail-link"
+      ],
+      "ports": "介面與供電細節尚未完成精確型號核對。",
+      "weightKg": null,
+      "dimensionsMm": {
+        "width": null,
+        "height": null,
+        "depth": null
+      },
+      "vesa": null,
+      "portrait": "unknown",
+      "mountNotes": "本次目錄補漏候選；裸機重量、孔距、直立方向及接頭淨空未確認，不宣稱Arco安裝通過。",
+      "comfort": [
+        {
+          "topic": "長時間閱讀／最低亮度／閃爍",
+          "value": "尚未取得精確型號獨立實測，保留未知。",
+          "kind": "unknown",
+          "sourceIds": []
+        }
+      ],
+      "cautions": [
+        "原廠目錄明列低於4K或曲面，因此排除。"
+      ],
+      "offers": [],
+      "manufacturerUrl": "https://www.philips.com.tw/c-p/328E1CA_96/curved-lcd-monitor-with-ultra-wide-color"
+    },
+    {
+      "id": "philips-32e1n1100l-96",
+      "brand": "Philips",
+      "model": "32E1N1100L/96",
+      "sizeInches": 31.5,
+      "flat": null,
+      "resolution": [
+        1920,
+        1080
+      ],
+      "refreshHz": null,
+      "panel": null,
+      "screenType": "LCD",
+      "specSourceIds": [
+        "philips-catalog-page-7",
+        "philips-32e1n1100l-96-catalog-detail-link"
+      ],
+      "ports": "介面與供電細節尚未完成精確型號核對。",
+      "weightKg": null,
+      "dimensionsMm": {
+        "width": null,
+        "height": null,
+        "depth": null
+      },
+      "vesa": null,
+      "portrait": "unknown",
+      "mountNotes": "本次目錄補漏候選；裸機重量、孔距、直立方向及接頭淨空未確認，不宣稱Arco安裝通過。",
+      "comfort": [
+        {
+          "topic": "長時間閱讀／最低亮度／閃爍",
+          "value": "尚未取得精確型號獨立實測，保留未知。",
+          "kind": "unknown",
+          "sourceIds": []
+        }
+      ],
+      "cautions": [
+        "原廠目錄明列低於4K或曲面，因此排除。"
+      ],
+      "offers": [],
+      "manufacturerUrl": "https://www.philips.com.tw/c-p/32E1N1100L_96/monitor-full-hd-lcd-monitor"
+    },
+    {
       "id": "philips-32e1n1800la-96",
       "brand": "Philips",
       "model": "32E1N1800LA/96",
@@ -9258,6 +10719,88 @@
         "/97與/96保留區域版區別，不轉用其他尾碼賣場保固。"
       ],
       "offers": []
+    },
+    {
+      "id": "philips-32e1n3100la-96",
+      "brand": "Philips",
+      "model": "32E1N3100LA/96",
+      "sizeInches": 31.5,
+      "flat": null,
+      "resolution": [
+        1920,
+        1080
+      ],
+      "refreshHz": null,
+      "panel": null,
+      "screenType": "LCD",
+      "specSourceIds": [
+        "philips-catalog-page-8",
+        "philips-32e1n3100la-96-catalog-detail-link"
+      ],
+      "ports": "介面與供電細節尚未完成精確型號核對。",
+      "weightKg": null,
+      "dimensionsMm": {
+        "width": null,
+        "height": null,
+        "depth": null
+      },
+      "vesa": null,
+      "portrait": "unknown",
+      "mountNotes": "本次目錄補漏候選；裸機重量、孔距、直立方向及接頭淨空未確認，不宣稱Arco安裝通過。",
+      "comfort": [
+        {
+          "topic": "長時間閱讀／最低亮度／閃爍",
+          "value": "尚未取得精確型號獨立實測，保留未知。",
+          "kind": "unknown",
+          "sourceIds": []
+        }
+      ],
+      "cautions": [
+        "原廠目錄明列低於4K或曲面，因此排除。"
+      ],
+      "offers": [],
+      "manufacturerUrl": "https://www.philips.com.tw/c-p/32E1N3100LA_96/monitor-full-hd-lcd-monitor"
+    },
+    {
+      "id": "philips-32e1n3500-96",
+      "brand": "Philips",
+      "model": "32E1N3500/96",
+      "sizeInches": 31.5,
+      "flat": null,
+      "resolution": [
+        2560,
+        1440
+      ],
+      "refreshHz": null,
+      "panel": null,
+      "screenType": "LCD",
+      "specSourceIds": [
+        "philips-catalog-page-14",
+        "philips-32e1n3500-96-catalog-detail-link"
+      ],
+      "ports": "介面與供電細節尚未完成精確型號核對。",
+      "weightKg": null,
+      "dimensionsMm": {
+        "width": null,
+        "height": null,
+        "depth": null
+      },
+      "vesa": null,
+      "portrait": "unknown",
+      "mountNotes": "本次目錄補漏候選；裸機重量、孔距、直立方向及接頭淨空未確認，不宣稱Arco安裝通過。",
+      "comfort": [
+        {
+          "topic": "長時間閱讀／最低亮度／閃爍",
+          "value": "尚未取得精確型號獨立實測，保留未知。",
+          "kind": "unknown",
+          "sourceIds": []
+        }
+      ],
+      "cautions": [
+        "原廠目錄明列低於4K或曲面，因此排除。"
+      ],
+      "offers": [],
+      "manufacturerUrl": "https://www.philips.com.tw/c-p/32E1N3500_96/monitor-quad-hd-lcd-monitor"
     },
     {
       "id": "philips-32e1n5800l-96",
@@ -9348,6 +10891,130 @@
       ]
     },
     {
+      "id": "philips-32e3c2200-96",
+      "brand": "Philips",
+      "model": "32E3C2200/96",
+      "sizeInches": 31.5,
+      "flat": null,
+      "resolution": [
+        1920,
+        1080
+      ],
+      "refreshHz": null,
+      "panel": null,
+      "screenType": "LCD",
+      "specSourceIds": [
+        "philips-catalog-page-11",
+        "philips-32e3c2200-96-catalog-detail-link"
+      ],
+      "ports": "介面與供電細節尚未完成精確型號核對。",
+      "weightKg": null,
+      "dimensionsMm": {
+        "width": null,
+        "height": null,
+        "depth": null
+      },
+      "vesa": null,
+      "portrait": "unknown",
+      "mountNotes": "本次目錄補漏候選；裸機重量、孔距、直立方向及接頭淨空未確認，不宣稱Arco安裝通過。",
+      "comfort": [
+        {
+          "topic": "長時間閱讀／最低亮度／閃爍",
+          "value": "尚未取得精確型號獨立實測，保留未知。",
+          "kind": "unknown",
+          "sourceIds": []
+        }
+      ],
+      "cautions": [
+        "原廠目錄明列低於4K或曲面，因此排除。"
+      ],
+      "offers": [],
+      "manufacturerUrl": "https://www.philips.com.tw/c-p/32E3C2200_96/monitor-full-hd-lcd-monitor"
+    },
+    {
+      "id": "philips-32e3c2500-96",
+      "brand": "Philips",
+      "model": "32E3C2500/96",
+      "sizeInches": 31.5,
+      "flat": null,
+      "resolution": [
+        2560,
+        1440
+      ],
+      "refreshHz": null,
+      "panel": null,
+      "screenType": "LCD",
+      "specSourceIds": [
+        "philips-catalog-page-11",
+        "philips-32e3c2500-96-catalog-detail-link"
+      ],
+      "ports": "介面與供電細節尚未完成精確型號核對。",
+      "weightKg": null,
+      "dimensionsMm": {
+        "width": null,
+        "height": null,
+        "depth": null
+      },
+      "vesa": null,
+      "portrait": "unknown",
+      "mountNotes": "本次目錄補漏候選；裸機重量、孔距、直立方向及接頭淨空未確認，不宣稱Arco安裝通過。",
+      "comfort": [
+        {
+          "topic": "長時間閱讀／最低亮度／閃爍",
+          "value": "尚未取得精確型號獨立實測，保留未知。",
+          "kind": "unknown",
+          "sourceIds": []
+        }
+      ],
+      "cautions": [
+        "原廠目錄明列低於4K或曲面，因此排除。"
+      ],
+      "offers": [],
+      "manufacturerUrl": "https://www.philips.com.tw/c-p/32E3C2500_96/monitor-quad-hd-monitor"
+    },
+    {
+      "id": "philips-32e3n3800l-96",
+      "brand": "Philips",
+      "model": "32E3N3800L/96",
+      "sizeInches": 31.5,
+      "flat": null,
+      "resolution": [
+        3840,
+        2160
+      ],
+      "refreshHz": 60,
+      "panel": "VA",
+      "screenType": "LCD",
+      "specSourceIds": [
+        "philips-catalog-page-8",
+        "philips-32e3n3800l-96-catalog-detail-link",
+        "philips-32e3n3800l-96-qualification-audit"
+      ],
+      "ports": "HDMI2.1×2、DP1.4×1；音訊輸出。",
+      "weightKg": 5.72,
+      "dimensionsMm": {
+        "width": 713,
+        "height": 419,
+        "depth": 50
+      },
+      "vesa": "100×100 mm",
+      "portrait": "unknown",
+      "mountNotes": "完整表已列裸機5.72kg、VESA100×100及機身外廓；直立操作、接頭空間與Arco旋轉淨空仍須核對。",
+      "comfort": [
+        {
+          "topic": "長時間閱讀／最低亮度／閃爍",
+          "value": "尚未取得精確型號獨立實測，保留未知。",
+          "kind": "unknown",
+          "sourceIds": []
+        }
+      ],
+      "cautions": [
+        "已核對精確區域版完整技術表：31.5吋、原生3840×2160@60Hz；仍缺平面／曲率明文，保留待確認。台灣賣場供貨未知。"
+      ],
+      "offers": [],
+      "manufacturerUrl": "https://www.philips.com.tw/c-p/32E3N3800L_96/monitor-4k-uhd-monitor"
+    },
+    {
       "id": "philips-32e3n5901rw-96",
       "brand": "Philips",
       "model": "32E3N5901RW/96",
@@ -9385,6 +11052,129 @@
         "4K75／FHD300雙模；未把FHD更新率當4K更新率。"
       ],
       "offers": []
+    },
+    {
+      "id": "philips-32m1c5200w-96",
+      "brand": "Philips",
+      "model": "32M1C5200W/96",
+      "sizeInches": 31.5,
+      "flat": false,
+      "resolution": [
+        1920,
+        1080
+      ],
+      "refreshHz": null,
+      "panel": null,
+      "screenType": "LCD",
+      "specSourceIds": [
+        "philips-catalog-page-15",
+        "philips-32m1c5200w-96-catalog-detail-link"
+      ],
+      "ports": "介面與供電細節尚未完成精確型號核對。",
+      "weightKg": null,
+      "dimensionsMm": {
+        "width": null,
+        "height": null,
+        "depth": null
+      },
+      "vesa": null,
+      "portrait": "unknown",
+      "mountNotes": "本次目錄補漏候選；裸機重量、孔距、直立方向及接頭淨空未確認，不宣稱Arco安裝通過。",
+      "comfort": [
+        {
+          "topic": "長時間閱讀／最低亮度／閃爍",
+          "value": "尚未取得精確型號獨立實測，保留未知。",
+          "kind": "unknown",
+          "sourceIds": []
+        }
+      ],
+      "cautions": [
+        "原廠目錄明列低於4K或曲面，因此排除。"
+      ],
+      "offers": [],
+      "manufacturerUrl": "https://www.philips.com.tw/c-p/32M1C5200W_96/curved-gaming-monitor-full-hd-gaming-monitor"
+    },
+    {
+      "id": "philips-32m1c5500vl-96",
+      "brand": "Philips",
+      "model": "32M1C5500VL/96",
+      "sizeInches": 31.5,
+      "flat": false,
+      "resolution": [
+        2560,
+        1440
+      ],
+      "refreshHz": null,
+      "panel": null,
+      "screenType": "LCD",
+      "specSourceIds": [
+        "philips-catalog-page-15",
+        "philips-32m1c5500vl-96-catalog-detail-link"
+      ],
+      "ports": "介面與供電細節尚未完成精確型號核對。",
+      "weightKg": null,
+      "dimensionsMm": {
+        "width": null,
+        "height": null,
+        "depth": null
+      },
+      "vesa": null,
+      "portrait": "unknown",
+      "mountNotes": "本次目錄補漏候選；裸機重量、孔距、直立方向及接頭淨空未確認，不宣稱Arco安裝通過。",
+      "comfort": [
+        {
+          "topic": "長時間閱讀／最低亮度／閃爍",
+          "value": "尚未取得精確型號獨立實測，保留未知。",
+          "kind": "unknown",
+          "sourceIds": []
+        }
+      ],
+      "cautions": [
+        "原廠目錄明列低於4K或曲面，因此排除。"
+      ],
+      "offers": [],
+      "manufacturerUrl": "https://www.philips.com.tw/c-p/32M1C5500VL_96/curved-gaming-monitor-quad-hd-gaming-monitor"
+    },
+    {
+      "id": "philips-32m1n5500vs-96",
+      "brand": "Philips",
+      "model": "32M1N5500VS/96",
+      "sizeInches": 31.5,
+      "flat": null,
+      "resolution": [
+        2560,
+        1440
+      ],
+      "refreshHz": null,
+      "panel": null,
+      "screenType": "LCD",
+      "specSourceIds": [
+        "philips-catalog-page-16",
+        "philips-32m1n5500vs-96-catalog-detail-link"
+      ],
+      "ports": "介面與供電細節尚未完成精確型號核對。",
+      "weightKg": null,
+      "dimensionsMm": {
+        "width": null,
+        "height": null,
+        "depth": null
+      },
+      "vesa": null,
+      "portrait": "unknown",
+      "mountNotes": "本次目錄補漏候選；裸機重量、孔距、直立方向及接頭淨空未確認，不宣稱Arco安裝通過。",
+      "comfort": [
+        {
+          "topic": "長時間閱讀／最低亮度／閃爍",
+          "value": "尚未取得精確型號獨立實測，保留未知。",
+          "kind": "unknown",
+          "sourceIds": []
+        }
+      ],
+      "cautions": [
+        "原廠目錄明列低於4K或曲面，因此排除。"
+      ],
+      "offers": [],
+      "manufacturerUrl": "https://www.philips.com.tw/c-p/32M1N5500VS_96/gaming-monitor-quad-hd-gaming-monitor"
     },
     {
       "id": "philips-32m1n5800a-96",
@@ -9426,6 +11216,260 @@
       "offers": []
     },
     {
+      "id": "philips-32m2c3200wl-96",
+      "brand": "Philips",
+      "model": "32M2C3200WL/96",
+      "sizeInches": 31.5,
+      "flat": null,
+      "resolution": [
+        1920,
+        1080
+      ],
+      "refreshHz": null,
+      "panel": null,
+      "screenType": "LCD",
+      "specSourceIds": [
+        "philips-catalog-page-1",
+        "philips-32m2c3200wl-96-catalog-detail-link"
+      ],
+      "ports": "介面與供電細節尚未完成精確型號核對。",
+      "weightKg": null,
+      "dimensionsMm": {
+        "width": null,
+        "height": null,
+        "depth": null
+      },
+      "vesa": null,
+      "portrait": "unknown",
+      "mountNotes": "本次目錄補漏候選；裸機重量、孔距、直立方向及接頭淨空未確認，不宣稱Arco安裝通過。",
+      "comfort": [
+        {
+          "topic": "長時間閱讀／最低亮度／閃爍",
+          "value": "尚未取得精確型號獨立實測，保留未知。",
+          "kind": "unknown",
+          "sourceIds": []
+        }
+      ],
+      "cautions": [
+        "原廠目錄明列低於4K或曲面，因此排除。"
+      ],
+      "offers": [],
+      "manufacturerUrl": "https://www.philips.com.tw/c-p/32M2C3200WL_96/gaming-monitor-full-hd-gaming-monitor"
+    },
+    {
+      "id": "philips-32m2c3500l-96",
+      "brand": "Philips",
+      "model": "32M2C3500L/96",
+      "sizeInches": 31.5,
+      "flat": false,
+      "resolution": [
+        2560,
+        1440
+      ],
+      "refreshHz": null,
+      "panel": "Fast VA",
+      "screenType": "LCD",
+      "specSourceIds": [
+        "philips-catalog-page-16",
+        "philips-32m2c3500l-96-catalog-detail-link"
+      ],
+      "ports": "介面與供電細節尚未完成精確型號核對。",
+      "weightKg": null,
+      "dimensionsMm": {
+        "width": null,
+        "height": null,
+        "depth": null
+      },
+      "vesa": null,
+      "portrait": "unknown",
+      "mountNotes": "本次目錄補漏候選；裸機重量、孔距、直立方向及接頭淨空未確認，不宣稱Arco安裝通過。",
+      "comfort": [
+        {
+          "topic": "長時間閱讀／最低亮度／閃爍",
+          "value": "尚未取得精確型號獨立實測，保留未知。",
+          "kind": "unknown",
+          "sourceIds": []
+        }
+      ],
+      "cautions": [
+        "原廠目錄明列低於4K或曲面，因此排除。"
+      ],
+      "offers": [],
+      "manufacturerUrl": "https://www.philips.com.tw/c-p/32M2C3500L_96/curved-fast-va-gaming-monitor-quad-hd-gaming-monitor"
+    },
+    {
+      "id": "philips-32m2c5500w-96",
+      "brand": "Philips",
+      "model": "32M2C5500W/96",
+      "sizeInches": 31.5,
+      "flat": null,
+      "resolution": [
+        2560,
+        1440
+      ],
+      "refreshHz": null,
+      "panel": null,
+      "screenType": "LCD",
+      "specSourceIds": [
+        "philips-catalog-page-15",
+        "philips-32m2c5500w-96-catalog-detail-link"
+      ],
+      "ports": "介面與供電細節尚未完成精確型號核對。",
+      "weightKg": null,
+      "dimensionsMm": {
+        "width": null,
+        "height": null,
+        "depth": null
+      },
+      "vesa": null,
+      "portrait": "unknown",
+      "mountNotes": "本次目錄補漏候選；裸機重量、孔距、直立方向及接頭淨空未確認，不宣稱Arco安裝通過。",
+      "comfort": [
+        {
+          "topic": "長時間閱讀／最低亮度／閃爍",
+          "value": "尚未取得精確型號獨立實測，保留未知。",
+          "kind": "unknown",
+          "sourceIds": []
+        }
+      ],
+      "cautions": [
+        "原廠目錄明列低於4K或曲面，因此排除。"
+      ],
+      "offers": [],
+      "manufacturerUrl": "https://www.philips.com.tw/c-p/32M2C5500W_96/gaming-monitor-quad-hd-gaming-monitor"
+    },
+    {
+      "id": "philips-32m2n5800-96",
+      "brand": "Philips",
+      "model": "32M2N5800/96",
+      "sizeInches": 31.5,
+      "flat": null,
+      "resolution": [
+        3840,
+        2160
+      ],
+      "refreshHz": 160,
+      "panel": "Fast IPS",
+      "screenType": "LCD",
+      "specSourceIds": [
+        "philips-catalog-page-5",
+        "philips-32m2n5800-96-spec",
+        "philips-32m2n5800-96-pdf",
+        "philips-32m2n5800-96-qualification-audit"
+      ],
+      "ports": "HDMI2.1×2、DP1.4×1；耳機輸出與USB-B上行／USB-A集線器；無已確認USB-C影像。",
+      "weightKg": 6.62,
+      "dimensionsMm": {
+        "width": 715,
+        "height": 429,
+        "depth": 69
+      },
+      "vesa": "100×100 mm",
+      "portrait": "unknown",
+      "mountNotes": "完整表已列裸機6.62kg、VESA100×100及機身外廓；直立操作、接頭空間與Arco旋轉淨空仍須核對。",
+      "comfort": [
+        {
+          "topic": "長時間閱讀／最低亮度／閃爍",
+          "value": "尚未取得精確型號獨立實測，保留未知。",
+          "kind": "unknown",
+          "sourceIds": []
+        }
+      ],
+      "cautions": [
+        "已核對精確區域版完整技術表：31.5吋、原生3840×2160@160Hz；仍缺平面／曲率明文，保留待確認。台灣賣場供貨未知。",
+        "UHD160/FHD320雙模；8bit適用UHD160，10bit最高UHD120，不能把FHD320寫成4K320。"
+      ],
+      "offers": [],
+      "manufacturerUrl": "https://www.philips.com.tw/c-p/32M2N5800_96/fast-ips-gaming-monitor-dual-mode-gaming-monitor"
+    },
+    {
+      "id": "philips-32m2n6800md-93",
+      "brand": "Philips",
+      "model": "32M2N6800MD/93",
+      "sizeInches": 31.5,
+      "flat": null,
+      "resolution": [
+        3840,
+        2160
+      ],
+      "refreshHz": 160,
+      "panel": "Fast IPS Mini LED",
+      "screenType": "LCD",
+      "specSourceIds": [
+        "philips-catalog-page-5",
+        "philips-32m2n6800md-93-catalog-detail-link",
+        "philips-32m2n6800md-93-qualification-audit"
+      ],
+      "ports": "HDMI2.1×2、DP1.4×1；耳機輸出與USB-B上行／USB-A集線器；無已確認USB-C影像。",
+      "weightKg": 7.94,
+      "dimensionsMm": {
+        "width": 716,
+        "height": 427,
+        "depth": 76
+      },
+      "vesa": "100×100 mm",
+      "portrait": "unknown",
+      "mountNotes": "完整表已列裸機7.94kg、VESA100×100及機身外廓；直立操作、接頭空間與Arco旋轉淨空仍須核對。",
+      "comfort": [
+        {
+          "topic": "長時間閱讀／最低亮度／閃爍",
+          "value": "尚未取得精確型號獨立實測，保留未知。",
+          "kind": "unknown",
+          "sourceIds": []
+        }
+      ],
+      "cautions": [
+        "已核對精確區域版完整技術表：31.5吋、原生3840×2160@160Hz；仍缺平面／曲率明文，保留待確認。台灣賣場供貨未知。",
+        "UHD160/FHD320雙模；8bit適用UHD160，10bit最高UHD120，不能把FHD320寫成4K320。",
+        "/93出現在台灣網站不等於台灣在售；台灣賣家、保固與進口條件仍未知，不套/96資料。"
+      ],
+      "offers": [],
+      "manufacturerUrl": "https://www.philips.com.tw/c-p/32M2N6800MD_93/fast-ips-gaming-monitor-dual-mode-gaming-monitor"
+    },
+    {
+      "id": "philips-32m2n6800ml-93",
+      "brand": "Philips",
+      "model": "32M2N6800ML/93",
+      "sizeInches": 31.5,
+      "flat": null,
+      "resolution": [
+        3840,
+        2160
+      ],
+      "refreshHz": 165,
+      "panel": "Fast VA Mini LED",
+      "screenType": "LCD",
+      "specSourceIds": [
+        "philips-catalog-page-16",
+        "philips-32m2n6800ml-93-catalog-detail-link",
+        "philips-32m2n6800ml-93-qualification-audit"
+      ],
+      "ports": "HDMI2.1×2、DP1.4×1；耳機輸出與USB-B上行／USB-A集線器；無已確認USB-C影像。",
+      "weightKg": 7.82,
+      "dimensionsMm": {
+        "width": 715,
+        "height": 426,
+        "depth": 75
+      },
+      "vesa": "100×100 mm",
+      "portrait": "unknown",
+      "mountNotes": "完整表已列裸機7.82kg、VESA100×100及機身外廓；直立操作、接頭空間與Arco旋轉淨空仍須核對。",
+      "comfort": [
+        {
+          "topic": "長時間閱讀／最低亮度／閃爍",
+          "value": "尚未取得精確型號獨立實測，保留未知。",
+          "kind": "unknown",
+          "sourceIds": []
+        }
+      ],
+      "cautions": [
+        "已核對精確區域版完整技術表：31.5吋、原生3840×2160@165Hz；仍缺平面／曲率明文，保留待確認。台灣賣場供貨未知。",
+        "/93出現在台灣網站不等於台灣在售；台灣賣家、保固與進口條件仍未知，不套/96資料。"
+      ],
+      "offers": [],
+      "manufacturerUrl": "https://www.philips.com.tw/c-p/32M2N6800ML_93/fast-va-gaming-monitor-4k-uhd-gaming-monitor"
+    },
+    {
       "id": "philips-32m2n6800mw-96",
       "brand": "Philips",
       "model": "32M2N6800MW/96",
@@ -9461,6 +11505,50 @@
       ],
       "cautions": [],
       "offers": []
+    },
+    {
+      "id": "philips-32m2n8900-01",
+      "brand": "Philips",
+      "model": "32M2N8900/01",
+      "sizeInches": 31.5,
+      "flat": null,
+      "resolution": [
+        3840,
+        2160
+      ],
+      "refreshHz": 240,
+      "panel": "QD-OLED",
+      "screenType": "OLED",
+      "specSourceIds": [
+        "philips-catalog-page-18",
+        "philips-32m2n8900-01-catalog-detail-link",
+        "philips-32m2n8900-01-qualification-audit"
+      ],
+      "ports": "介面與供電細節尚未完成精確型號核對。",
+      "weightKg": null,
+      "dimensionsMm": {
+        "width": null,
+        "height": null,
+        "depth": null
+      },
+      "vesa": null,
+      "portrait": "unknown",
+      "mountNotes": "本次目錄補漏候選；裸機重量、孔距、直立方向及接頭淨空未確認，不宣稱Arco安裝通過。",
+      "comfort": [
+        {
+          "topic": "長時間閱讀／最低亮度／閃爍",
+          "value": "尚未取得精確型號獨立實測，保留未知。",
+          "kind": "unknown",
+          "sourceIds": []
+        }
+      ],
+      "cautions": [
+        "台灣目錄的/01原頁標題混入34吋／曲面且主體無規格；精確/01原廠PDF第4頁明列31.5吋、3840×2160@240Hz，已據此補值。",
+        "精確/01 PDF仍無平面／曲率明文，flat保留未知；不移植/96屬性。",
+        "台灣全新品賣家、保固與進口條件未知。"
+      ],
+      "offers": [],
+      "manufacturerUrl": "https://www.philips.com.tw/c-p/32M2N8900_01/evnia-curved-gaming-monitor-qd-oled-gaming-monitor"
     },
     {
       "id": "philips-32m2n8900-96",
@@ -9525,6 +11613,950 @@
           "priceEvidence": "index"
         }
       ]
+    },
+    {
+      "id": "philips-32m3c3540-96",
+      "brand": "Philips",
+      "model": "32M3C3540/96",
+      "sizeInches": 31.5,
+      "flat": false,
+      "resolution": [
+        2560,
+        1440
+      ],
+      "refreshHz": null,
+      "panel": "Fast VA",
+      "screenType": "LCD",
+      "specSourceIds": [
+        "philips-catalog-page-13",
+        "philips-32m3c3540-96-catalog-detail-link"
+      ],
+      "ports": "介面與供電細節尚未完成精確型號核對。",
+      "weightKg": null,
+      "dimensionsMm": {
+        "width": null,
+        "height": null,
+        "depth": null
+      },
+      "vesa": null,
+      "portrait": "unknown",
+      "mountNotes": "本次目錄補漏候選；裸機重量、孔距、直立方向及接頭淨空未確認，不宣稱Arco安裝通過。",
+      "comfort": [
+        {
+          "topic": "長時間閱讀／最低亮度／閃爍",
+          "value": "尚未取得精確型號獨立實測，保留未知。",
+          "kind": "unknown",
+          "sourceIds": []
+        }
+      ],
+      "cautions": [
+        "原廠目錄明列低於4K或曲面，因此排除。"
+      ],
+      "offers": [],
+      "manufacturerUrl": "https://www.philips.com.tw/c-p/32M3C3540_96/curved-fast-va-gaming-monitor-quad-hd-gaming-monitor"
+    },
+    {
+      "id": "philips-32m3c3540w-96",
+      "brand": "Philips",
+      "model": "32M3C3540W/96",
+      "sizeInches": 31.5,
+      "flat": false,
+      "resolution": [
+        2560,
+        1440
+      ],
+      "refreshHz": null,
+      "panel": "Fast VA",
+      "screenType": "LCD",
+      "specSourceIds": [
+        "philips-catalog-page-15",
+        "philips-32m3c3540w-96-catalog-detail-link"
+      ],
+      "ports": "介面與供電細節尚未完成精確型號核對。",
+      "weightKg": null,
+      "dimensionsMm": {
+        "width": null,
+        "height": null,
+        "depth": null
+      },
+      "vesa": null,
+      "portrait": "unknown",
+      "mountNotes": "本次目錄補漏候選；裸機重量、孔距、直立方向及接頭淨空未確認，不宣稱Arco安裝通過。",
+      "comfort": [
+        {
+          "topic": "長時間閱讀／最低亮度／閃爍",
+          "value": "尚未取得精確型號獨立實測，保留未知。",
+          "kind": "unknown",
+          "sourceIds": []
+        }
+      ],
+      "cautions": [
+        "原廠目錄明列低於4K或曲面，因此排除。"
+      ],
+      "offers": [],
+      "manufacturerUrl": "https://www.philips.com.tw/c-p/32M3C3540W_96/curved-fast-va-gaming-monitor-quad-hd-gaming-monitor"
+    },
+    {
+      "id": "samsung-c32g55tqb-g5-",
+      "brand": "Samsung",
+      "model": "C32G55TQB (G5)",
+      "sizeInches": 32,
+      "flat": false,
+      "resolution": null,
+      "refreshHz": 144,
+      "panel": null,
+      "screenType": "LCD",
+      "specSourceIds": [
+        "samsung-c32g55tqb-catalog"
+      ],
+      "ports": "尚未確認",
+      "weightKg": null,
+      "dimensionsMm": {
+        "width": null,
+        "height": null,
+        "depth": null
+      },
+      "vesa": null,
+      "portrait": "unknown",
+      "mountNotes": "安裝方向、孔位周邊與接頭空間待手冊核對。",
+      "comfort": [
+        {
+          "topic": "文字／舒適度",
+          "value": "尚未取得精確型號獨立實測；最低可調亮度、持續亮度及閃爍波形未確認。",
+          "kind": "unknown",
+          "sourceIds": []
+        }
+      ],
+      "cautions": [
+        "排除：官方目錄明列1000R曲面；未查得的面板／安裝／供貨資料維持未知。"
+      ],
+      "offers": []
+    },
+    {
+      "id": "samsung-c32g55tqw-g5-",
+      "brand": "Samsung",
+      "model": "C32G55TQW (G5)",
+      "sizeInches": 32,
+      "flat": false,
+      "resolution": null,
+      "refreshHz": null,
+      "panel": null,
+      "screenType": "LCD",
+      "specSourceIds": [
+        "samsung-c32g55tqw-catalog"
+      ],
+      "ports": "尚未確認",
+      "weightKg": null,
+      "dimensionsMm": {
+        "width": null,
+        "height": null,
+        "depth": null
+      },
+      "vesa": null,
+      "portrait": "unknown",
+      "mountNotes": "安裝方向、孔位周邊與接頭空間待手冊核對。",
+      "comfort": [
+        {
+          "topic": "文字／舒適度",
+          "value": "尚未取得精確型號獨立實測；最低可調亮度、持續亮度及閃爍波形未確認。",
+          "kind": "unknown",
+          "sourceIds": []
+        }
+      ],
+      "cautions": [
+        "排除：官方目錄明列1000R曲面；未查得的面板／安裝／供貨資料維持未知。"
+      ],
+      "offers": []
+    },
+    {
+      "id": "samsung-c32t550fdc-ct55-",
+      "brand": "Samsung",
+      "model": "C32T550FDC (CT55)",
+      "sizeInches": 32,
+      "flat": false,
+      "resolution": null,
+      "refreshHz": null,
+      "panel": null,
+      "screenType": "LCD",
+      "specSourceIds": [
+        "samsung-c32t550fdc-catalog"
+      ],
+      "ports": "尚未確認",
+      "weightKg": null,
+      "dimensionsMm": {
+        "width": null,
+        "height": null,
+        "depth": null
+      },
+      "vesa": null,
+      "portrait": "unknown",
+      "mountNotes": "安裝方向、孔位周邊與接頭空間待手冊核對。",
+      "comfort": [
+        {
+          "topic": "文字／舒適度",
+          "value": "尚未取得精確型號獨立實測；最低可調亮度、持續亮度及閃爍波形未確認。",
+          "kind": "unknown",
+          "sourceIds": []
+        }
+      ],
+      "cautions": [
+        "排除：官方目錄明列1000R曲面；未查得的面板／安裝／供貨資料維持未知。"
+      ],
+      "offers": []
+    },
+    {
+      "id": "samsung-em32dx-lh32emdibgbxzw-",
+      "brand": "Samsung",
+      "model": "EM32DX (LH32EMDIBGBXZW)",
+      "sizeInches": 31.5,
+      "flat": true,
+      "resolution": [
+        2560,
+        1440
+      ],
+      "refreshHz": null,
+      "panel": "Color E-Paper",
+      "screenType": null,
+      "specSourceIds": [
+        "samsung-em32dx-spec"
+      ],
+      "ports": "USB ×2、Wi-Fi／藍牙；無已確認一般電腦影像輸入",
+      "weightKg": 2.4,
+      "dimensionsMm": {
+        "width": 725.1,
+        "height": 420.5,
+        "depth": 17.9
+      },
+      "vesa": "200×200 mm",
+      "portrait": "unknown",
+      "mountNotes": "安裝方向、孔位周邊與接頭空間待手冊核對。",
+      "comfort": [
+        {
+          "topic": "文字／舒適度",
+          "value": "尚未取得精確型號獨立實測；最低可調亮度、持續亮度及閃爍波形未確認。",
+          "kind": "unknown",
+          "sourceIds": []
+        }
+      ],
+      "cautions": [
+        "排除：原生QHD低於4K；屬靜態數位看板電子紙，未確認60Hz電腦輸入。"
+      ],
+      "offers": []
+    },
+    {
+      "id": "samsung-s32a700nwc-s70a-",
+      "brand": "Samsung",
+      "model": "S32A700NWC (S70A)",
+      "sizeInches": 32,
+      "flat": true,
+      "resolution": [
+        3840,
+        2160
+      ],
+      "refreshHz": 60,
+      "panel": "VA",
+      "screenType": "LCD",
+      "specSourceIds": [
+        "samsung-s32a700nwc-spec"
+      ],
+      "ports": "DisplayPort 1.2 ×1、HDMI 2.0 ×1",
+      "weightKg": 5,
+      "dimensionsMm": {
+        "width": 716.1,
+        "height": 424.7,
+        "depth": 41.3
+      },
+      "vesa": "100×100 mm",
+      "portrait": "unknown",
+      "mountNotes": "原廠裸機重量與VESA孔距已讀；外接支臂直立運作、轉接板及接頭淨空待手冊核對。",
+      "comfort": [
+        {
+          "topic": "亮度／閃爍",
+          "value": "原廠列典型亮度300nit、低藍光模式與零閃屏。這是功能宣稱；最低可調亮度、波形與持續亮度獨立實測未取得。",
+          "kind": "manufacturer",
+          "sourceIds": [
+            "samsung-s32a700nwc-spec"
+          ]
+        }
+      ],
+      "cautions": [
+        "歷年型號仍在官方32吋目錄；尚未取得台灣全新可下單供貨證據，保留待確認。"
+      ],
+      "offers": []
+    },
+    {
+      "id": "samsung-s32ag500pc-g50a-",
+      "brand": "Samsung",
+      "model": "S32AG500PC (G50A)",
+      "sizeInches": 32,
+      "flat": true,
+      "resolution": [
+        2560,
+        1440
+      ],
+      "refreshHz": 165,
+      "panel": null,
+      "screenType": "LCD",
+      "specSourceIds": [
+        "samsung-s32ag500pc-catalog"
+      ],
+      "ports": "尚未確認",
+      "weightKg": null,
+      "dimensionsMm": {
+        "width": null,
+        "height": null,
+        "depth": null
+      },
+      "vesa": null,
+      "portrait": "unknown",
+      "mountNotes": "安裝方向、孔位周邊與接頭空間待手冊核對。",
+      "comfort": [
+        {
+          "topic": "文字／舒適度",
+          "value": "尚未取得精確型號獨立實測；最低可調亮度、持續亮度及閃爍波形未確認。",
+          "kind": "unknown",
+          "sourceIds": []
+        }
+      ],
+      "cautions": [
+        "排除：Chrome精確原廠概覽確認QHD165Hz，低於4K；未查得的面板／安裝／供貨資料維持未知。"
+      ],
+      "offers": []
+    },
+    {
+      "id": "samsung-s32am500nc-m5-",
+      "brand": "Samsung",
+      "model": "S32AM500NC (M5)",
+      "sizeInches": 32,
+      "flat": true,
+      "resolution": [
+        1920,
+        1080
+      ],
+      "refreshHz": 60,
+      "panel": null,
+      "screenType": "LCD",
+      "specSourceIds": [
+        "samsung-s32am500nc-catalog"
+      ],
+      "ports": "尚未確認",
+      "weightKg": null,
+      "dimensionsMm": {
+        "width": null,
+        "height": null,
+        "depth": null
+      },
+      "vesa": null,
+      "portrait": "unknown",
+      "mountNotes": "安裝方向、孔位周邊與接頭空間待手冊核對。",
+      "comfort": [
+        {
+          "topic": "文字／舒適度",
+          "value": "尚未取得精確型號獨立實測；最低可調亮度、持續亮度及閃爍波形未確認。",
+          "kind": "unknown",
+          "sourceIds": []
+        }
+      ],
+      "cautions": [
+        "排除：精確原廠規格FHD，低於4K；未查得的面板／安裝／供貨資料維持未知。"
+      ],
+      "offers": []
+    },
+    {
+      "id": "samsung-s32am700uc-m7-",
+      "brand": "Samsung",
+      "model": "S32AM700UC (M7 初代)",
+      "sizeInches": 32,
+      "flat": true,
+      "resolution": [
+        3840,
+        2160
+      ],
+      "refreshHz": 60,
+      "panel": "VA",
+      "screenType": "LCD",
+      "specSourceIds": [
+        "samsung-s32am700uc-spec"
+      ],
+      "ports": "HDMI 2.0 ×2、USB-C 65W",
+      "weightKg": 5.4,
+      "dimensionsMm": {
+        "width": 716.1,
+        "height": 424.5,
+        "depth": 41.8
+      },
+      "vesa": "100×100 mm",
+      "portrait": "unknown",
+      "mountNotes": "原廠裸機重量與VESA孔距已讀；外接支臂直立運作、轉接板及接頭淨空待手冊核對。",
+      "comfort": [
+        {
+          "topic": "亮度／閃爍",
+          "value": "原廠列典型亮度250nit、低藍光模式與零閃屏。這是功能宣稱；最低可調亮度、波形與持續亮度獨立實測未取得。",
+          "kind": "manufacturer",
+          "sourceIds": [
+            "samsung-s32am700uc-spec"
+          ]
+        }
+      ],
+      "cautions": [
+        "歷年型號仍在官方32吋目錄；尚未取得台灣全新可下單供貨證據，保留待確認。"
+      ],
+      "offers": []
+    },
+    {
+      "id": "samsung-s32am703uc-m7-",
+      "brand": "Samsung",
+      "model": "S32AM703UC (M7 初代白色)",
+      "sizeInches": 32,
+      "flat": true,
+      "resolution": [
+        3840,
+        2160
+      ],
+      "refreshHz": 60,
+      "panel": "VA",
+      "screenType": "LCD",
+      "specSourceIds": [
+        "samsung-s32am703uc-spec"
+      ],
+      "ports": "HDMI 2.0 ×2、USB-C 65W",
+      "weightKg": 5.7,
+      "dimensionsMm": {
+        "width": 716.1,
+        "height": 424.5,
+        "depth": 41.8
+      },
+      "vesa": "100×100 mm",
+      "portrait": "unknown",
+      "mountNotes": "原廠裸機重量與VESA孔距已讀；外接支臂直立運作、轉接板及接頭淨空待手冊核對。",
+      "comfort": [
+        {
+          "topic": "亮度／閃爍",
+          "value": "原廠列典型亮度250nit、低藍光模式與零閃屏。這是功能宣稱；最低可調亮度、波形與持續亮度獨立實測未取得。",
+          "kind": "manufacturer",
+          "sourceIds": [
+            "samsung-s32am703uc-spec"
+          ]
+        }
+      ],
+      "cautions": [
+        "歷年型號仍在官方32吋目錄；尚未取得台灣全新可下單供貨證據，保留待確認。"
+      ],
+      "offers": []
+    },
+    {
+      "id": "samsung-s32bg650ec-g65b-",
+      "brand": "Samsung",
+      "model": "S32BG650EC (G65B)",
+      "sizeInches": 32,
+      "flat": false,
+      "resolution": [
+        2560,
+        1440
+      ],
+      "refreshHz": 240,
+      "panel": null,
+      "screenType": "LCD",
+      "specSourceIds": [
+        "samsung-s32bg650ec-catalog"
+      ],
+      "ports": "尚未確認",
+      "weightKg": null,
+      "dimensionsMm": {
+        "width": null,
+        "height": null,
+        "depth": null
+      },
+      "vesa": null,
+      "portrait": "unknown",
+      "mountNotes": "安裝方向、孔位周邊與接頭空間待手冊核對。",
+      "comfort": [
+        {
+          "topic": "文字／舒適度",
+          "value": "尚未取得精確型號獨立實測；最低可調亮度、持續亮度及閃爍波形未確認。",
+          "kind": "unknown",
+          "sourceIds": []
+        }
+      ],
+      "cautions": [
+        "排除：QHD曲面；未查得的面板／安裝／供貨資料維持未知。"
+      ],
+      "offers": []
+    },
+    {
+      "id": "samsung-s32bg700ec-g70b-",
+      "brand": "Samsung",
+      "model": "S32BG700EC (G70B)",
+      "sizeInches": 32,
+      "flat": true,
+      "resolution": [
+        3840,
+        2160
+      ],
+      "refreshHz": 144,
+      "panel": "IPS",
+      "screenType": "LCD",
+      "specSourceIds": [
+        "samsung-s32bg700ec-spec"
+      ],
+      "ports": "DisplayPort 1.4 ×1、HDMI 2.1 ×2",
+      "weightKg": 6.4,
+      "dimensionsMm": {
+        "width": 714.6,
+        "height": 441.1,
+        "depth": 125.9
+      },
+      "vesa": "100×100 mm",
+      "portrait": "unknown",
+      "mountNotes": "原廠裸機重量與VESA孔距已讀；外接支臂直立運作、轉接板及接頭淨空待手冊核對。",
+      "comfort": [
+        {
+          "topic": "亮度／閃爍",
+          "value": "原廠列典型亮度350nit、低藍光模式與零閃屏。這是功能宣稱；最低可調亮度、波形與持續亮度獨立實測未取得。",
+          "kind": "manufacturer",
+          "sourceIds": [
+            "samsung-s32bg700ec-spec"
+          ]
+        }
+      ],
+      "cautions": [
+        "歷年型號仍在官方32吋目錄；尚未取得台灣全新可下單供貨證據，保留待確認。"
+      ],
+      "offers": []
+    },
+    {
+      "id": "samsung-s32bg750nc-neo-g7-",
+      "brand": "Samsung",
+      "model": "S32BG750NC (Neo G7)",
+      "sizeInches": 32,
+      "flat": false,
+      "resolution": null,
+      "refreshHz": null,
+      "panel": null,
+      "screenType": "LCD",
+      "specSourceIds": [
+        "samsung-s32bg750nc-catalog"
+      ],
+      "ports": "尚未確認",
+      "weightKg": null,
+      "dimensionsMm": {
+        "width": null,
+        "height": null,
+        "depth": null
+      },
+      "vesa": null,
+      "portrait": "unknown",
+      "mountNotes": "安裝方向、孔位周邊與接頭空間待手冊核對。",
+      "comfort": [
+        {
+          "topic": "文字／舒適度",
+          "value": "尚未取得精確型號獨立實測；最低可調亮度、持續亮度及閃爍波形未確認。",
+          "kind": "unknown",
+          "sourceIds": []
+        }
+      ],
+      "cautions": [
+        "排除：官方目錄明列曲面，不符平面；未查得的面板／安裝／供貨資料維持未知。"
+      ],
+      "offers": []
+    },
+    {
+      "id": "samsung-s32bg850nc-neo-g8-",
+      "brand": "Samsung",
+      "model": "S32BG850NC (Neo G8)",
+      "sizeInches": 32,
+      "flat": false,
+      "resolution": null,
+      "refreshHz": null,
+      "panel": null,
+      "screenType": "LCD",
+      "specSourceIds": [
+        "samsung-s32bg850nc-catalog"
+      ],
+      "ports": "尚未確認",
+      "weightKg": null,
+      "dimensionsMm": {
+        "width": null,
+        "height": null,
+        "depth": null
+      },
+      "vesa": null,
+      "portrait": "unknown",
+      "mountNotes": "安裝方向、孔位周邊與接頭空間待手冊核對。",
+      "comfort": [
+        {
+          "topic": "文字／舒適度",
+          "value": "尚未取得精確型號獨立實測；最低可調亮度、持續亮度及閃爍波形未確認。",
+          "kind": "unknown",
+          "sourceIds": []
+        }
+      ],
+      "cautions": [
+        "排除：官方目錄明列曲面，不符平面；未查得的面板／安裝／供貨資料維持未知。"
+      ],
+      "offers": []
+    },
+    {
+      "id": "samsung-s32bm702uc-m70b-",
+      "brand": "Samsung",
+      "model": "S32BM702UC (M70B)",
+      "sizeInches": 32,
+      "flat": true,
+      "resolution": [
+        3840,
+        2160
+      ],
+      "refreshHz": 60,
+      "panel": "VA",
+      "screenType": "LCD",
+      "specSourceIds": [
+        "samsung-s32bm702uc-spec"
+      ],
+      "ports": "HDMI 2.0 ×2、USB-C 65W",
+      "weightKg": 5.4,
+      "dimensionsMm": {
+        "width": 716.1,
+        "height": 424.5,
+        "depth": 41.8
+      },
+      "vesa": "100×100 mm",
+      "portrait": "unknown",
+      "mountNotes": "原廠裸機重量與VESA孔距已讀；外接支臂直立運作、轉接板及接頭淨空待手冊核對。",
+      "comfort": [
+        {
+          "topic": "亮度／閃爍",
+          "value": "原廠列典型亮度300nit、低藍光模式與零閃屏。這是功能宣稱；最低可調亮度、波形與持續亮度獨立實測未取得。",
+          "kind": "manufacturer",
+          "sourceIds": [
+            "samsung-s32bm702uc-spec"
+          ]
+        }
+      ],
+      "cautions": [
+        "歷年型號仍在官方32吋目錄；尚未取得台灣全新可下單供貨證據，保留待確認。"
+      ],
+      "offers": []
+    },
+    {
+      "id": "samsung-s32bm703uc-m70b-",
+      "brand": "Samsung",
+      "model": "S32BM703UC (M70B)",
+      "sizeInches": 32,
+      "flat": true,
+      "resolution": [
+        3840,
+        2160
+      ],
+      "refreshHz": 60,
+      "panel": "VA",
+      "screenType": "LCD",
+      "specSourceIds": [
+        "samsung-s32bm703uc-spec"
+      ],
+      "ports": "HDMI 2.0 ×2、USB-C 65W",
+      "weightKg": 5.7,
+      "dimensionsMm": {
+        "width": 716.1,
+        "height": 424.5,
+        "depth": 41.8
+      },
+      "vesa": "100×100 mm",
+      "portrait": "unknown",
+      "mountNotes": "原廠裸機重量與VESA孔距已讀；外接支臂直立運作、轉接板及接頭淨空待手冊核對。",
+      "comfort": [
+        {
+          "topic": "亮度／閃爍",
+          "value": "原廠列典型亮度300nit、低藍光模式與零閃屏。這是功能宣稱；最低可調亮度、波形與持續亮度獨立實測未取得。",
+          "kind": "manufacturer",
+          "sourceIds": [
+            "samsung-s32bm703uc-spec"
+          ]
+        }
+      ],
+      "cautions": [
+        "歷年型號仍在官方32吋目錄；尚未取得台灣全新可下單供貨證據，保留待確認。"
+      ],
+      "offers": []
+    },
+    {
+      "id": "samsung-s32bm801uc-m80b-",
+      "brand": "Samsung",
+      "model": "S32BM801UC (M80B)",
+      "sizeInches": 32,
+      "flat": true,
+      "resolution": [
+        3840,
+        2160
+      ],
+      "refreshHz": 60,
+      "panel": "VA",
+      "screenType": "LCD",
+      "specSourceIds": [
+        "samsung-s32bm801uc-spec"
+      ],
+      "ports": "Micro HDMI 2.0 ×1、USB-C 65W；USB-C Hub 3.0",
+      "weightKg": 4.4,
+      "dimensionsMm": {
+        "width": 713.4,
+        "height": 418.8,
+        "depth": 22.3
+      },
+      "vesa": null,
+      "portrait": "unknown",
+      "mountNotes": "精確頁未列VESA壁掛；Arco直裝不可確認。轉接配件、直立運作與Micro HDMI線材空間均待核對。",
+      "comfort": [
+        {
+          "topic": "亮度／閃爍",
+          "value": "原廠列典型亮度400nit、低藍光模式與零閃屏。這是功能宣稱；最低可調亮度、波形與持續亮度獨立實測未取得。",
+          "kind": "manufacturer",
+          "sourceIds": [
+            "samsung-s32bm801uc-spec"
+          ]
+        }
+      ],
+      "cautions": [
+        "歷年型號仍在官方32吋目錄；尚未取得台灣全新可下單供貨證據，保留待確認。",
+        "2022 M8 精確規格未列VESA，不能套用2023/2024 M8的100×100孔距；需專用轉接件與安全性確認。"
+      ],
+      "offers": []
+    },
+    {
+      "id": "samsung-s32c390eac-c390-",
+      "brand": "Samsung",
+      "model": "S32C390EAC (C390)",
+      "sizeInches": 32,
+      "flat": false,
+      "resolution": [
+        1920,
+        1080
+      ],
+      "refreshHz": null,
+      "panel": null,
+      "screenType": "LCD",
+      "specSourceIds": [
+        "samsung-s32c390eac-catalog"
+      ],
+      "ports": "尚未確認",
+      "weightKg": null,
+      "dimensionsMm": {
+        "width": null,
+        "height": null,
+        "depth": null
+      },
+      "vesa": null,
+      "portrait": "unknown",
+      "mountNotes": "安裝方向、孔位周邊與接頭空間待手冊核對。",
+      "comfort": [
+        {
+          "topic": "文字／舒適度",
+          "value": "尚未取得精確型號獨立實測；最低可調亮度、持續亮度及閃爍波形未確認。",
+          "kind": "unknown",
+          "sourceIds": []
+        }
+      ],
+      "cautions": [
+        "排除：FHD曲面；未查得的面板／安裝／供貨資料維持未知。"
+      ],
+      "offers": []
+    },
+    {
+      "id": "samsung-s32cg552ec-g55c-",
+      "brand": "Samsung",
+      "model": "S32CG552EC (G55C)",
+      "sizeInches": 32,
+      "flat": false,
+      "resolution": [
+        2560,
+        1440
+      ],
+      "refreshHz": 165,
+      "panel": null,
+      "screenType": "LCD",
+      "specSourceIds": [
+        "samsung-s32cg552ec-catalog"
+      ],
+      "ports": "尚未確認",
+      "weightKg": null,
+      "dimensionsMm": {
+        "width": null,
+        "height": null,
+        "depth": null
+      },
+      "vesa": null,
+      "portrait": "unknown",
+      "mountNotes": "安裝方向、孔位周邊與接頭空間待手冊核對。",
+      "comfort": [
+        {
+          "topic": "文字／舒適度",
+          "value": "尚未取得精確型號獨立實測；最低可調亮度、持續亮度及閃爍波形未確認。",
+          "kind": "unknown",
+          "sourceIds": []
+        }
+      ],
+      "cautions": [
+        "排除：QHD曲面；未查得的面板／安裝／供貨資料維持未知。"
+      ],
+      "offers": []
+    },
+    {
+      "id": "samsung-s32cm703uc-m70c-",
+      "brand": "Samsung",
+      "model": "S32CM703UC (M70C)",
+      "sizeInches": 32,
+      "flat": true,
+      "resolution": [
+        3840,
+        2160
+      ],
+      "refreshHz": 60,
+      "panel": "VA",
+      "screenType": "LCD",
+      "specSourceIds": [
+        "samsung-s32cm703uc-spec"
+      ],
+      "ports": "HDMI 2.0 ×1、USB-C 65W、USB Hub 2.0",
+      "weightKg": 4.2,
+      "dimensionsMm": {
+        "width": 713.4,
+        "height": 423.8,
+        "depth": 24.5
+      },
+      "vesa": "100×100 mm",
+      "portrait": "unknown",
+      "mountNotes": "原廠裸機重量與VESA孔距已讀；外接支臂直立運作、轉接板及接頭淨空待手冊核對。",
+      "comfort": [
+        {
+          "topic": "亮度／閃爍",
+          "value": "原廠列典型亮度300nit、低藍光模式與零閃屏。這是功能宣稱；最低可調亮度、波形與持續亮度獨立實測未取得。",
+          "kind": "manufacturer",
+          "sourceIds": [
+            "samsung-s32cm703uc-spec"
+          ]
+        }
+      ],
+      "cautions": [
+        "歷年型號仍在官方32吋目錄；尚未取得台灣全新可下單供貨證據，保留待確認。"
+      ],
+      "offers": []
+    },
+    {
+      "id": "samsung-s32cm801uc-m80c-",
+      "brand": "Samsung",
+      "model": "S32CM801UC (M80C)",
+      "sizeInches": 32,
+      "flat": true,
+      "resolution": [
+        3840,
+        2160
+      ],
+      "refreshHz": 60,
+      "panel": "VA",
+      "screenType": "LCD",
+      "specSourceIds": [
+        "samsung-s32cm801uc-spec"
+      ],
+      "ports": "HDMI 2.0 ×1、USB-C 65W、USB Hub 2.0",
+      "weightKg": 4.2,
+      "dimensionsMm": {
+        "width": 713.4,
+        "height": 423.8,
+        "depth": 24.5
+      },
+      "vesa": "100×100 mm",
+      "portrait": "unknown",
+      "mountNotes": "原廠裸機重量與VESA孔距已讀；外接支臂直立運作、轉接板及接頭淨空待手冊核對。",
+      "comfort": [
+        {
+          "topic": "亮度／閃爍",
+          "value": "原廠列典型亮度400nit、低藍光模式與零閃屏。這是功能宣稱；最低可調亮度、波形與持續亮度獨立實測未取得。",
+          "kind": "manufacturer",
+          "sourceIds": [
+            "samsung-s32cm801uc-spec"
+          ]
+        }
+      ],
+      "cautions": [
+        "歷年型號仍在官方32吋目錄；尚未取得台灣全新可下單供貨證據，保留待確認。"
+      ],
+      "offers": []
+    },
+    {
+      "id": "samsung-s32d392gac-s39gd-",
+      "brand": "Samsung",
+      "model": "S32D392GAC (S39GD)",
+      "sizeInches": 32,
+      "flat": false,
+      "resolution": [
+        1920,
+        1080
+      ],
+      "refreshHz": 100,
+      "panel": null,
+      "screenType": "LCD",
+      "specSourceIds": [
+        "samsung-s32d392gac-catalog"
+      ],
+      "ports": "尚未確認",
+      "weightKg": null,
+      "dimensionsMm": {
+        "width": null,
+        "height": null,
+        "depth": null
+      },
+      "vesa": null,
+      "portrait": "unknown",
+      "mountNotes": "安裝方向、孔位周邊與接頭空間待手冊核對。",
+      "comfort": [
+        {
+          "topic": "文字／舒適度",
+          "value": "尚未取得精確型號獨立實測；最低可調亮度、持續亮度及閃爍波形未確認。",
+          "kind": "unknown",
+          "sourceIds": []
+        }
+      ],
+      "cautions": [
+        "排除：FHD曲面；未查得的面板／安裝／供貨資料維持未知。"
+      ],
+      "offers": []
+    },
+    {
+      "id": "samsung-s32d606uac-s60ud-",
+      "brand": "Samsung",
+      "model": "S32D606UAC (S60UD)",
+      "sizeInches": 32,
+      "flat": true,
+      "resolution": [
+        2560,
+        1440
+      ],
+      "refreshHz": 100,
+      "panel": null,
+      "screenType": "LCD",
+      "specSourceIds": [
+        "samsung-s32d606uac-catalog"
+      ],
+      "ports": "尚未確認",
+      "weightKg": null,
+      "dimensionsMm": {
+        "width": null,
+        "height": null,
+        "depth": null
+      },
+      "vesa": null,
+      "portrait": "unknown",
+      "mountNotes": "安裝方向、孔位周邊與接頭空間待手冊核對。",
+      "comfort": [
+        {
+          "topic": "文字／舒適度",
+          "value": "尚未取得精確型號獨立實測；最低可調亮度、持續亮度及閃爍波形未確認。",
+          "kind": "unknown",
+          "sourceIds": []
+        }
+      ],
+      "cautions": [
+        "排除：QHD，低於4K；未查得的面板／安裝／供貨資料維持未知。"
+      ],
+      "offers": []
     },
     {
       "id": "samsung-s32d706eac-s70d-",
@@ -9677,6 +12709,45 @@
       ]
     },
     {
+      "id": "samsung-s32dg502ec-g50d-",
+      "brand": "Samsung",
+      "model": "S32DG502EC (G50D)",
+      "sizeInches": 32,
+      "flat": true,
+      "resolution": [
+        2560,
+        1440
+      ],
+      "refreshHz": 180,
+      "panel": null,
+      "screenType": "LCD",
+      "specSourceIds": [
+        "samsung-s32dg502ec-catalog"
+      ],
+      "ports": "尚未確認",
+      "weightKg": null,
+      "dimensionsMm": {
+        "width": null,
+        "height": null,
+        "depth": null
+      },
+      "vesa": null,
+      "portrait": "unknown",
+      "mountNotes": "安裝方向、孔位周邊與接頭空間待手冊核對。",
+      "comfort": [
+        {
+          "topic": "文字／舒適度",
+          "value": "尚未取得精確型號獨立實測；最低可調亮度、持續亮度及閃爍波形未確認。",
+          "kind": "unknown",
+          "sourceIds": []
+        }
+      ],
+      "cautions": [
+        "排除：QHD，低於4K；未查得的面板／安裝／供貨資料維持未知。"
+      ],
+      "offers": []
+    },
+    {
       "id": "samsung-s32dg702ec-g70d-",
       "brand": "Samsung",
       "model": "S32DG702EC (G70D)",
@@ -9755,6 +12826,88 @@
       "offers": []
     },
     {
+      "id": "samsung-s32dm702uc-m70d-",
+      "brand": "Samsung",
+      "model": "S32DM702UC (M70D)",
+      "sizeInches": 32,
+      "flat": true,
+      "resolution": [
+        3840,
+        2160
+      ],
+      "refreshHz": 60,
+      "panel": "VA",
+      "screenType": "LCD",
+      "specSourceIds": [
+        "samsung-s32dm702uc-spec"
+      ],
+      "ports": "HDMI 2.0 ×2、USB-C 65W、USB Hub 2.0",
+      "weightKg": 5.4,
+      "dimensionsMm": {
+        "width": 716.1,
+        "height": 424.5,
+        "depth": 41.8
+      },
+      "vesa": "100×100 mm",
+      "portrait": "unknown",
+      "mountNotes": "原廠裸機重量與VESA孔距已讀；外接支臂直立運作、轉接板及接頭淨空待手冊核對。",
+      "comfort": [
+        {
+          "topic": "亮度／閃爍",
+          "value": "原廠列典型亮度300nit、低藍光模式與零閃屏。這是功能宣稱；最低可調亮度、波形與持續亮度獨立實測未取得。",
+          "kind": "manufacturer",
+          "sourceIds": [
+            "samsung-s32dm702uc-spec"
+          ]
+        }
+      ],
+      "cautions": [
+        "歷年型號仍在官方32吋目錄；尚未取得台灣全新可下單供貨證據，保留待確認。"
+      ],
+      "offers": []
+    },
+    {
+      "id": "samsung-s32dm703uc-m70d-",
+      "brand": "Samsung",
+      "model": "S32DM703UC (M70D)",
+      "sizeInches": 32,
+      "flat": true,
+      "resolution": [
+        3840,
+        2160
+      ],
+      "refreshHz": 60,
+      "panel": "VA",
+      "screenType": "LCD",
+      "specSourceIds": [
+        "samsung-s32dm703uc-spec"
+      ],
+      "ports": "HDMI 2.0 ×2、USB-C 65W、USB Hub 2.0",
+      "weightKg": 5.7,
+      "dimensionsMm": {
+        "width": 716.1,
+        "height": 424.5,
+        "depth": 41.8
+      },
+      "vesa": "100×100 mm",
+      "portrait": "unknown",
+      "mountNotes": "原廠裸機重量與VESA孔距已讀；外接支臂直立運作、轉接板及接頭淨空待手冊核對。",
+      "comfort": [
+        {
+          "topic": "亮度／閃爍",
+          "value": "原廠列典型亮度300nit、低藍光模式與零閃屏。這是功能宣稱；最低可調亮度、波形與持續亮度獨立實測未取得。",
+          "kind": "manufacturer",
+          "sourceIds": [
+            "samsung-s32dm703uc-spec"
+          ]
+        }
+      ],
+      "cautions": [
+        "歷年型號仍在官方32吋目錄；尚未取得台灣全新可下單供貨證據，保留待確認。"
+      ],
+      "offers": []
+    },
+    {
       "id": "samsung-s32dm803uc-m80d-",
       "brand": "Samsung",
       "model": "S32DM803UC (M80D)",
@@ -9790,6 +12943,45 @@
       ],
       "cautions": [
         "2024舊型號；台灣原廠已核4K60Hz/裸機4.2kg，當前台灣全新庫存待確認。"
+      ],
+      "offers": []
+    },
+    {
+      "id": "samsung-s32fg502ec-g50f-",
+      "brand": "Samsung",
+      "model": "S32FG502EC (G50F)",
+      "sizeInches": 32,
+      "flat": true,
+      "resolution": [
+        2560,
+        1440
+      ],
+      "refreshHz": 180,
+      "panel": null,
+      "screenType": "LCD",
+      "specSourceIds": [
+        "samsung-s32fg502ec-catalog"
+      ],
+      "ports": "尚未確認",
+      "weightKg": null,
+      "dimensionsMm": {
+        "width": null,
+        "height": null,
+        "depth": null
+      },
+      "vesa": null,
+      "portrait": "unknown",
+      "mountNotes": "安裝方向、孔位周邊與接頭空間待手冊核對。",
+      "comfort": [
+        {
+          "topic": "文字／舒適度",
+          "value": "尚未取得精確型號獨立實測；最低可調亮度、持續亮度及閃爍波形未確認。",
+          "kind": "unknown",
+          "sourceIds": []
+        }
+      ],
+      "cautions": [
+        "排除：QHD，低於4K；未查得的面板／安裝／供貨資料維持未知。"
       ],
       "offers": []
     },
@@ -9843,6 +13035,84 @@
           "checkedAt": "2026-10-27"
         }
       ]
+    },
+    {
+      "id": "samsung-s32fm500ec-m50f-",
+      "brand": "Samsung",
+      "model": "S32FM500EC (M50F)",
+      "sizeInches": 32,
+      "flat": true,
+      "resolution": [
+        1920,
+        1080
+      ],
+      "refreshHz": 60,
+      "panel": null,
+      "screenType": "LCD",
+      "specSourceIds": [
+        "samsung-s32fm500ec-catalog"
+      ],
+      "ports": "尚未確認",
+      "weightKg": null,
+      "dimensionsMm": {
+        "width": null,
+        "height": null,
+        "depth": null
+      },
+      "vesa": null,
+      "portrait": "unknown",
+      "mountNotes": "安裝方向、孔位周邊與接頭空間待手冊核對。",
+      "comfort": [
+        {
+          "topic": "文字／舒適度",
+          "value": "尚未取得精確型號獨立實測；最低可調亮度、持續亮度及閃爍波形未確認。",
+          "kind": "unknown",
+          "sourceIds": []
+        }
+      ],
+      "cautions": [
+        "排除：精確原廠規格FHD，低於4K；未查得的面板／安裝／供貨資料維持未知。"
+      ],
+      "offers": []
+    },
+    {
+      "id": "samsung-s32fm501ec-m50f-",
+      "brand": "Samsung",
+      "model": "S32FM501EC (M50F)",
+      "sizeInches": 32,
+      "flat": null,
+      "resolution": [
+        1920,
+        1080
+      ],
+      "refreshHz": null,
+      "panel": null,
+      "screenType": "LCD",
+      "specSourceIds": [
+        "samsung-s32fm501ec-catalog"
+      ],
+      "ports": "尚未確認",
+      "weightKg": null,
+      "dimensionsMm": {
+        "width": null,
+        "height": null,
+        "depth": null
+      },
+      "vesa": null,
+      "portrait": "unknown",
+      "mountNotes": "安裝方向、孔位周邊與接頭空間待手冊核對。",
+      "comfort": [
+        {
+          "topic": "文字／舒適度",
+          "value": "尚未取得精確型號獨立實測；最低可調亮度、持續亮度及閃爍波形未確認。",
+          "kind": "unknown",
+          "sourceIds": []
+        }
+      ],
+      "cautions": [
+        "排除：官方目錄FHD，低於4K；未查得的面板／安裝／供貨資料維持未知。"
+      ],
+      "offers": []
     },
     {
       "id": "samsung-s32fm702uc-m70f-",
@@ -10391,32 +13661,41 @@
         3840,
         2160
       ],
-      "refreshHz": null,
-      "panel": null,
+      "refreshHz": 60,
+      "panel": "VA",
       "screenType": "LCD",
       "specSourceIds": [
-        "samsung-s32h802uac-s80uh--spec"
+        "samsung-s32h802uac-s80uh--spec",
+        "samsung-tw-2026-launch-spec"
       ],
-      "ports": "介面細節未確認",
-      "weightKg": null,
+      "ports": "DisplayPort 1.2 ×1、HDMI 2.0 ×1、USB-C 90W、USB-B上行、USB-A下行×3、USB-C下行、RJ-45、耳機；KVM",
+      "weightKg": 4.7,
       "dimensionsMm": {
-        "width": null,
-        "height": null,
-        "depth": null
+        "width": 716.7,
+        "height": 423.2,
+        "depth": 46.0
       },
-      "vesa": null,
+      "vesa": "100×100 mm",
       "portrait": "unknown",
-      "mountNotes": "直立操作與支臂孔位周邊空間待手冊核對。",
+      "mountNotes": "精確台灣SKU原廠底座垂直旋轉±92°、裸機4.7kg與VESA100×100已核對；外接Arco直立運作、轉接板及線材淨空仍待手冊確認。",
       "comfort": [
         {
           "topic": "文字清晰度／最低亮度",
           "value": "尚未取得精確型號獨立實測；規格的亮度Min.值不等於最低可調亮度。",
           "kind": "unknown",
           "sourceIds": []
+        },
+        {
+          "topic": "原廠護眼功能",
+          "value": "精確台灣型號原廠列350nit典型亮度、低藍光模式、零閃屏與TCO Certified；這些宣稱不等於獨立波形或最低亮度實測。",
+          "kind": "manufacturer",
+          "sourceIds": [
+            "samsung-s32h802uac-s80uh--spec"
+          ]
         }
       ],
       "cautions": [
-        "台灣原廠支援頁確認32吋4K平面型號存在；更新率、面板、安裝規格待完整規格表，不以舊S80UD規格代填。"
+        "精確台灣型號完整規格已讀；規格亮度Min.280nit是額定值容差，不是最低可調亮度。"
       ],
       "offers": [
         {
@@ -10472,6 +13751,45 @@
       ]
     },
     {
+      "id": "samsung-s32hg552ec-g55h-",
+      "brand": "Samsung",
+      "model": "S32HG552EC (G55H)",
+      "sizeInches": 32,
+      "flat": false,
+      "resolution": [
+        2560,
+        1440
+      ],
+      "refreshHz": 180,
+      "panel": null,
+      "screenType": "LCD",
+      "specSourceIds": [
+        "samsung-s32hg552ec-catalog"
+      ],
+      "ports": "尚未確認",
+      "weightKg": null,
+      "dimensionsMm": {
+        "width": null,
+        "height": null,
+        "depth": null
+      },
+      "vesa": null,
+      "portrait": "unknown",
+      "mountNotes": "安裝方向、孔位周邊與接頭空間待手冊核對。",
+      "comfort": [
+        {
+          "topic": "文字／舒適度",
+          "value": "尚未取得精確型號獨立實測；最低可調亮度、持續亮度及閃爍波形未確認。",
+          "kind": "unknown",
+          "sourceIds": []
+        }
+      ],
+      "cautions": [
+        "排除：QHD曲面；未查得的面板／安裝／供貨資料維持未知。"
+      ],
+      "offers": []
+    },
+    {
       "id": "samsung-s32hg732sc-g73sh-",
       "brand": "Samsung",
       "model": "S32HG732SC (G73SH)",
@@ -10485,7 +13803,8 @@
       "panel": "WOLED",
       "screenType": "OLED",
       "specSourceIds": [
-        "samsung-s32hg732sc-g73sh--spec"
+        "samsung-s32hg732sc-g73sh--spec",
+        "samsung-tw-2026-launch-spec"
       ],
       "ports": "DisplayPort 1.4 ×1、HDMI 2.1 ×1",
       "weightKg": 3.3,
@@ -10506,7 +13825,7 @@
         },
         {
           "topic": "文字與反光實測",
-          "value": "RTINGS：鏡面使文字清晰，適合中等亮度室內；強光下鏡面反射明顯且亮度不足以壓過強眩光。",
+          "value": "海外受測樣機（原文 G73SH／S32HG732S）；台灣S32HG732SC後綴／韌體未交叉驗證，作參考。RTINGS：鏡面使文字清晰，適合中等亮度室內；強光下鏡面反射明顯且亮度不足以壓過強眩光。",
           "kind": "measured",
           "sourceIds": [
             "samsung-g73sh-rtings"
@@ -10514,7 +13833,7 @@
         },
         {
           "topic": "閃爍與影片實測",
-          "value": "RTINGS測得變動更新率的閃爍較少；OLED黑位佳，亮部彩色的鮮明度有限。這不等於所有模式無閃爍。",
+          "value": "海外受測樣機（原文 G73SH／S32HG732S）；台灣S32HG732SC後綴／韌體未交叉驗證，作參考。RTINGS測得變動更新率的閃爍較少；OLED黑位佳，亮部彩色的鮮明度有限。這不等於所有模式無閃爍。",
           "kind": "measured",
           "sourceIds": [
             "samsung-g73sh-rtings"
@@ -10566,7 +13885,8 @@
       "panel": "QD-OLED",
       "screenType": "OLED",
       "specSourceIds": [
-        "samsung-s32hg802sc-g80sh--spec"
+        "samsung-s32hg802sc-g80sh--spec",
+        "samsung-tw-2026-launch-spec"
       ],
       "ports": "DP 2.1 UHBR20 ×1、HDMI 2.1 ×2、USB-C 98W、USB-A下行×2",
       "weightKg": 5.3,
@@ -10589,7 +13909,7 @@
         },
         {
           "topic": "文字與反光實測",
-          "value": "RTINGS：文字清楚但可見子像素造成的字緣彩邊；反射處理出色，明亮室內黑位可能帶紫。",
+          "value": "海外受測樣機（原文 G80SH／S32HG802S）；台灣S32HG802SC後綴／韌體未交叉驗證，作參考。RTINGS：文字清楚但可見子像素造成的字緣彩邊；反射處理出色，明亮室內黑位可能帶紫。",
           "kind": "measured",
           "sourceIds": [
             "samsung-g80sh-rtings"
@@ -10597,7 +13917,7 @@
         },
         {
           "topic": "閃爍實測",
-          "value": "RTINGS在畫面速率變動的暗部遊戲發現明顯VRR閃爍；原廠零閃屏不能推論所有VRR情境無閃爍。",
+          "value": "海外受測樣機（原文 G80SH／S32HG802S）；台灣S32HG802SC後綴／韌體未交叉驗證，作參考。RTINGS在畫面速率變動的暗部遊戲發現明顯VRR閃爍；原廠零閃屏不能推論所有VRR情境無閃爍。",
           "kind": "measured",
           "sourceIds": [
             "samsung-g80sh-rtings"
@@ -10605,7 +13925,7 @@
         },
         {
           "topic": "靜態工作取捨",
-          "value": "RTINGS提醒長時間固定桌面內容有烙印風險；深黑與HDR影片表現佳。",
+          "value": "海外受測樣機（原文 G80SH／S32HG802S）；台灣S32HG802SC後綴／韌體未交叉驗證，作參考。RTINGS提醒長時間固定桌面內容有烙印風險；深黑與HDR影片表現佳。",
           "kind": "measured",
           "sourceIds": [
             "samsung-g80sh-rtings"
@@ -10760,7 +14080,8 @@
       "panel": "Fast IPS",
       "screenType": "LCD",
       "specSourceIds": [
-        "samsung-s32hg806es-g80hs--spec"
+        "samsung-s32hg806es-g80hs--spec",
+        "samsung-tw-2026-launch-spec"
       ],
       "ports": "DisplayPort 2.1 ×1、HDMI 2.1 ×2、USB-B上行、USB-A下行×2；無USB-C影像輸入",
       "weightKg": 4.9,
@@ -10781,7 +14102,7 @@
         },
         {
           "topic": "文字與反光實測",
-          "value": "RTINGS：6K文字銳利；一般室內可應付部分眩光，陽光強時反射仍明顯。",
+          "value": "海外受測樣機（原文 G80HS／S32HG80）；台灣S32HG806ES後綴／韌體未交叉驗證，作參考。RTINGS：6K文字銳利；一般室內可應付部分眩光，陽光強時反射仍明顯。",
           "kind": "measured",
           "sourceIds": [
             "samsung-g80hs-rtings"
@@ -10789,7 +14110,7 @@
         },
         {
           "topic": "影片黑位實測",
-          "value": "RTINGS：低對比與IPS glow可見；局部調光有光暈，HDR明暗效果受限。",
+          "value": "海外受測樣機（原文 G80HS／S32HG80）；台灣S32HG806ES後綴／韌體未交叉驗證，作參考。RTINGS：低對比與IPS glow可見；局部調光有光暈，HDR明暗效果受限。",
           "kind": "measured",
           "sourceIds": [
             "samsung-g80hs-rtings"
@@ -10813,6 +14134,84 @@
           "checkedAt": "2026-10-27"
         }
       ]
+    },
+    {
+      "id": "samsung-u32r590cwc-ur590-",
+      "brand": "Samsung",
+      "model": "U32R590CWC (UR590)",
+      "sizeInches": 32,
+      "flat": false,
+      "resolution": [
+        3840,
+        2160
+      ],
+      "refreshHz": null,
+      "panel": null,
+      "screenType": "LCD",
+      "specSourceIds": [
+        "samsung-u32r590cwc-catalog"
+      ],
+      "ports": "尚未確認",
+      "weightKg": null,
+      "dimensionsMm": {
+        "width": null,
+        "height": null,
+        "depth": null
+      },
+      "vesa": null,
+      "portrait": "unknown",
+      "mountNotes": "安裝方向、孔位周邊與接頭空間待手冊核對。",
+      "comfort": [
+        {
+          "topic": "文字／舒適度",
+          "value": "尚未取得精確型號獨立實測；最低可調亮度、持續亮度及閃爍波形未確認。",
+          "kind": "unknown",
+          "sourceIds": []
+        }
+      ],
+      "cautions": [
+        "排除：4K曲面，不符平面；未查得的面板／安裝／供貨資料維持未知。"
+      ],
+      "offers": []
+    },
+    {
+      "id": "samsung-u32r591cwc-ur591c-",
+      "brand": "Samsung",
+      "model": "U32R591CWC (UR591C)",
+      "sizeInches": 32,
+      "flat": false,
+      "resolution": [
+        3840,
+        2160
+      ],
+      "refreshHz": null,
+      "panel": null,
+      "screenType": "LCD",
+      "specSourceIds": [
+        "samsung-u32r591cwc-catalog"
+      ],
+      "ports": "尚未確認",
+      "weightKg": null,
+      "dimensionsMm": {
+        "width": null,
+        "height": null,
+        "depth": null
+      },
+      "vesa": null,
+      "portrait": "unknown",
+      "mountNotes": "安裝方向、孔位周邊與接頭空間待手冊核對。",
+      "comfort": [
+        {
+          "topic": "文字／舒適度",
+          "value": "尚未取得精確型號獨立實測；最低可調亮度、持續亮度及閃爍波形未確認。",
+          "kind": "unknown",
+          "sourceIds": []
+        }
+      ],
+      "cautions": [
+        "排除：4K曲面，不符平面；未查得的面板／安裝／供貨資料維持未知。"
+      ],
+      "offers": []
     },
     {
       "id": "terra-3285w-ha",
@@ -11311,6 +14710,614 @@
     }
   ],
   "sources": [
+    {
+      "id": "asus-catalog-31-complete",
+      "title": "ASUS 台灣31–34.9吋原廠完整目錄",
+      "url": "https://www.asus.com/tw/displays-desktops/monitors/all-series/filter?Category=31-34-9",
+      "kind": "manufacturer",
+      "checkedAt": "2026-10-27",
+      "notes": "Chrome完整讀取41/41張產品卡，另4K篩選22/22。此為型號與目錄欄位證據；不能證明賣場有貨。"
+    },
+    {
+      "id": "asus-ms32uc-spec",
+      "title": "ASUS MS32UC 台灣精確規格",
+      "url": "https://www.asus.com/tw/displays-desktops/monitors/zenscreen/zenscreen-smart-monitor-ms32uc/techspec/",
+      "kind": "manufacturer",
+      "checkedAt": "2026-10-27",
+      "notes": "完整規格已讀：31.5吋4K60 IPS、裸6.92kg、VESA100、714×449×50mm。平面／直立操作明文未確認。"
+    },
+    {
+      "id": "asus-ms32uc-shop",
+      "title": "ASUS MS32UC 官方賣場",
+      "url": "https://shop.asus.com/tw/90lm0ayh-b01od1-zenscreen-smart-monitor-ms32uc.html",
+      "kind": "retailer",
+      "checkedAt": "2026-10-27",
+      "notes": "完整頁列三年保固、加入購物車與2–3工作日配送；原廠型錄對同款卻為到貨通知，故供貨保留未確認。"
+    },
+    {
+      "id": "gigabyte-catalog-page-2",
+      "title": "GIGABYTE 台灣螢幕目錄第2頁",
+      "url": "https://www.gigabyte.com/tw/Monitor?page=2",
+      "kind": "manufacturer",
+      "checkedAt": "2026-10-27",
+      "notes": "Chrome逐頁讀取；卡片明列尺寸、Flat/Curve、原生像素、面板與Hz，未以立即購買按鈕證明供貨。"
+    },
+    {
+      "id": "gigabyte-fo32u24g-spec",
+      "title": "GIGABYTE AORUS ELITE FO32U24G 台灣規格",
+      "url": "https://www.gigabyte.com/tw/Monitor/FO32U24G/sp",
+      "kind": "manufacturer",
+      "checkedAt": "2026-10-27",
+      "notes": "完整規格可讀至支架尺寸：31.5吋WOLED、4K240、DP2.1、USB-C65W、順時針90度；未見裸機重量、外廓與VESA欄位。"
+    },
+    {
+      "id": "gigabyte-catalog-page-4",
+      "title": "GIGABYTE 台灣螢幕目錄第4頁",
+      "url": "https://www.gigabyte.com/tw/Monitor?page=4",
+      "kind": "manufacturer",
+      "checkedAt": "2026-10-27",
+      "notes": "Chrome逐頁讀取；卡片明列尺寸、Flat/Curve、原生像素、面板與Hz，未以立即購買按鈕證明供貨。"
+    },
+    {
+      "id": "gigabyte-catalog-page-5",
+      "title": "GIGABYTE 台灣螢幕目錄第5頁",
+      "url": "https://www.gigabyte.com/tw/Monitor?page=5",
+      "kind": "manufacturer",
+      "checkedAt": "2026-10-27",
+      "notes": "Chrome逐頁讀取；卡片明列尺寸、Flat/Curve、原生像素、面板與Hz，未以立即購買按鈕證明供貨。"
+    },
+    {
+      "id": "gigabyte-catalog-page-6",
+      "title": "GIGABYTE 台灣螢幕目錄第6頁",
+      "url": "https://www.gigabyte.com/tw/Monitor?page=6",
+      "kind": "manufacturer",
+      "checkedAt": "2026-10-27",
+      "notes": "Chrome逐頁讀取；卡片明列尺寸、Flat/Curve、原生像素、面板與Hz，未以立即購買按鈕證明供貨。"
+    },
+    {
+      "id": "gigabyte-catalog-page-7",
+      "title": "GIGABYTE 台灣螢幕目錄第7頁",
+      "url": "https://www.gigabyte.com/tw/Monitor?page=7",
+      "kind": "manufacturer",
+      "checkedAt": "2026-10-27",
+      "notes": "Chrome逐頁讀取；卡片明列尺寸、Flat/Curve、原生像素、面板與Hz，未以立即購買按鈕證明供貨。"
+    },
+    {
+      "id": "gigabyte-catalog-page-8",
+      "title": "GIGABYTE 台灣螢幕目錄第8頁",
+      "url": "https://www.gigabyte.com/tw/Monitor?page=8",
+      "kind": "manufacturer",
+      "checkedAt": "2026-10-27",
+      "notes": "Chrome逐頁讀取；卡片明列尺寸、Flat/Curve、原生像素、面板與Hz，未以立即購買按鈕證明供貨。"
+    },
+    {
+      "id": "gigabyte-m32u-ae-spec",
+      "title": "GIGABYTE M32U Arm Edition 台灣規格",
+      "url": "https://www.gigabyte.com/tw/Monitor/M32U-AE/sp",
+      "kind": "manufacturer",
+      "checkedAt": "2026-10-27",
+      "notes": "完整規格已讀；與一般M32U分列附支臂版本，未搬用一般M32U裸機重量。"
+    },
+    {
+      "id": "philips-catalog-page-1",
+      "title": "Philips 台灣完整目錄第1頁",
+      "url": "https://www.philips.com.tw/c-m-so/monitors/latest",
+      "kind": "manufacturer",
+      "checkedAt": "2026-10-27",
+      "notes": "Chrome完整逐頁讀取：全目錄18頁205筆。採精確SKU卡片顯示的尺寸與像素；未顯示的曲率或Hz保留未知。"
+    },
+    {
+      "id": "philips-catalog-page-2",
+      "title": "Philips 台灣完整目錄第2頁",
+      "url": "https://www.philips.com.tw/c-m-so/monitors/latest?page=2",
+      "kind": "manufacturer",
+      "checkedAt": "2026-10-27",
+      "notes": "Chrome完整逐頁讀取：全目錄18頁205筆。採精確SKU卡片顯示的尺寸與像素；未顯示的曲率或Hz保留未知。"
+    },
+    {
+      "id": "philips-328b1-96-spec",
+      "title": "Philips 328B1/96 台灣精確規格",
+      "url": "https://www.philips.com.tw/c-p/328B1_96/lcd-monitor-with-powersensor",
+      "kind": "manufacturer",
+      "checkedAt": "2026-10-27",
+      "notes": "完整技術規格已讀：4K60 VA、裸7.54kg、714×422×62mm、腳座旋轉±90度。VESA與平面屬性未據缺少曲率字樣自動推定。"
+    },
+    {
+      "id": "philips-catalog-page-3",
+      "title": "Philips 台灣完整目錄第3頁",
+      "url": "https://www.philips.com.tw/c-m-so/monitors/latest?page=3",
+      "kind": "manufacturer",
+      "checkedAt": "2026-10-27",
+      "notes": "Chrome完整逐頁讀取：全目錄18頁205筆。採精確SKU卡片顯示的尺寸與像素；未顯示的曲率或Hz保留未知。"
+    },
+    {
+      "id": "philips-catalog-page-4",
+      "title": "Philips 台灣完整目錄第4頁",
+      "url": "https://www.philips.com.tw/c-m-so/monitors/latest?page=4",
+      "kind": "manufacturer",
+      "checkedAt": "2026-10-27",
+      "notes": "Chrome完整逐頁讀取：全目錄18頁205筆。採精確SKU卡片顯示的尺寸與像素；未顯示的曲率或Hz保留未知。"
+    },
+    {
+      "id": "philips-catalog-page-5",
+      "title": "Philips 台灣完整目錄第5頁",
+      "url": "https://www.philips.com.tw/c-m-so/monitors/latest?page=5",
+      "kind": "manufacturer",
+      "checkedAt": "2026-10-27",
+      "notes": "Chrome完整逐頁讀取：全目錄18頁205筆。採精確SKU卡片顯示的尺寸與像素；未顯示的曲率或Hz保留未知。"
+    },
+    {
+      "id": "philips-32m2n5800-96-spec",
+      "title": "Philips 32M2N5800/96 台灣原廠產品頁",
+      "url": "https://www.philips.com.tw/c-p/32M2N5800_96/fast-ips-gaming-monitor-dual-mode-gaming-monitor",
+      "kind": "manufacturer",
+      "checkedAt": "2026-10-27",
+      "notes": "完整原廠正文確認UHD160/FHD320雙模；未把FHD320寫成4K更新率。"
+    },
+    {
+      "id": "philips-32m2n5800-96-pdf",
+      "title": "Philips 32M2N5800/96 官方規格PDF",
+      "url": "https://www.documents.philips.com/assets/20251010/7eb84c29de434c6a9baeb37200cf9132.pdf",
+      "kind": "manufacturer",
+      "checkedAt": "2026-10-27",
+      "notes": "原廠索引明列HDMI/DP UHD160/FHD320與位深限制；未取得PDF逐頁全文，未補造重量孔距。"
+    },
+    {
+      "id": "philips-catalog-page-6",
+      "title": "Philips 台灣完整目錄第6頁",
+      "url": "https://www.philips.com.tw/c-m-so/monitors/latest?page=6",
+      "kind": "manufacturer",
+      "checkedAt": "2026-10-27",
+      "notes": "Chrome完整逐頁讀取：全目錄18頁205筆。採精確SKU卡片顯示的尺寸與像素；未顯示的曲率或Hz保留未知。"
+    },
+    {
+      "id": "philips-catalog-page-7",
+      "title": "Philips 台灣完整目錄第7頁",
+      "url": "https://www.philips.com.tw/c-m-so/monitors/latest?page=7",
+      "kind": "manufacturer",
+      "checkedAt": "2026-10-27",
+      "notes": "Chrome完整逐頁讀取：全目錄18頁205筆。採精確SKU卡片顯示的尺寸與像素；未顯示的曲率或Hz保留未知。"
+    },
+    {
+      "id": "philips-catalog-page-8",
+      "title": "Philips 台灣完整目錄第8頁",
+      "url": "https://www.philips.com.tw/c-m-so/monitors/latest?page=8",
+      "kind": "manufacturer",
+      "checkedAt": "2026-10-27",
+      "notes": "Chrome完整逐頁讀取：全目錄18頁205筆。採精確SKU卡片顯示的尺寸與像素；未顯示的曲率或Hz保留未知。"
+    },
+    {
+      "id": "philips-catalog-page-11",
+      "title": "Philips 台灣完整目錄第11頁",
+      "url": "https://www.philips.com.tw/c-m-so/monitors/latest?page=11",
+      "kind": "manufacturer",
+      "checkedAt": "2026-10-27",
+      "notes": "Chrome完整逐頁讀取：全目錄18頁205筆。採精確SKU卡片顯示的尺寸與像素；未顯示的曲率或Hz保留未知。"
+    },
+    {
+      "id": "philips-catalog-page-13",
+      "title": "Philips 台灣完整目錄第13頁",
+      "url": "https://www.philips.com.tw/c-m-so/monitors/latest?page=13",
+      "kind": "manufacturer",
+      "checkedAt": "2026-10-27",
+      "notes": "Chrome完整逐頁讀取：全目錄18頁205筆。採精確SKU卡片顯示的尺寸與像素；未顯示的曲率或Hz保留未知。"
+    },
+    {
+      "id": "philips-catalog-page-14",
+      "title": "Philips 台灣完整目錄第14頁",
+      "url": "https://www.philips.com.tw/c-m-so/monitors/latest?page=14",
+      "kind": "manufacturer",
+      "checkedAt": "2026-10-27",
+      "notes": "Chrome完整逐頁讀取：全目錄18頁205筆。採精確SKU卡片顯示的尺寸與像素；未顯示的曲率或Hz保留未知。"
+    },
+    {
+      "id": "philips-catalog-page-15",
+      "title": "Philips 台灣完整目錄第15頁",
+      "url": "https://www.philips.com.tw/c-m-so/monitors/latest?page=15",
+      "kind": "manufacturer",
+      "checkedAt": "2026-10-27",
+      "notes": "Chrome完整逐頁讀取：全目錄18頁205筆。採精確SKU卡片顯示的尺寸與像素；未顯示的曲率或Hz保留未知。"
+    },
+    {
+      "id": "philips-catalog-page-16",
+      "title": "Philips 台灣完整目錄第16頁",
+      "url": "https://www.philips.com.tw/c-m-so/monitors/latest?page=16",
+      "kind": "manufacturer",
+      "checkedAt": "2026-10-27",
+      "notes": "Chrome完整逐頁讀取：全目錄18頁205筆。採精確SKU卡片顯示的尺寸與像素；未顯示的曲率或Hz保留未知。"
+    },
+    {
+      "id": "philips-catalog-page-18",
+      "title": "Philips 台灣完整目錄第18頁",
+      "url": "https://www.philips.com.tw/c-m-so/monitors/latest?page=18",
+      "kind": "manufacturer",
+      "checkedAt": "2026-10-27",
+      "notes": "Chrome完整逐頁讀取：全目錄18頁205筆。採精確SKU卡片顯示的尺寸與像素；未顯示的曲率或Hz保留未知。"
+    },
+    {
+      "id": "asus-ha3281a-catalog-detail-link",
+      "title": "ASUS HA3281A 原廠精確型號入口（目錄提供）",
+      "url": "https://www.asus.com/tw/displays-desktops/monitors/healthcare/ha3281a/",
+      "kind": "manufacturer",
+      "checkedAt": "2026-10-27",
+      "notes": "由本次完整原廠目錄的可見精確SKU連結取得；基本欄位依另列的目錄卡片核對，完整詳細頁與非列示規格尚未完成讀取，不據此補造未知欄位。"
+    },
+    {
+      "id": "asus-va329qg3-catalog-detail-link",
+      "title": "ASUS VA329QG3 原廠精確型號入口（目錄提供）",
+      "url": "https://www.asus.com/tw/displays-desktops/monitors/eye-care/va329qg3/",
+      "kind": "manufacturer",
+      "checkedAt": "2026-10-27",
+      "notes": "由本次完整原廠目錄的可見精確SKU連結取得；基本欄位依另列的目錄卡片核對，完整詳細頁與非列示規格尚未完成讀取，不據此補造未知欄位。"
+    },
+    {
+      "id": "asus-xg32wcs-catalog-detail-link",
+      "title": "ASUS XG32WCS 原廠精確型號入口（目錄提供）",
+      "url": "https://rog.asus.com/tw/monitors/27-to-31-5-inches/rog-strix-xg32wcs/",
+      "kind": "manufacturer",
+      "checkedAt": "2026-10-27",
+      "notes": "由本次完整原廠目錄的可見精確SKU連結取得；基本欄位依另列的目錄卡片核對，完整詳細頁與非列示規格尚未完成讀取，不據此補造未知欄位。"
+    },
+    {
+      "id": "asus-pa328qv-catalog-detail-link",
+      "title": "ASUS PA328QV 原廠精確型號入口（目錄提供）",
+      "url": "https://www.asus.com/tw/displays-desktops/monitors/proart/proart-display-pa328qv/",
+      "kind": "manufacturer",
+      "checkedAt": "2026-10-27",
+      "notes": "由本次完整原廠目錄的可見精確SKU連結取得；基本欄位依另列的目錄卡片核對，完整詳細頁與非列示規格尚未完成讀取，不據此補造未知欄位。"
+    },
+    {
+      "id": "asus-va329he-catalog-detail-link",
+      "title": "ASUS VA329HE 原廠精確型號入口（目錄提供）",
+      "url": "https://www.asus.com/tw/displays-desktops/monitors/eye-care/va329he/",
+      "kind": "manufacturer",
+      "checkedAt": "2026-10-27",
+      "notes": "由本次完整原廠目錄的可見精確SKU連結取得；基本欄位依另列的目錄卡片核對，完整詳細頁與非列示規格尚未完成讀取，不據此補造未知欄位。"
+    },
+    {
+      "id": "gigabyte-gs32qca-catalog-detail-link",
+      "title": "GIGABYTE GS32QCA 原廠精確型號入口（目錄提供）",
+      "url": "https://www.gigabyte.com/tw/Monitor/GS32QCA",
+      "kind": "manufacturer",
+      "checkedAt": "2026-10-27",
+      "notes": "由本次完整原廠目錄的可見精確SKU連結取得；基本欄位依另列的目錄卡片核對，完整詳細頁與非列示規格尚未完成讀取，不據此補造未知欄位。"
+    },
+    {
+      "id": "gigabyte-gs32q-catalog-detail-link",
+      "title": "GIGABYTE GS32Q 原廠精確型號入口（目錄提供）",
+      "url": "https://www.gigabyte.com/tw/Monitor/GS32Q",
+      "kind": "manufacturer",
+      "checkedAt": "2026-10-27",
+      "notes": "由本次完整原廠目錄的可見精確SKU連結取得；基本欄位依另列的目錄卡片核對，完整詳細頁與非列示規格尚未完成讀取，不據此補造未知欄位。"
+    },
+    {
+      "id": "gigabyte-gs32qc-catalog-detail-link",
+      "title": "GIGABYTE GS32QC 原廠精確型號入口（目錄提供）",
+      "url": "https://www.gigabyte.com/tw/Monitor/GS32QC",
+      "kind": "manufacturer",
+      "checkedAt": "2026-10-27",
+      "notes": "由本次完整原廠目錄的可見精確SKU連結取得；基本欄位依另列的目錄卡片核對，完整詳細頁與非列示規格尚未完成讀取，不據此補造未知欄位。"
+    },
+    {
+      "id": "gigabyte-gs32qa-catalog-detail-link",
+      "title": "GIGABYTE GS32QA 原廠精確型號入口（目錄提供）",
+      "url": "https://www.gigabyte.com/tw/Monitor/GS32QA",
+      "kind": "manufacturer",
+      "checkedAt": "2026-10-27",
+      "notes": "由本次完整原廠目錄的可見精確SKU連結取得；基本欄位依另列的目錄卡片核對，完整詳細頁與非列示規格尚未完成讀取，不據此補造未知欄位。"
+    },
+    {
+      "id": "gigabyte-aorus-fi32q-x-catalog-detail-link",
+      "title": "GIGABYTE AORUS FI32Q X 原廠精確型號入口（目錄提供）",
+      "url": "https://www.gigabyte.com/tw/Monitor/AORUS-FI32Q-X",
+      "kind": "manufacturer",
+      "checkedAt": "2026-10-27",
+      "notes": "由本次完整原廠目錄的可見精確SKU連結取得；基本欄位依另列的目錄卡片核對，完整詳細頁與非列示規格尚未完成讀取，不據此補造未知欄位。"
+    },
+    {
+      "id": "gigabyte-aorus-fi32q-catalog-detail-link",
+      "title": "GIGABYTE AORUS FI32Q 原廠精確型號入口（目錄提供）",
+      "url": "https://www.gigabyte.com/tw/Monitor/AORUS-FI32Q",
+      "kind": "manufacturer",
+      "checkedAt": "2026-10-27",
+      "notes": "由本次完整原廠目錄的可見精確SKU連結取得；基本欄位依另列的目錄卡片核對，完整詳細頁與非列示規格尚未完成讀取，不據此補造未知欄位。"
+    },
+    {
+      "id": "gigabyte-g32qc-a-catalog-detail-link",
+      "title": "GIGABYTE G32QC A 原廠精確型號入口（目錄提供）",
+      "url": "https://www.gigabyte.com/tw/Monitor/G32QC-A",
+      "kind": "manufacturer",
+      "checkedAt": "2026-10-27",
+      "notes": "由本次完整原廠目錄的可見精確SKU連結取得；基本欄位依另列的目錄卡片核對，完整詳細頁與非列示規格尚未完成讀取，不據此補造未知欄位。"
+    },
+    {
+      "id": "gigabyte-m32q-catalog-detail-link",
+      "title": "GIGABYTE M32Q 原廠精確型號入口（目錄提供）",
+      "url": "https://www.gigabyte.com/tw/Monitor/M32Q",
+      "kind": "manufacturer",
+      "checkedAt": "2026-10-27",
+      "notes": "由本次完整原廠目錄的可見精確SKU連結取得；基本欄位依另列的目錄卡片核對，完整詳細頁與非列示規格尚未完成讀取，不據此補造未知欄位。"
+    },
+    {
+      "id": "gigabyte-m32qc-catalog-detail-link",
+      "title": "GIGABYTE M32QC 原廠精確型號入口（目錄提供）",
+      "url": "https://www.gigabyte.com/tw/Monitor/M32QC",
+      "kind": "manufacturer",
+      "checkedAt": "2026-10-27",
+      "notes": "由本次完整原廠目錄的可見精確SKU連結取得；基本欄位依另列的目錄卡片核對，完整詳細頁與非列示規格尚未完成讀取，不據此補造未知欄位。"
+    },
+    {
+      "id": "philips-32m2c3200wl-96-catalog-detail-link",
+      "title": "Philips 32M2C3200WL/96 原廠精確型號入口（目錄提供）",
+      "url": "https://www.philips.com.tw/c-p/32M2C3200WL_96/gaming-monitor-full-hd-gaming-monitor",
+      "kind": "manufacturer",
+      "checkedAt": "2026-10-27",
+      "notes": "由本次完整原廠目錄的可見精確SKU連結取得；基本欄位依另列的目錄卡片核對，完整詳細頁與非列示規格尚未完成讀取，不據此補造未知欄位。"
+    },
+    {
+      "id": "philips-325e8-96-catalog-detail-link",
+      "title": "Philips 325E8/96 原廠精確型號入口（目錄提供）",
+      "url": "https://www.philips.com.tw/c-p/325E8_96/qhd-lcd-monitor",
+      "kind": "manufacturer",
+      "checkedAt": "2026-10-27",
+      "notes": "由本次完整原廠目錄的可見精確SKU連結取得；基本欄位依另列的目錄卡片核對，完整詳細頁與非列示規格尚未完成讀取，不據此補造未知欄位。"
+    },
+    {
+      "id": "philips-325m8c-96-catalog-detail-link",
+      "title": "Philips 325M8C/96 原廠精確型號入口（目錄提供）",
+      "url": "https://www.philips.com.tw/c-p/325M8C_96/momentum-curved-qhd-lcd-display",
+      "kind": "manufacturer",
+      "checkedAt": "2026-10-27",
+      "notes": "由本次完整原廠目錄的可見精確SKU連結取得；基本欄位依另列的目錄卡片核對，完整詳細頁與非列示規格尚未完成讀取，不據此補造未知欄位。"
+    },
+    {
+      "id": "philips-322e1c-96-catalog-detail-link",
+      "title": "Philips 322E1C/96 原廠精確型號入口（目錄提供）",
+      "url": "https://www.philips.com.tw/c-p/322E1C_96/full-hd-curved-lcd-display",
+      "kind": "manufacturer",
+      "checkedAt": "2026-10-27",
+      "notes": "由本次完整原廠目錄的可見精確SKU連結取得；基本欄位依另列的目錄卡片核對，完整詳細頁與非列示規格尚未完成讀取，不據此補造未知欄位。"
+    },
+    {
+      "id": "philips-322m8cz-96-catalog-detail-link",
+      "title": "Philips 322M8CZ/96 原廠精確型號入口（目錄提供）",
+      "url": "https://www.philips.com.tw/c-p/322M8CZ_96/gaming-monitor-full-hd-curved-lcd-display",
+      "kind": "manufacturer",
+      "checkedAt": "2026-10-27",
+      "notes": "由本次完整原廠目錄的可見精確SKU連結取得；基本欄位依另列的目錄卡片核對，完整詳細頁與非列示規格尚未完成讀取，不據此補造未知欄位。"
+    },
+    {
+      "id": "philips-328e1ca-96-catalog-detail-link",
+      "title": "Philips 328E1CA/96 原廠精確型號入口（目錄提供）",
+      "url": "https://www.philips.com.tw/c-p/328E1CA_96/curved-lcd-monitor-with-ultra-wide-color",
+      "kind": "manufacturer",
+      "checkedAt": "2026-10-27",
+      "notes": "由本次完整原廠目錄的可見精確SKU連結取得；基本欄位依另列的目錄卡片核對，完整詳細頁與非列示規格尚未完成讀取，不據此補造未知欄位。"
+    },
+    {
+      "id": "philips-325m2crz-96-catalog-detail-link",
+      "title": "Philips 325M2CRZ/96 原廠精確型號入口（目錄提供）",
+      "url": "https://www.philips.com.tw/c-p/325M2CRZ_96/gaming-monitor-curved-qhd-lcd-display",
+      "kind": "manufacturer",
+      "checkedAt": "2026-10-27",
+      "notes": "由本次完整原廠目錄的可見精確SKU連結取得；基本欄位依另列的目錄卡片核對，完整詳細頁與非列示規格尚未完成讀取，不據此補造未知欄位。"
+    },
+    {
+      "id": "philips-32m2n6800md-93-catalog-detail-link",
+      "title": "Philips 32M2N6800MD/93 原廠精確型號入口（目錄提供）",
+      "url": "https://www.philips.com.tw/c-p/32M2N6800MD_93/fast-ips-gaming-monitor-dual-mode-gaming-monitor",
+      "kind": "manufacturer",
+      "checkedAt": "2026-10-27",
+      "notes": "由本次完整原廠目錄的可見精確SKU連結取得；基本欄位依另列的目錄卡片核對，完整詳細頁與非列示規格尚未完成讀取，不據此補造未知欄位。"
+    },
+    {
+      "id": "philips-322m8cp-96-catalog-detail-link",
+      "title": "Philips 322M8CP/96 原廠精確型號入口（目錄提供）",
+      "url": "https://www.philips.com.tw/c-p/322M8CP_96/gaming-monitor-full-hd-curved-lcd-display",
+      "kind": "manufacturer",
+      "checkedAt": "2026-10-27",
+      "notes": "由本次完整原廠目錄的可見精確SKU連結取得；基本欄位依另列的目錄卡片核對，完整詳細頁與非列示規格尚未完成讀取，不據此補造未知欄位。"
+    },
+    {
+      "id": "philips-32e1n1100l-96-catalog-detail-link",
+      "title": "Philips 32E1N1100L/96 原廠精確型號入口（目錄提供）",
+      "url": "https://www.philips.com.tw/c-p/32E1N1100L_96/monitor-full-hd-lcd-monitor",
+      "kind": "manufacturer",
+      "checkedAt": "2026-10-27",
+      "notes": "由本次完整原廠目錄的可見精確SKU連結取得；基本欄位依另列的目錄卡片核對，完整詳細頁與非列示規格尚未完成讀取，不據此補造未知欄位。"
+    },
+    {
+      "id": "philips-32e1n3100la-96-catalog-detail-link",
+      "title": "Philips 32E1N3100LA/96 原廠精確型號入口（目錄提供）",
+      "url": "https://www.philips.com.tw/c-p/32E1N3100LA_96/monitor-full-hd-lcd-monitor",
+      "kind": "manufacturer",
+      "checkedAt": "2026-10-27",
+      "notes": "由本次完整原廠目錄的可見精確SKU連結取得；基本欄位依另列的目錄卡片核對，完整詳細頁與非列示規格尚未完成讀取，不據此補造未知欄位。"
+    },
+    {
+      "id": "philips-32e3n3800l-96-catalog-detail-link",
+      "title": "Philips 32E3N3800L/96 原廠精確型號入口（目錄提供）",
+      "url": "https://www.philips.com.tw/c-p/32E3N3800L_96/monitor-4k-uhd-monitor",
+      "kind": "manufacturer",
+      "checkedAt": "2026-10-27",
+      "notes": "由本次完整原廠目錄的可見精確SKU連結取得；基本欄位依另列的目錄卡片核對，完整詳細頁與非列示規格尚未完成讀取，不據此補造未知欄位。"
+    },
+    {
+      "id": "philips-32e3c2500-96-catalog-detail-link",
+      "title": "Philips 32E3C2500/96 原廠精確型號入口（目錄提供）",
+      "url": "https://www.philips.com.tw/c-p/32E3C2500_96/monitor-quad-hd-monitor",
+      "kind": "manufacturer",
+      "checkedAt": "2026-10-27",
+      "notes": "由本次完整原廠目錄的可見精確SKU連結取得；基本欄位依另列的目錄卡片核對，完整詳細頁與非列示規格尚未完成讀取，不據此補造未知欄位。"
+    },
+    {
+      "id": "philips-32e3c2200-96-catalog-detail-link",
+      "title": "Philips 32E3C2200/96 原廠精確型號入口（目錄提供）",
+      "url": "https://www.philips.com.tw/c-p/32E3C2200_96/monitor-full-hd-lcd-monitor",
+      "kind": "manufacturer",
+      "checkedAt": "2026-10-27",
+      "notes": "由本次完整原廠目錄的可見精確SKU連結取得；基本欄位依另列的目錄卡片核對，完整詳細頁與非列示規格尚未完成讀取，不據此補造未知欄位。"
+    },
+    {
+      "id": "philips-32m3c3540-96-catalog-detail-link",
+      "title": "Philips 32M3C3540/96 原廠精確型號入口（目錄提供）",
+      "url": "https://www.philips.com.tw/c-p/32M3C3540_96/curved-fast-va-gaming-monitor-quad-hd-gaming-monitor",
+      "kind": "manufacturer",
+      "checkedAt": "2026-10-27",
+      "notes": "由本次完整原廠目錄的可見精確SKU連結取得；基本欄位依另列的目錄卡片核對，完整詳細頁與非列示規格尚未完成讀取，不據此補造未知欄位。"
+    },
+    {
+      "id": "philips-32e1n3500-96-catalog-detail-link",
+      "title": "Philips 32E1N3500/96 原廠精確型號入口（目錄提供）",
+      "url": "https://www.philips.com.tw/c-p/32E1N3500_96/monitor-quad-hd-lcd-monitor",
+      "kind": "manufacturer",
+      "checkedAt": "2026-10-27",
+      "notes": "由本次完整原廠目錄的可見精確SKU連結取得；基本欄位依另列的目錄卡片核對，完整詳細頁與非列示規格尚未完成讀取，不據此補造未知欄位。"
+    },
+    {
+      "id": "philips-32m1c5200w-96-catalog-detail-link",
+      "title": "Philips 32M1C5200W/96 原廠精確型號入口（目錄提供）",
+      "url": "https://www.philips.com.tw/c-p/32M1C5200W_96/curved-gaming-monitor-full-hd-gaming-monitor",
+      "kind": "manufacturer",
+      "checkedAt": "2026-10-27",
+      "notes": "由本次完整原廠目錄的可見精確SKU連結取得；基本欄位依另列的目錄卡片核對，完整詳細頁與非列示規格尚未完成讀取，不據此補造未知欄位。"
+    },
+    {
+      "id": "philips-32m2c5500w-96-catalog-detail-link",
+      "title": "Philips 32M2C5500W/96 原廠精確型號入口（目錄提供）",
+      "url": "https://www.philips.com.tw/c-p/32M2C5500W_96/gaming-monitor-quad-hd-gaming-monitor",
+      "kind": "manufacturer",
+      "checkedAt": "2026-10-27",
+      "notes": "由本次完整原廠目錄的可見精確SKU連結取得；基本欄位依另列的目錄卡片核對，完整詳細頁與非列示規格尚未完成讀取，不據此補造未知欄位。"
+    },
+    {
+      "id": "philips-32m1c5500vl-96-catalog-detail-link",
+      "title": "Philips 32M1C5500VL/96 原廠精確型號入口（目錄提供）",
+      "url": "https://www.philips.com.tw/c-p/32M1C5500VL_96/curved-gaming-monitor-quad-hd-gaming-monitor",
+      "kind": "manufacturer",
+      "checkedAt": "2026-10-27",
+      "notes": "由本次完整原廠目錄的可見精確SKU連結取得；基本欄位依另列的目錄卡片核對，完整詳細頁與非列示規格尚未完成讀取，不據此補造未知欄位。"
+    },
+    {
+      "id": "philips-32m3c3540w-96-catalog-detail-link",
+      "title": "Philips 32M3C3540W/96 原廠精確型號入口（目錄提供）",
+      "url": "https://www.philips.com.tw/c-p/32M3C3540W_96/curved-fast-va-gaming-monitor-quad-hd-gaming-monitor",
+      "kind": "manufacturer",
+      "checkedAt": "2026-10-27",
+      "notes": "由本次完整原廠目錄的可見精確SKU連結取得；基本欄位依另列的目錄卡片核對，完整詳細頁與非列示規格尚未完成讀取，不據此補造未知欄位。"
+    },
+    {
+      "id": "philips-32m2n6800ml-93-catalog-detail-link",
+      "title": "Philips 32M2N6800ML/93 原廠精確型號入口（目錄提供）",
+      "url": "https://www.philips.com.tw/c-p/32M2N6800ML_93/fast-va-gaming-monitor-4k-uhd-gaming-monitor",
+      "kind": "manufacturer",
+      "checkedAt": "2026-10-27",
+      "notes": "由本次完整原廠目錄的可見精確SKU連結取得；基本欄位依另列的目錄卡片核對，完整詳細頁與非列示規格尚未完成讀取，不據此補造未知欄位。"
+    },
+    {
+      "id": "philips-32m1n5500vs-96-catalog-detail-link",
+      "title": "Philips 32M1N5500VS/96 原廠精確型號入口（目錄提供）",
+      "url": "https://www.philips.com.tw/c-p/32M1N5500VS_96/gaming-monitor-quad-hd-gaming-monitor",
+      "kind": "manufacturer",
+      "checkedAt": "2026-10-27",
+      "notes": "由本次完整原廠目錄的可見精確SKU連結取得；基本欄位依另列的目錄卡片核對，完整詳細頁與非列示規格尚未完成讀取，不據此補造未知欄位。"
+    },
+    {
+      "id": "philips-32m2c3500l-96-catalog-detail-link",
+      "title": "Philips 32M2C3500L/96 原廠精確型號入口（目錄提供）",
+      "url": "https://www.philips.com.tw/c-p/32M2C3500L_96/curved-fast-va-gaming-monitor-quad-hd-gaming-monitor",
+      "kind": "manufacturer",
+      "checkedAt": "2026-10-27",
+      "notes": "由本次完整原廠目錄的可見精確SKU連結取得；基本欄位依另列的目錄卡片核對，完整詳細頁與非列示規格尚未完成讀取，不據此補造未知欄位。"
+    },
+    {
+      "id": "philips-32m2n8900-01-catalog-detail-link",
+      "title": "Philips 32M2N8900/01 原廠精確型號入口（目錄提供）",
+      "url": "https://www.philips.com.tw/c-p/32M2N8900_01/evnia-curved-gaming-monitor-qd-oled-gaming-monitor",
+      "kind": "manufacturer",
+      "checkedAt": "2026-10-27",
+      "notes": "由本次完整原廠目錄的可見精確SKU連結取得；基本欄位依另列的目錄卡片核對，完整詳細頁與非列示規格尚未完成讀取，不據此補造未知欄位。"
+    },
+    {
+      "id": "asus-ms32uc-qualification-audit",
+      "title": "ASUS MS32UC 台灣完整規格補核",
+      "url": "https://www.asus.com/tw/displays-desktops/monitors/zenscreen/zenscreen-smart-monitor-ms32uc/techspec/",
+      "kind": "manufacturer",
+      "checkedAt": "2026-10-27",
+      "notes": "本輪以web及Chrome重讀精確規格：31.5吋IPS、3840×2160、最高60Hz。完整螢幕表沒有曲率／平面欄；不是讀取失敗，而是原頁未明列，flat保留null。未以缺少曲率字樣或產品照片推定平面。"
+    },
+    {
+      "id": "asus-ha3281a-qualification-audit",
+      "title": "ASUS HA3281A 官方使用手冊原生時序補核",
+      "url": "https://dlcdnets.asus.com.cn/pub/ASUS/LCD%20Monitors/HA3281A/HA3281A_UM-SC.pdf?model=HA3281A",
+      "kind": "manufacturer",
+      "checkedAt": "2026-10-27",
+      "notes": "台灣HA3281A正文可讀31.5吋OLED與3840×2160，但沒有產品規格連結；台灣/techspec/工具無法讀取。另讀ASUS官方同型號手冊：PDF第25頁OSD示例3840×2160@60Hz，第42頁時序表列3840×2160@59.94（60Hz級）；第44頁規格列31.5吋與3840×2160。未找到平面／曲率明文，flat仍null；不把電源50/60Hz當影像更新率。"
+    },
+    {
+      "id": "asus-ha3281a-us-techspec-audit",
+      "title": "ASUS HA3281A 原廠完整技術表（同型號）",
+      "url": "https://www.asus.com/us/displays-desktops/monitors/healthcare/ha3281a/techspec/",
+      "kind": "manufacturer",
+      "checkedAt": "2026-10-27",
+      "notes": "原廠同型號完整技術表列OLED、31.5吋、3840×2160、裸機7.4kg、735.4×466.9×54.4mm、VESA100×100；沒有曲率或畫面更新率欄，故影像時序另取官方手冊，不套海外保固至台灣賣場。"
+    },
+    {
+      "id": "asus-va329qg3-qualification-audit",
+      "title": "ASUS VA329QG3 台灣完整技術表補核",
+      "url": "https://www.asus.com/tw/displays-desktops/monitors/eye-care/va329qg3/techspec/",
+      "kind": "manufacturer",
+      "checkedAt": "2026-10-27",
+      "notes": "web原產品頁逾時後以Chrome進入產品頁並點產品規格：31.5吋VA、原生1920×1080、最高180Hz，明確低於4K門檻。裸機5.11kg、714.6×423.7×53.3mm、VESA100×100；未把180Hz當作4K180。"
+    },
+    {
+      "id": "philips-328b1-96-qualification-audit",
+      "title": "Philips 328B1/96 原廠動態技術表補核",
+      "url": "https://www.philips.com.tw/c-p/328B1_96/lcd-monitor-with-powersensor",
+      "kind": "manufacturer",
+      "checkedAt": "2026-10-27",
+      "notes": "Chrome點技術規格的開啟並讀完整對話框：31.5吋、最佳3840×2160@60Hz、VA LCD、裸機7.54kg、714×422×62mm、VESA100×100、底座旋轉±90度。完整表沒有曲率／平面欄；不轉用328B1/00區域版的Flat資料，flat保留null。"
+    },
+    {
+      "id": "philips-32m2n5800-96-qualification-audit",
+      "title": "Philips 32M2N5800/96 原廠動態技術表補核",
+      "url": "https://www.philips.com.tw/c-p/32M2N5800_96/fast-ips-gaming-monitor-dual-mode-gaming-monitor",
+      "kind": "manufacturer",
+      "checkedAt": "2026-10-27",
+      "notes": "Chrome展開完整技術表確認31.5吋Fast IPS、HDMI/DP3840×2160@160Hz與FHD320雙模；8bit可UHD160，10bit最高UHD120。裸機6.62kg、715×429×69mm、VESA100×100。完整表未列平面／曲率，不用其他區域Flat資料放行。"
+    },
+    {
+      "id": "philips-32m2n6800md-93-qualification-audit",
+      "title": "Philips 32M2N6800MD/93 原廠動態技術表補核",
+      "url": "https://www.philips.com.tw/c-p/32M2N6800MD_93/fast-ips-gaming-monitor-dual-mode-gaming-monitor",
+      "kind": "manufacturer",
+      "checkedAt": "2026-10-27",
+      "notes": "Chrome展開完整技術表確認31.5吋Fast IPS Mini LED、HDMI/DP3840×2160@160Hz與FHD320；8bit可UHD160，10bit最高UHD120。裸機7.94kg、716×427×76mm、VESA100×100。完整表沒有平面／曲率欄；/93台灣供貨與保固未確認，不套/96賣場。"
+    },
+    {
+      "id": "philips-32e3n3800l-96-qualification-audit",
+      "title": "Philips 32E3N3800L/96 原廠動態技術表補核",
+      "url": "https://www.philips.com.tw/c-p/32E3N3800L_96/monitor-4k-uhd-monitor",
+      "kind": "manufacturer",
+      "checkedAt": "2026-10-27",
+      "notes": "web讀取逾時後以Chrome成功開啟並展開完整技術表：31.5吋VA LCD、3840×2160@60Hz、裸機5.72kg、713×419×50mm、VESA100×100。完整表沒有平面／曲率欄，flat保留null。"
+    },
+    {
+      "id": "philips-32m2n6800ml-93-qualification-audit",
+      "title": "Philips 32M2N6800ML/93 原廠動態技術表補核",
+      "url": "https://www.philips.com.tw/c-p/32M2N6800ML_93/fast-va-gaming-monitor-4k-uhd-gaming-monitor",
+      "kind": "manufacturer",
+      "checkedAt": "2026-10-27",
+      "notes": "Chrome展開完整技術表確認31.5吋VA LCD Mini LED、HDMI/DP3840×2160@165Hz、裸機7.82kg、715×426×75mm、VESA100×100。完整表沒有平面／曲率欄；/93台灣供貨與保固未確認，不套/96資料。"
+    },
+    {
+      "id": "philips-32m2n8900-01-qualification-audit",
+      "title": "Philips 32M2N8900/01 精確區域版原廠PDF補核",
+      "url": "https://www.documents.philips.com/assets/20240720/70b5e95932bd4ce29c58b1b300dae9c5.pdf",
+      "kind": "manufacturer",
+      "checkedAt": "2026-10-27",
+      "notes": "台灣原頁標題錯置34吋且主體無規格；另找到精確32M2N8900/01原廠4頁PDF，第4頁明列31.5吋、QD OLED、最高3840×2160@240Hz HDMI/DP。已補數值欄，沒有借用/96；PDF未列平面／曲率，故flat仍null。台灣全新品賣家、保固與進口條件未知。"
+    },
     {
       "id": "asus-xg32uqds-global-spec",
       "title": "ASUS XG32UQDS 全球精確型號規格",
@@ -12394,10 +16401,10 @@
     {
       "id": "samsung-s32h802uac-s80uh--spec",
       "title": "Samsung S32H802UAC (S80UH) 原廠規格",
-      "url": "https://www.samsung.com/tw/support/model/LS32H802UACXZW/",
+      "url": "https://www.samsung.com/tw/monitors/high-resolution/viewfinity-s8-s80uh-32-inch-4k-uhd-usb-c-ls32h802uacxzw/",
       "kind": "manufacturer",
       "checkedAt": "2026-10-27",
-      "notes": "精確型號原廠規格；庫存另依賣場查核，頁面模板價格／已售完字樣不作庫存證據。"
+      "notes": "Chrome 精確台灣型號PDP展開全部規格，確認VA／4K60／USB-C90W／4.7kg／100×100／裸機716.7×423.2×46.0mm；取代先前只讀支援頁的缺口。"
     },
     {
       "id": "samsung-s32d706eac-s70d--spec",
@@ -12525,7 +16532,7 @@
       "url": "https://www.rtings.com/monitor/reviews/samsung/odyssey-g80hs-s32hg80",
       "kind": "measurement",
       "checkedAt": "2026-10-27",
-      "notes": "閱讀可公開的實測結論；詳細亮度/閃爍數值鎖定，未當作0。測試機與台灣尾碼/韌體可能有差異。"
+      "notes": "海外受測樣機（原文 G80HS／S32HG80）；台灣S32HG806ES後綴／韌體未交叉驗證，作參考。閱讀可公開的實測結論；詳細亮度/閃爍數值鎖定，未當作0。測試機與台灣尾碼/韌體可能有差異。"
     },
     {
       "id": "samsung-g80sh-rtings",
@@ -12533,7 +16540,7 @@
       "url": "https://www.rtings.com/monitor/reviews/samsung/odyssey-oled-g80sh-s32hg802s",
       "kind": "measurement",
       "checkedAt": "2026-10-27",
-      "notes": "閱讀公開結論；詳細持續亮度/最低亮度數字鎖定。海外測試機結果與台灣尾碼可能有差異；不移植海外PD瓦數。"
+      "notes": "海外受測樣機（原文 G80SH／S32HG802S）；台灣S32HG802SC後綴／韌體未交叉驗證，作參考。閱讀公開結論；詳細持續亮度/最低亮度數字鎖定。海外測試機結果與台灣尾碼可能有差異；不移植海外PD瓦數。"
     },
     {
       "id": "samsung-g73sh-rtings",
@@ -12541,7 +16548,7 @@
       "url": "https://www.rtings.com/monitor/reviews/samsung/odyssey-oled-g73sh-s32hg732s",
       "kind": "measurement",
       "checkedAt": "2026-10-27",
-      "notes": "2026年實測公開結論，細項數值鎖定；海外樣品/韌體與台灣可能不同。"
+      "notes": "海外受測樣機（原文 G73SH／S32HG732S）；台灣S32HG732SC後綴／韌體未交叉驗證，作參考。2026年實測公開結論，細項數值鎖定；海外樣品/韌體與台灣可能不同。"
     },
     {
       "id": "lg-32u990a-avforums",
@@ -12984,6 +16991,374 @@
       "notes": "排除：Yahoo台灣精確型號卡為32吋QHD曲面，未達4K/平面。"
     },
     {
+      "id": "lg-tw-31-40-catalog",
+      "title": "LG 台灣所有螢幕：31–40吋篩選（2頁14筆）",
+      "url": "https://www.lg.com/tw/monitors/all-monitors/?ec_ft_06507188=31-40%E5%90%8B",
+      "kind": "manufacturer",
+      "checkedAt": "2026-10-27",
+      "notes": "Chrome 實際操作尺寸篩選；第1頁12筆、第2頁2筆，尾頁下一頁停用。僅此尺寸篩選是完整枚舉，非全球歷史型號完整性宣稱。"
+    },
+    {
+      "id": "samsung-tw-32-catalog",
+      "title": "Samsung 台灣所有顯示器：32吋篩選（46筆）",
+      "url": "https://www.samsung.com/tw/monitors/all-monitors/",
+      "kind": "manufacturer",
+      "checkedAt": "2026-10-27",
+      "notes": "Chrome 勾選32吋後顯示46筆；持續檢視更多至按鈕消失，完整讀取46張卡，包含歷年M7/M8及曲面／低解析款。"
+    },
+    {
+      "id": "lg-32u701sb-b-spec",
+      "title": "LG 台灣 32U701SB-B 完整規格",
+      "url": "https://www.lg.com/tw/monitors/myview-smart-monitors/32u701sb-b/",
+      "kind": "manufacturer",
+      "checkedAt": "2026-10-27",
+      "notes": "精確型號完整規格：31.5吋平面VA、4K60；4.5kg、100×100。頁面通用圖片alt有IPS/USB-C誤植，不將圖片泛用字樣移植成此款介面。"
+    },
+    {
+      "id": "lg-32u701sb-b-buy",
+      "title": "LG 官方商城 32U701SB-B 購買頁",
+      "url": "https://www.lg.com/tw/monitors/myview-smart-monitors/32u701sb-b/buy",
+      "kind": "retailer",
+      "checkedAt": "2026-10-27",
+      "notes": "Chrome 顯示NT$9,111、數量預設1與加入購物車按鈕；未見明確現貨、快速到貨或預購交期，因此供貨未確認、兩台數量未知，未加入購物車。"
+    },
+    {
+      "id": "lg-32uq85rv-w-spec",
+      "title": "LG 台灣 32UQ85RV-W 精確規格",
+      "url": "https://www.lg.com/tw/monitors/ultrafine-uhd-4k-5k/32uq85rv-w/",
+      "kind": "manufacturer",
+      "checkedAt": "2026-10-27",
+      "notes": "Chrome 可讀原頁主要規格，但延遲後導回首頁；公開索引／全文仍可讀完整規格，兩者交叉核對。31.5吋平面IPS、4K60、5.35kg、VESA100×100。"
+    },
+    {
+      "id": "lg-32uq85rv-w-yahoo",
+      "title": "Yahoo 32UQ85RV-W 商品頁",
+      "url": "https://tw.buy.yahoo.com/gdsale/LG-樂金-32UQ85RV-W-UltraFine-UHD-4K-IPS-高畫質編輯螢幕-自動色彩-11045686.html",
+      "kind": "retailer",
+      "checkedAt": "2026-10-27",
+      "notes": "Chrome 完整商品頁NT$18,490，按鈕明列『已售完，貨到通知我』；公司貨/服務者年限未在本次可讀區確認。"
+    },
+    {
+      "id": "lg-32u501sb-w-catalog",
+      "title": "LG 台灣官方目錄：32U501SB-W",
+      "url": "https://www.lg.com/tw/monitors/myview-smart-monitors/32u501sb-w/",
+      "kind": "manufacturer",
+      "checkedAt": "2026-10-27",
+      "notes": "官方目錄標32吋FHD，低於4K，排除；詳細安裝與更新率未補填。 型號與基本條件來自31–40吋篩選卡片，未聲稱已讀該產品頁完整安裝規格。"
+    },
+    {
+      "id": "lg-32g600a-b-catalog",
+      "title": "LG 台灣官方目錄：32G600A-B",
+      "url": "https://www.lg.com/tw/monitors/ultragear-gaming/32g600a-b/",
+      "kind": "manufacturer",
+      "checkedAt": "2026-10-27",
+      "notes": "官方目錄標32吋QHD180Hz曲面，同時不符平面及4K，排除。 型號與基本條件來自31–40吋篩選卡片，未聲稱已讀該產品頁完整安裝規格。"
+    },
+    {
+      "id": "samsung-s32dm703uc-spec",
+      "title": "Samsung 台灣 S32DM703UC（M70D）完整規格",
+      "url": "https://www.samsung.com/tw/monitors/high-resolution/smart-monitor-m7-32-inch-smart-tv-apps-ls32dm703ucxzw/",
+      "kind": "manufacturer",
+      "checkedAt": "2026-10-27",
+      "notes": "Chrome 精確型號產品頁展開全部規格，確認32吋平面3840×2160、更新率、面板、裸機尺寸重量與介面；歷年官網仍列型號不代表台灣新機現貨。"
+    },
+    {
+      "id": "samsung-s32dm702uc-spec",
+      "title": "Samsung 台灣 S32DM702UC（M70D）完整規格",
+      "url": "https://www.samsung.com/tw/monitors/high-resolution/smart-monitor-m7-32-inch-smart-tv-apps-ls32dm702ucxzw/",
+      "kind": "manufacturer",
+      "checkedAt": "2026-10-27",
+      "notes": "Chrome 精確型號產品頁展開全部規格，確認32吋平面3840×2160、更新率、面板、裸機尺寸重量與介面；歷年官網仍列型號不代表台灣新機現貨。"
+    },
+    {
+      "id": "samsung-s32cm801uc-spec",
+      "title": "Samsung 台灣 S32CM801UC（M80C）完整規格",
+      "url": "https://www.samsung.com/tw/monitors/high-resolution/smart-m8-m80c-32-inch-uhd-4k-smart-tv-apps-ls32cm801ucxzw/",
+      "kind": "manufacturer",
+      "checkedAt": "2026-10-27",
+      "notes": "Chrome 精確型號產品頁展開全部規格，確認32吋平面3840×2160、更新率、面板、裸機尺寸重量與介面；歷年官網仍列型號不代表台灣新機現貨。"
+    },
+    {
+      "id": "samsung-s32cm703uc-spec",
+      "title": "Samsung 台灣 S32CM703UC（M70C）完整規格",
+      "url": "https://www.samsung.com/tw/monitors/high-resolution/smart-m7-m70c-32-inch-uhd-4k-smart-tv-apps-ls32cm703ucxzw/",
+      "kind": "manufacturer",
+      "checkedAt": "2026-10-27",
+      "notes": "Chrome 精確型號產品頁展開全部規格，確認32吋平面3840×2160、更新率、面板、裸機尺寸重量與介面；歷年官網仍列型號不代表台灣新機現貨。"
+    },
+    {
+      "id": "samsung-s32bg700ec-spec",
+      "title": "Samsung 台灣 S32BG700EC（G70B）完整規格",
+      "url": "https://www.samsung.com/tw/monitors/gaming/odyssey-g70b-g7-32-inch-ips-144hz-1ms-uhd-4k-ls32bg700ecxzw/",
+      "kind": "manufacturer",
+      "checkedAt": "2026-10-27",
+      "notes": "Chrome 精確型號產品頁展開全部規格，確認32吋平面3840×2160、更新率、面板、裸機尺寸重量與介面；歷年官網仍列型號不代表台灣新機現貨。"
+    },
+    {
+      "id": "samsung-s32bm801uc-spec",
+      "title": "Samsung 台灣 S32BM801UC（M80B）完整規格",
+      "url": "https://www.samsung.com/tw/monitors/high-resolution/smart-m8-32-inch-uhd-4k-ls32bm801ucxzw/",
+      "kind": "manufacturer",
+      "checkedAt": "2026-10-27",
+      "notes": "Chrome 精確型號產品頁展開全部規格，確認32吋平面3840×2160、更新率、面板、裸機尺寸重量與介面；歷年官網仍列型號不代表台灣新機現貨。"
+    },
+    {
+      "id": "samsung-s32bm703uc-spec",
+      "title": "Samsung 台灣 S32BM703UC（M70B）完整規格",
+      "url": "https://www.samsung.com/tw/monitors/high-resolution/smart-m7-32-inch-smart-tv-experience-ls32bm703ucxzw/",
+      "kind": "manufacturer",
+      "checkedAt": "2026-10-27",
+      "notes": "Chrome 精確型號產品頁展開全部規格，確認32吋平面3840×2160、更新率、面板、裸機尺寸重量與介面；歷年官網仍列型號不代表台灣新機現貨。"
+    },
+    {
+      "id": "samsung-s32bm702uc-spec",
+      "title": "Samsung 台灣 S32BM702UC（M70B）完整規格",
+      "url": "https://www.samsung.com/tw/monitors/high-resolution/smart-m7-32-inch-smart-tv-experience-ls32bm702ucxzw/",
+      "kind": "manufacturer",
+      "checkedAt": "2026-10-27",
+      "notes": "Chrome 精確型號產品頁展開全部規格，確認32吋平面3840×2160、更新率、面板、裸機尺寸重量與介面；歷年官網仍列型號不代表台灣新機現貨。"
+    },
+    {
+      "id": "samsung-s32am703uc-spec",
+      "title": "Samsung 台灣 S32AM703UC（M7 初代白色）完整規格",
+      "url": "https://www.samsung.com/tw/monitors/high-resolution/smart-m7-32-inch-ls32am703ucxzw/",
+      "kind": "manufacturer",
+      "checkedAt": "2026-10-27",
+      "notes": "Chrome 精確型號產品頁展開全部規格，確認32吋平面3840×2160、更新率、面板、裸機尺寸重量與介面；歷年官網仍列型號不代表台灣新機現貨。"
+    },
+    {
+      "id": "samsung-s32a700nwc-spec",
+      "title": "Samsung 台灣 S32A700NWC（S70A）完整規格",
+      "url": "https://www.samsung.com/tw/monitors/high-resolution/s70a-32-32-inch-uhd-4k-ls32a700nwcxzw/",
+      "kind": "manufacturer",
+      "checkedAt": "2026-10-27",
+      "notes": "Chrome 精確型號產品頁展開全部規格，確認32吋平面3840×2160、更新率、面板、裸機尺寸重量與介面；歷年官網仍列型號不代表台灣新機現貨。"
+    },
+    {
+      "id": "samsung-s32am700uc-spec",
+      "title": "Samsung 台灣 S32AM700UC（M7 初代）完整規格",
+      "url": "https://www.samsung.com/tw/monitors/high-resolution/smart-m7-32-inch-uhd-4k-ls32am700ucxzw/",
+      "kind": "manufacturer",
+      "checkedAt": "2026-10-27",
+      "notes": "Chrome 精確型號產品頁展開全部規格，確認32吋平面3840×2160、更新率、面板、裸機尺寸重量與介面；歷年官網仍列型號不代表台灣新機現貨。"
+    },
+    {
+      "id": "samsung-s32fg502ec-catalog",
+      "title": "Samsung 台灣官方目錄／精確型號：S32FG502EC (G50F)",
+      "url": "https://www.samsung.com/tw/monitors/gaming/odyssey-g5-g50f-32-inch-180hz-qhd-ls32fg502ecxzw/",
+      "kind": "manufacturer",
+      "checkedAt": "2026-10-27",
+      "notes": "QHD，低於4K；型號卡片由32吋46筆官方清單取得。除M50F黑色、初代M5與G50A另核精確頁外，其餘未展開完整安裝細節，不以其他版本代填。"
+    },
+    {
+      "id": "samsung-s32d606uac-catalog",
+      "title": "Samsung 台灣官方目錄／精確型號：S32D606UAC (S60UD)",
+      "url": "https://www.samsung.com/tw/monitors/high-resolution/viewfinity-s6-32-inch-qhd-100hz-easysetupstand-ls32d606uacxzw/",
+      "kind": "manufacturer",
+      "checkedAt": "2026-10-27",
+      "notes": "QHD，低於4K；型號卡片由32吋46筆官方清單取得。除M50F黑色、初代M5與G50A另核精確頁外，其餘未展開完整安裝細節，不以其他版本代填。"
+    },
+    {
+      "id": "samsung-s32hg552ec-catalog",
+      "title": "Samsung 台灣官方目錄／精確型號：S32HG552EC (G55H)",
+      "url": "https://www.samsung.com/tw/monitors/gaming/odyssey-g5-g55h-32-inch-180hz-qhd-ls32hg552ecxzw/",
+      "kind": "manufacturer",
+      "checkedAt": "2026-10-27",
+      "notes": "QHD曲面；型號卡片由32吋46筆官方清單取得。除M50F黑色、初代M5與G50A另核精確頁外，其餘未展開完整安裝細節，不以其他版本代填。"
+    },
+    {
+      "id": "samsung-s32fm501ec-catalog",
+      "title": "Samsung 台灣官方目錄／精確型號：S32FM501EC (M50F)",
+      "url": "https://www.samsung.com/tw/monitors/smart/smart-monitor-m5-32-inch-smart-tv-apps-ls32fm501ecxzw/",
+      "kind": "manufacturer",
+      "checkedAt": "2026-10-27",
+      "notes": "官方目錄FHD，低於4K；型號卡片由32吋46筆官方清單取得。除M50F黑色、初代M5與G50A另核精確頁外，其餘未展開完整安裝細節，不以其他版本代填。"
+    },
+    {
+      "id": "samsung-s32fm500ec-catalog",
+      "title": "Samsung 台灣官方目錄／精確型號：S32FM500EC (M50F)",
+      "url": "https://www.samsung.com/tw/monitors/smart/smart-monitor-m5-32-inch-smart-tv-apps-ls32fm500ecxzw/",
+      "kind": "manufacturer",
+      "checkedAt": "2026-10-27",
+      "notes": "精確原廠規格FHD，低於4K；型號卡片由32吋46筆官方清單取得。除M50F黑色、初代M5與G50A另核精確頁外，其餘未展開完整安裝細節，不以其他版本代填。"
+    },
+    {
+      "id": "samsung-s32d392gac-catalog",
+      "title": "Samsung 台灣官方目錄／精確型號：S32D392GAC (S39GD)",
+      "url": "https://www.samsung.com/tw/monitors/curved/essential-monitor-s3-s39gd-32-inch-fhd-100hz-ls32d392gacxzw/",
+      "kind": "manufacturer",
+      "checkedAt": "2026-10-27",
+      "notes": "FHD曲面；型號卡片由32吋46筆官方清單取得。除M50F黑色、初代M5與G50A另核精確頁外，其餘未展開完整安裝細節，不以其他版本代填。"
+    },
+    {
+      "id": "samsung-s32dg502ec-catalog",
+      "title": "Samsung 台灣官方目錄／精確型號：S32DG502EC (G50D)",
+      "url": "https://www.samsung.com/tw/monitors/gaming/odyssey-g5-g50d-32-inch-180hz-ips-qhd-ls32dg502ecxzw/",
+      "kind": "manufacturer",
+      "checkedAt": "2026-10-27",
+      "notes": "QHD，低於4K；型號卡片由32吋46筆官方清單取得。除M50F黑色、初代M5與G50A另核精確頁外，其餘未展開完整安裝細節，不以其他版本代填。"
+    },
+    {
+      "id": "samsung-s32cg552ec-catalog",
+      "title": "Samsung 台灣官方目錄／精確型號：S32CG552EC (G55C)",
+      "url": "https://www.samsung.com/tw/monitors/gaming/odyssey-g5-g55c-32-inch-165hz-curved-qhd-ls32cg552ecxzw/",
+      "kind": "manufacturer",
+      "checkedAt": "2026-10-27",
+      "notes": "QHD曲面；型號卡片由32吋46筆官方清單取得。除M50F黑色、初代M5與G50A另核精確頁外，其餘未展開完整安裝細節，不以其他版本代填。"
+    },
+    {
+      "id": "samsung-s32c390eac-catalog",
+      "title": "Samsung 台灣官方目錄／精確型號：S32C390EAC (C390)",
+      "url": "https://www.samsung.com/tw/monitors/curved/essential-s3-32-inch-curved-fhd-1080p-ls32c390eacxzw/",
+      "kind": "manufacturer",
+      "checkedAt": "2026-10-27",
+      "notes": "FHD曲面；型號卡片由32吋46筆官方清單取得。除M50F黑色、初代M5與G50A另核精確頁外，其餘未展開完整安裝細節，不以其他版本代填。"
+    },
+    {
+      "id": "samsung-s32bg650ec-catalog",
+      "title": "Samsung 台灣官方目錄／精確型號：S32BG650EC (G65B)",
+      "url": "https://www.samsung.com/tw/monitors/gaming/odyssey-g65b-g6-32-inch-240hz-1ms-curved-qhd-1440p-ls32bg650ecxzw/",
+      "kind": "manufacturer",
+      "checkedAt": "2026-10-27",
+      "notes": "QHD曲面；型號卡片由32吋46筆官方清單取得。除M50F黑色、初代M5與G50A另核精確頁外，其餘未展開完整安裝細節，不以其他版本代填。"
+    },
+    {
+      "id": "samsung-s32bg850nc-catalog",
+      "title": "Samsung 台灣官方目錄／精確型號：S32BG850NC (Neo G8)",
+      "url": "https://www.samsung.com/tw/monitors/gaming/odyssey-neo-g8-g85nb-32-inch-ls32bg850ncxzw/",
+      "kind": "manufacturer",
+      "checkedAt": "2026-10-27",
+      "notes": "官方目錄明列曲面，不符平面；型號卡片由32吋46筆官方清單取得。除M50F黑色、初代M5與G50A另核精確頁外，其餘未展開完整安裝細節，不以其他版本代填。"
+    },
+    {
+      "id": "samsung-s32bg750nc-catalog",
+      "title": "Samsung 台灣官方目錄／精確型號：S32BG750NC (Neo G7)",
+      "url": "https://www.samsung.com/tw/monitors/gaming/odyssey-neo-g7-g75nb-32-inch-ls32bg750ncxzw/",
+      "kind": "manufacturer",
+      "checkedAt": "2026-10-27",
+      "notes": "官方目錄明列曲面，不符平面；型號卡片由32吋46筆官方清單取得。除M50F黑色、初代M5與G50A另核精確頁外，其餘未展開完整安裝細節，不以其他版本代填。"
+    },
+    {
+      "id": "samsung-c32g55tqb-catalog",
+      "title": "Samsung 台灣官方目錄／精確型號：C32G55TQB (G5)",
+      "url": "https://www.samsung.com/tw/monitors/gaming/odyssey-g5-32-inch-144hz-1ms-curved-lc32g55tqbcxzw/",
+      "kind": "manufacturer",
+      "checkedAt": "2026-10-27",
+      "notes": "官方目錄明列1000R曲面；型號卡片由32吋46筆官方清單取得。除M50F黑色、初代M5與G50A另核精確頁外，其餘未展開完整安裝細節，不以其他版本代填。"
+    },
+    {
+      "id": "samsung-s32ag500pc-catalog",
+      "title": "Samsung 台灣官方目錄／精確型號：S32AG500PC (G50A)",
+      "url": "https://www.samsung.com/tw/monitors/gaming/odyssey-g5-g50a-32-inch-ips---165hz-1ms-ls32ag500pcxzw/",
+      "kind": "manufacturer",
+      "checkedAt": "2026-10-27",
+      "notes": "Chrome精確原廠概覽確認QHD165Hz，低於4K；型號卡片由32吋46筆官方清單取得。除M50F黑色、初代M5與G50A另核精確頁外，其餘未展開完整安裝細節，不以其他版本代填。"
+    },
+    {
+      "id": "samsung-s32am500nc-catalog",
+      "title": "Samsung 台灣官方目錄／精確型號：S32AM500NC (M5)",
+      "url": "https://www.samsung.com/tw/monitors/flat/smart-m5-32-inch-ls32am500ncxzw/",
+      "kind": "manufacturer",
+      "checkedAt": "2026-10-27",
+      "notes": "精確原廠規格FHD，低於4K；型號卡片由32吋46筆官方清單取得。除M50F黑色、初代M5與G50A另核精確頁外，其餘未展開完整安裝細節，不以其他版本代填。"
+    },
+    {
+      "id": "samsung-c32g55tqw-catalog",
+      "title": "Samsung 台灣官方目錄／精確型號：C32G55TQW (G5)",
+      "url": "https://www.samsung.com/tw/monitors/gaming/wqhd-gaming-monitor-g5-with-1000r-curved-screen-32-inch-lc32g55tqwcxzw/",
+      "kind": "manufacturer",
+      "checkedAt": "2026-10-27",
+      "notes": "官方目錄明列1000R曲面；型號卡片由32吋46筆官方清單取得。除M50F黑色、初代M5與G50A另核精確頁外，其餘未展開完整安裝細節，不以其他版本代填。"
+    },
+    {
+      "id": "samsung-c32t550fdc-catalog",
+      "title": "Samsung 台灣官方目錄／精確型號：C32T550FDC (CT55)",
+      "url": "https://www.samsung.com/tw/monitors/curved/curved-monitor-with-optimal-curvature-1000r-32-inch-lc32t550fdcxzw/",
+      "kind": "manufacturer",
+      "checkedAt": "2026-10-27",
+      "notes": "官方目錄明列1000R曲面；型號卡片由32吋46筆官方清單取得。除M50F黑色、初代M5與G50A另核精確頁外，其餘未展開完整安裝細節，不以其他版本代填。"
+    },
+    {
+      "id": "samsung-u32r591cwc-catalog",
+      "title": "Samsung 台灣官方目錄／精確型號：U32R591CWC (UR591C)",
+      "url": "https://www.samsung.com/tw/monitors/high-resolution/uhd-curved-monitor-with-1-billion-colors-32-inch-lu32r591cwcxzw/",
+      "kind": "manufacturer",
+      "checkedAt": "2026-10-27",
+      "notes": "4K曲面，不符平面；型號卡片由32吋46筆官方清單取得。除M50F黑色、初代M5與G50A另核精確頁外，其餘未展開完整安裝細節，不以其他版本代填。"
+    },
+    {
+      "id": "samsung-u32r590cwc-catalog",
+      "title": "Samsung 台灣官方目錄／精確型號：U32R590CWC (UR590)",
+      "url": "https://www.samsung.com/tw/monitors/high-resolution/uhd-curved-monitor-32-inch-lu32r590cwcxzw/",
+      "kind": "manufacturer",
+      "checkedAt": "2026-10-27",
+      "notes": "4K曲面，不符平面；型號卡片由32吋46筆官方清單取得。除M50F黑色、初代M5與G50A另核精確頁外，其餘未展開完整安裝細節，不以其他版本代填。"
+    },
+    {
+      "id": "samsung-em32dx-spec",
+      "title": "Samsung 台灣 Color E-Paper EM32DX（LH32EMDIBGBXZW）",
+      "url": "https://www.samsung.com/tw/business/smart-signage/others/color-e-paper-emdx-lh32emdibgbxzw/",
+      "kind": "manufacturer",
+      "checkedAt": "2026-10-27",
+      "notes": "官方商務產品頁31.5吋彩色電子紙2560×1440；Yahoo另有EM32DX-A命名，不能混用不同硬體碼。"
+    },
+    {
+      "id": "samsung-tw-2026-launch-spec",
+      "title": "Samsung 台灣2026年5月18日上市新聞稿：Odyssey／ViewFinity規格表",
+      "url": "https://news.samsung.com/tw/%E4%B8%89%E6%98%9F%E5%86%8D%E5%89%B5%E9%A1%AF%E7%A4%BA%E6%96%B0%E6%A8%99%E6%BA%96odyssey%E8%88%87viewfinity%E5%85%A8%E6%96%B0%E7%99%BB%E5%A0%B4-%E4%BB%A55k%EF%BC%8F6k%E8%B6%85%E9%AB%98%E8%A7%A3",
+      "kind": "manufacturer",
+      "checkedAt": "2026-10-27",
+      "notes": "台灣官方上市規格表明列G73SH為WOLED、G80SH為QD-OLED；32吋S80UH為VA／4K60／USB-C90W。僅用於對應產品家族與尺寸的原廠規格，不是獨立實測。"
+    },
+    {
+      "id": "yahoo-lg-all32-coverage",
+      "title": "Yahoo LG 32型以上全部32筆",
+      "url": "https://tw.buy.yahoo.com/brands/41169281?cid=31373171&sort=-sales",
+      "kind": "coverage",
+      "checkedAt": "2026-10-27",
+      "notes": "完整一頁32商品URL，含缺貨，不再只用現貨篩選16筆。"
+    },
+    {
+      "id": "yahoo-samsung-all78-coverage",
+      "title": "Yahoo Samsung 32型以上全部78筆",
+      "url": "https://tw.buy.yahoo.com/brands/41166793?cid=31373171",
+      "kind": "coverage",
+      "checkedAt": "2026-10-27",
+      "notes": "完整兩頁60＋18筆已讀；與各精確賣場供貨證據分開。"
+    },
+    {
+      "id": "yahoo-viewsonic-all6-coverage",
+      "title": "Yahoo ViewSonic 32型以上全部6筆",
+      "url": "https://tw.buy.yahoo.com/brands/41171186?cid=31373171",
+      "kind": "coverage",
+      "checkedAt": "2026-10-27",
+      "notes": "完整一頁6筆，尺寸／解析度排除保留。"
+    },
+    {
+      "id": "sinya-lg-32-coverage",
+      "title": "欣亞LG32型品牌篩選可達5頁",
+      "url": "https://www.sinya.com.tw/search/9_7?spec=143&keyword=32%E5%9E%8B",
+      "kind": "coverage",
+      "checkedAt": "2026-10-27",
+      "notes": "第1頁4卡、第2–5頁空；總數96與品牌可見卡不一致，已記錄缺口。"
+    },
+    {
+      "id": "sinya-samsung-32-coverage",
+      "title": "欣亞Samsung32型品牌篩選可達5頁",
+      "url": "https://www.sinya.com.tw/search/9_7?spec=120&keyword=32%E5%9E%8B",
+      "kind": "coverage",
+      "checkedAt": "2026-10-27",
+      "notes": "第1頁10卡、第2–5頁空；總數96與品牌可見卡不一致，已記錄缺口。"
+    },
+    {
+      "id": "lg-32g810sa-w-sinya",
+      "title": "欣亞 LG32G810SA-W 商品頁",
+      "url": "https://www.sinya.com.tw/prod/213731",
+      "kind": "retailer",
+      "checkedAt": "2026-10-27",
+      "notes": "精確商品頁NT$16,900、三年保固標題、數量選項1/2與購買控制；無明確現貨／交期文案，供貨與兩台數量均未確認。"
+    },
+    {
       "id": "hp-tw-monitor-catalog",
       "title": "HP 台灣電腦顯示器完整介紹",
       "url": "https://www.hp.com/tw-zh/monitors-accessories/computer-monitors.html",
@@ -13061,7 +17436,7 @@
       "url": "https://www.lenovo.com/tw/zh/d/monitors/",
       "kind": "coverage",
       "checkedAt": "2026-10-27",
-      "notes": "動態商品目錄的靜態擷取不完整；另查ThinkVision、Legion與PSREF，不能宣稱已遍歷全部台灣販售SKU。"
+      "notes": "原/d/monitors/及4K行銷入口沒有完整可讀商品目錄；另已經官方computer-monitors「選購所有螢幕」進入現行商店，完整展開52/52筆，見lenovo-tw-store-52。歷史或平輸SKU不因此視為完整覆蓋。"
     },
     {
       "id": "lenovo-p32ud40-psref",
@@ -13077,7 +17452,7 @@
       "url": "https://www.lenovo.com/tw/zh/p/accessories-and-software/monitors/professional/64a8xar2tw",
       "kind": "retailer",
       "checkedAt": "2026-10-27",
-      "notes": "2026-10-27 Chrome可見精確64A8XAR2TW、NT$19971及可用新增至購物車；頁面配送日期仍顯示已過去的9月26日，未取得明確現貨或有效商品專屬預購交期，因此保守標供貨未確認。未加入購物車，兩台數量及基本保固服務未確認；加購頂級服務不代表基本保固。"
+      "notes": "台灣精確SKU64A8XAR2TW，Chrome讀到NT$19,971與購物按鈕；僅按鈕不足以證明現貨，現貨／正式預購、交期與雙台數量均未確認，狀態保留unconfirmed。"
     },
     {
       "id": "lenovo-p32p30-datasheet",
@@ -13238,6 +17613,62 @@
       "kind": "coverage",
       "checkedAt": "2026-10-27",
       "notes": "目前列Studio Display與Studio Display XDR，兩者都是27吋；不能把新款Studio Display XDR當成32吋Pro Display XDR。舊32吋保留通路候選。"
+    },
+    {
+      "id": "hp-tw-all-monitors-dynamic",
+      "title": "HP 台灣所有顯示器動態目錄（Chrome 覆核）",
+      "url": "https://www.hp.com/tw-zh/products/monitors/view-all-monitors.html",
+      "kind": "coverage",
+      "checkedAt": "2026-10-27",
+      "notes": "Chrome 未篩選目錄先顯示16個不同商品頁，按載入更多後共29個；再次載入仍29個並顯示「抱歉。發生錯誤。請再試一次」。31.5吋篩選讀到E32k G5與FHD532sf，再加3840×2160僅E32k G5；兩組篩選均試載入更多仍相同錯誤，未以錯誤當作末頁保證。"
+    },
+    {
+      "id": "hp-e32k-g5-tw-spec",
+      "title": "HP E32k G5 6N4D6AA 台灣完整技術規格",
+      "url": "https://www.hp.com/tw-zh/products/monitors/product-details/product-specifications/2101407407",
+      "kind": "manufacturer",
+      "checkedAt": "2026-10-27",
+      "notes": "Chrome 全文確認平板式31.5吋IPS LCD、3840×2160@60Hz、USB-C影像65W、DP1.4、HDMI2.0、VESA100×100；不含支架外廓71.4×4.7×42.12cm（不帶轉軸），另列帶轉軸深7.47cm。8.4kg明列含底座，裸機重量不明。±90°轉軸不是現有Arco安裝全確認。"
+    },
+    {
+      "id": "hp-532sf-tw-catalog",
+      "title": "HP 台灣31.5吋目錄：532sf為FHD",
+      "url": "https://www.hp.com/tw-zh/products/monitors/view-all-monitors.html?facet_scrnsizeus=31.5",
+      "kind": "manufacturer",
+      "checkedAt": "2026-10-27",
+      "notes": "Chrome尺寸篩選完整可見532sf（94F51AA）31.5吋、1920×1080、VA LCD，低於4K門檻。此來源不證明台灣目前庫存或價格；未移植海外料號的更新率與保固。"
+    },
+    {
+      "id": "lenovo-tw-store-52",
+      "title": "Lenovo 台灣現行顯示器商店52筆完整展開",
+      "url": "https://www.lenovo.com/tw/zh/dc/accessories-and-software/monitors/",
+      "kind": "coverage",
+      "checkedAt": "2026-10-27",
+      "notes": "Chrome由官方computer-monitors入口「選購所有螢幕」進入；依序展開10、20、30、40、50、52，最終明列「顯示1–52之52結果」且讀到52個不同商品名稱。32吋類僅LOQ32Q-10、ThinkVision T32UD-40、P32UD-40；前者QHD排除。此為現行台灣官方商店入口範圍，不涵蓋歷史全型號、企業專案或所有平輸。"
+    },
+    {
+      "id": "lenovo-t32ud40-tw",
+      "title": "ThinkVision T32UD-40 台灣64B0GAR1TW完整商品頁",
+      "url": "https://www.lenovo.com/tw/zh/p/accessories-and-software/monitors/office/64b0gar1tw",
+      "kind": "manufacturer",
+      "checkedAt": "2026-10-27",
+      "notes": "Chrome讀到NT$12,592、購物按鈕及預估約2–3周由工廠出貨；現貨與正式預購承諾仍待確認，保留unconfirmed。31.5吋IPS、48–60Hz、USB-C最高100W與LTPS支架明列。3年頂級服務NT$385是另購選項，不能當作基本保固已包含。"
+    },
+    {
+      "id": "lenovo-loq32q10-tw",
+      "title": "Lenovo LOQ 32Q-10 台灣68F7GAC1TW完整商品頁",
+      "url": "https://www.lenovo.com/tw/zh/p/accessories-and-software/monitors/gaming/68f7gac1tw",
+      "kind": "manufacturer",
+      "checkedAt": "2026-10-27",
+      "notes": "Chrome精確SKU頁讀到NT$6,201、購物按鈕與預估6–9天由工廠出貨；31.5吋QHD、Fast VA、180Hz。行銷段落誤寫27吋Fast IPS，故技術欄以精確SKU關鍵細節及PSREF交叉核對，不沿用該錯置段落。"
+    },
+    {
+      "id": "lenovo-loq32q10-psref",
+      "title": "Lenovo LOQ32Q-10 官方PSREF",
+      "url": "https://psref.lenovo.com/syspool/Sys/PDF/Lenovo_Monitors/LOQ_32Q_10_Monitor/LOQ_32Q_10_Monitor_Spec.html?ver=78587fcc-3b37-4ad3-b90d-949478e28eb4",
+      "kind": "manufacturer",
+      "checkedAt": "2026-10-27",
+      "notes": "原廠全文列31.5吋平面VA、2560×1440、180Hz；裸機713.9×52.3×423.2mm、6.3kg、VESA100×100。兩個HDMI2.1 TMDS最高2560×1440@144Hz，DP1.4另列。全球3年有限保固不直接套用台灣SKU賣場。"
     },
     {
       "id": "benq-catalog",
@@ -13600,14 +18031,6 @@
       "notes": "Chrome已讀取螢幕欄全部865選項，32吋4K分類76選項與6K分類3選項（含說明）。估價報價不等於門市現貨；客訂、套裝與贈品不當作裸機可即時供貨證據。"
     },
     {
-      "id": "lg-32uq85rv-w-spec",
-      "title": "原價屋 LG32UQ85RV-W 型號發現",
-      "url": "https://www.coolpc.com.tw/evaluate.php",
-      "kind": "retailer",
-      "checkedAt": "2026-10-27",
-      "notes": ""
-    },
-    {
       "id": "aoc-cq32g4-spec",
       "title": "PChome CQ32G4 曲面2K索引排除紀錄",
       "url": "https://24h.pchome.com.tw/search/32%204k",
@@ -13622,6 +18045,14 @@
       "kind": "manufacturer",
       "checkedAt": "2026-10-27",
       "notes": ""
+    },
+    {
+      "id": "benq-tw-lcd-warranty",
+      "title": "BenQ 台灣 TN／IPS／VA 顯示器保固條款",
+      "url": "https://www.benq.com/zh-tw/support/registration-warranty/warranty-information/monitor.html",
+      "kind": "manufacturer",
+      "checkedAt": "2026-10-27",
+      "notes": "限台灣合法通路。TN／IPS／VA面板與機身3年，本島到府收送；SW／PD保內備機另依條款。專案／特賣可能另訂，固定畫面烙痕等除外；本頁未明列OLED，不轉套OLED或平輸。"
     },
     {
       "id": "channel-momo-32-4k-search",
@@ -13822,46 +18253,52 @@
     },
     {
       "brand": "ASUS",
-      "scope": "台灣4K分類、ROG32–34分類、ProArt及舊型號精確規格補查",
-      "url": "https://www.asus.com/tw/displays-desktops/monitors/all-series/filter?Spec=456",
-      "status": "partial",
-      "notes": "4K分類顯示47裝置，文字工具只呈現部分動態結果；ROG索引9型號已納入並補查其他新舊SKU。動態全量分頁尚未完成，不宣稱全品牌零遺漏。",
+      "scope": "Chrome完成台灣31–34.9吋全解析度41/41卡，另4K交集22/22卡；既有舊款精確頁保留",
+      "url": "https://www.asus.com/tw/displays-desktops/monitors/all-series/filter?Category=31-34-9",
+      "status": "complete",
+      "notes": "已處理此尺寸範圍的完整可見目錄，含6K/8K，不只依4K標籤。新增MS32UC、HA3281A及VA329QG3待確認；XG32WCS/PA328QV/VA329HE解析度排除。12款34吋型號以尺寸排除：VG34WQ5F、XG34WCDMS、VG34WQ5A、VG34WQL5A、PG34WCDN、XG34WCDMTG、XG34WCDG、VU34WCIP-W、VG34VQ3B、PG34WCDM、VG34VQL3A、PA348CGV。此完成僅指上述41卡，不代表台灣通路與所有歷史型號均有貨。",
       "candidateModels": [
-        "PA32QCV",
-        "PA329CRV",
-        "PA32UCDM",
-        "VP32UQ",
-        "VP327Q",
-        "PA32UCXR",
-        "PA329Q",
-        "VA32UQ",
-        "PG32UCDM",
-        "PG32UCDP",
-        "PG32UCDMR",
-        "XG32UCG",
-        "XG32UQDMS",
-        "PG32UCDM3",
-        "XG32UCWMG",
-        "XG32UCDS",
-        "XG32UCWG",
-        "PG32UCWM",
-        "XG32UQWMS",
+        "HA3281A",
+        "MS32UC",
+        "PA328QV",
         "PA329CDV",
-        "PA32USD",
-        "PA32KCX",
-        "PA32UCE",
-        "PA32UCDMR-K",
+        "PA329CRV",
         "PA329CV",
-        "PA32UCR-K",
-        "PA32UCG-K",
-        "PA32UCX-PK",
-        "PA32UCX",
+        "PA329Q",
         "PA32DC",
-        "VA32UQSB",
+        "PA32KCX",
+        "PA32QCV",
+        "PA32UCDM",
+        "PA32UCDMR-K",
+        "PA32UCE",
+        "PA32UCG-K",
+        "PA32UCR-K",
+        "PA32UCX",
+        "PA32UCX-PK",
+        "PA32UCXR",
+        "PA32USD",
+        "PG32UCDM",
+        "PG32UCDM3",
+        "PG32UCDMR",
+        "PG32UCDP",
+        "PG32UCWM",
         "PG32UQ",
         "PG32UQX",
         "PG32UQXR",
-        "XG32UQ"
+        "VA329HE",
+        "VA329QG3",
+        "VA32UQ",
+        "VA32UQSB",
+        "VP327Q",
+        "VP32UQ",
+        "XG32UCDS",
+        "XG32UCG",
+        "XG32UCWG",
+        "XG32UCWMG",
+        "XG32UQ",
+        "XG32UQDMS",
+        "XG32UQWMS",
+        "XG32WCS"
       ]
     },
     {
@@ -13909,21 +18346,32 @@
     },
     {
       "brand": "GIGABYTE",
-      "scope": "台灣9頁動態目錄與32吋精確型號規格",
+      "scope": "Chrome逐頁完成台灣完整目錄9/9頁、99筆，32吋級21筆逐一處理",
       "url": "https://www.gigabyte.com/tw/Monitor",
-      "status": "partial",
-      "notes": "台灣目錄顯示9頁；尺寸篩選解析器未回傳結果。已補查M32U/M32UP/FI32U及FO/MO32 OLED家族與曲面M32UC；動態分頁未全部完成。",
+      "status": "complete",
+      "notes": "實際經由下一頁依序讀取1至9頁，前8頁各12筆，末頁3筆且下一頁停用；無未讀分頁。補入FO32U24G與M32U Arm Edition，另QHD／曲面32吋9款列排除。目錄立即購買按鈕不作現貨證據；已符合硬規格仍需確認台灣賣家。",
       "candidateModels": [
-        "M32U",
-        "M32UP",
-        "AORUS FO32U2P",
+        "AORUS ELITE FO32U24G",
+        "AORUS FI32Q",
+        "AORUS FI32Q X",
+        "AORUS FI32U",
+        "AORUS FO32U",
         "AORUS FO32U2",
-        "MO32U24",
+        "AORUS FO32U2P",
+        "G32QC A",
+        "GS32Q",
+        "GS32QA",
+        "GS32QC",
+        "GS32QCA",
+        "M32Q",
+        "M32QC",
+        "M32U",
+        "M32U Arm Edition",
+        "M32UC",
+        "M32UP",
         "MO32U",
         "MO32U2",
-        "AORUS FO32U",
-        "AORUS FI32U",
-        "M32UC"
+        "MO32U24"
       ]
     },
     {
@@ -13945,19 +18393,45 @@
     },
     {
       "brand": "Philips",
-      "scope": "台灣205項／18頁目錄、4K篩選與區域/96PDF交叉補查",
+      "scope": "Chrome完整目錄18/18頁、205/205唯一SKU；另4K篩選2/2頁21筆交叉核對",
       "url": "https://www.philips.com.tw/c-m-so/monitors/latest",
-      "status": "partial",
-      "notes": "目錄205項、4K篩選21項，動態分頁未完全展開；已保留查得32吋4K型號與區域尾碼，/96資料不移植到/97或/00。32E1N5800LA原廠PDF全文未能讀取，產品頁及通路保留可核實部分。",
+      "status": "complete",
+      "notes": "前17頁各12筆、末頁1筆，末頁下一頁停用，所有可達分頁完成。32吋級共34個精確區域SKU均保留或排除；4K篩選會漏32E1N5800L/LA、32M2N8900等，故採全目錄補漏。/93與/01不移植/96規格、保固或供貨；/01詳細主體空白保持待確認。既有32E1N5800LA PDF仍無全文，此為規格欄位缺口而非未讀目錄頁。",
       "candidateModels": [
+        "322E1C/96",
+        "322M8CP/96",
+        "322M8CZ/96",
+        "325E8/96",
+        "325M2CRZ/96",
+        "325M8C/96",
+        "328B1/96",
+        "328E1CA/96",
+        "32E1N1100L/96",
+        "32E1N1800LA/96",
+        "32E1N1800LA/97",
+        "32E1N3100LA/96",
+        "32E1N3500/96",
         "32E1N5800L/96",
         "32E1N5800LA/96",
-        "32M2N6800MW/96",
-        "32M1N5800A/96",
-        "32E1N1800LA/97",
-        "32E1N1800LA/96",
+        "32E3C2200/96",
+        "32E3C2500/96",
+        "32E3N3800L/96",
         "32E3N5901RW/96",
-        "32M2N8900/96"
+        "32M1C5200W/96",
+        "32M1C5500VL/96",
+        "32M1N5500VS/96",
+        "32M1N5800A/96",
+        "32M2C3200WL/96",
+        "32M2C3500L/96",
+        "32M2C5500W/96",
+        "32M2N5800/96",
+        "32M2N6800MD/93",
+        "32M2N6800ML/93",
+        "32M2N6800MW/96",
+        "32M2N8900/01",
+        "32M2N8900/96",
+        "32M3C3540/96",
+        "32M3C3540W/96"
       ]
     },
     {
@@ -14005,31 +18479,33 @@
     },
     {
       "brand": "LG",
-      "scope": "台灣官網、Yahoo32吋以上品牌列表、PChome與欣亞交叉搜尋",
-      "url": "https://www.lg.com/tw/monitors/",
-      "status": "partial",
-      "notes": "官網分類動態清單未完整輸出；2025Q4型錄PDF無可抽取文字且直接下載403，未繞過。持續以精確型號官網與台灣零售補查，不能宣稱全品牌零遺漏。",
+      "scope": "台灣官方所有螢幕：31–40吋篩選完整2頁14筆",
+      "url": "https://www.lg.com/tw/monitors/all-monitors/?ec_ft_06507188=31-40%E5%90%8B",
+      "status": "complete",
+      "notes": "Chrome 已完成尺寸篩選兩頁（第1頁12、第2頁2），尾頁下一頁停用。8款31.5/32級逐筆處理：6款4K以上、32U501SB-W為FHD、32G600A-B為QHD曲面。其餘6款因34/39/40吋尺寸排除，保留本條台帳。零售發現舊款另保留，不代表全球歷史／全部平輸完整。第二頁：https://www.lg.com/tw/monitors/all-monitors/?ec_ft_06507188=31-40%E5%90%8B&firstResult=9",
       "candidateModels": [
-        "32UN880K-B",
-        "32U720SA-W",
-        "32U731SA-W",
-        "32U990A-S",
-        "32G810SA-W",
-        "32GS95UV-B",
-        "32GS95UV-W",
         "32U889SA-W",
+        "39GX950B-B",
+        "32G810SA-W",
+        "32U721SB-W",
+        "32U701SB-B",
+        "34U511A-B",
+        "40U990A-W",
+        "32U990A-S",
+        "32U501SB-W",
+        "34SR60QC-W",
         "32SR75U-W",
-        "32SR83U-W",
-        "32GR93U-B",
-        "32U721SB-W"
+        "34GS95QE-B",
+        "32G600A-B",
+        "39GX90SA-W"
       ]
     },
     {
       "brand": "Samsung",
-      "scope": "台灣官網系列與精確型號、Yahoo品牌32吋以上列表、PChome與欣亞補漏",
-      "url": "https://www.samsung.com/tw/monitors/",
-      "status": "partial",
-      "notes": "動態官方清單未全量輸出；Yahoo共59筆僅15張卡可讀，其餘為佔位。已逐筆處理查得32吋候選；官網未解析價格模板不判供貨。",
+      "scope": "台灣官方所有顯示器：32吋完整46筆卡片",
+      "url": "https://www.samsung.com/tw/monitors/all-monitors/",
+      "status": "complete",
+      "notes": "Chrome 勾選32吋後顯示46筆；連續『檢視更多』直到按鈕消失，46款全部處理。27款原生4K以上平面含歷年M7/M8/G70B/S70A；19款依曲面或FHD/QHD排除。官方列歷年型號不等於新機現貨；不宣稱全球全歷史與全部平輸賣家完整。",
       "candidateModels": [
         "S32HG806ES (G80HS)",
         "S32HG802SC (G80SH)",
@@ -14046,7 +18522,37 @@
         "S32FM703UC (M70F)",
         "S32FM803UC (M80F)",
         "S32FM902SC (M90SF)",
-        "S32DM803UC (M80D)"
+        "S32DM803UC (M80D)",
+        "S32DM703UC (M70D)",
+        "S32DM702UC (M70D)",
+        "S32CM801UC (M80C)",
+        "S32CM703UC (M70C)",
+        "S32BG700EC (G70B)",
+        "S32BM801UC (M80B)",
+        "S32BM703UC (M70B)",
+        "S32BM702UC (M70B)",
+        "S32AM703UC (M7 初代白色)",
+        "S32A700NWC (S70A)",
+        "S32AM700UC (M7 初代)",
+        "S32FG502EC (G50F)",
+        "S32D606UAC (S60UD)",
+        "S32HG552EC (G55H)",
+        "S32FM501EC (M50F)",
+        "S32FM500EC (M50F)",
+        "S32D392GAC (S39GD)",
+        "S32DG502EC (G50D)",
+        "S32CG552EC (G55C)",
+        "S32C390EAC (C390)",
+        "S32BG650EC (G65B)",
+        "S32BG850NC (Neo G8)",
+        "S32BG750NC (Neo G7)",
+        "C32G55TQB (G5)",
+        "S32AG500PC (G50A)",
+        "S32AM500NC (M5)",
+        "C32G55TQW (G5)",
+        "C32T550FDC (CT55)",
+        "U32R591CWC (UR591C)",
+        "U32R590CWC (UR590)"
       ]
     },
     {
@@ -14115,25 +18621,124 @@
       ]
     },
     {
+      "brand": "LG",
+      "scope": "Yahoo LG 32型以上：未限制現貨、完整1頁32筆",
+      "url": "https://tw.buy.yahoo.com/brands/41169281?cid=31373171&sort=-sales",
+      "status": "complete",
+      "notes": "Chrome 初讀原現貨篩選16筆，已清除庫存條件改讀含缺貨32筆；分段捲動／合併逐一讀完32個商品URL。32型9種型號均已處理，其餘27/34/39/40/45/52型尺寸不符；商品卡把39GX950B誤寫32型時以官方39吋排除。來源清單用途是發現型號，無明確供貨文案不憑加入購物車按鈕判現貨。",
+      "candidateModels": [
+        "32U889SA-W",
+        "32U720SA-W",
+        "32GS95UV-W",
+        "32GS95UV-B",
+        "32G810SA-W",
+        "32U731SA-W",
+        "32UN880K-B",
+        "32U990A-S",
+        "32UQ85RV-W"
+      ]
+    },
+    {
+      "brand": "Samsung",
+      "scope": "Yahoo Samsung 32型以上：未限制現貨、完整2頁78筆",
+      "url": "https://tw.buy.yahoo.com/brands/41166793?cid=31373171",
+      "status": "complete",
+      "notes": "Chrome 實際讀取第1頁60與第2頁18個商品URL（延遲載入空卡逐段補齊），共78筆。頁2：https://tw.buy.yahoo.com/brands/41166793?cid=31373171&pg=2 。32級22個可辨SKU／命名已交叉處理，其他尺寸及重複支架組排除；電子紙QHD記錄排除，EM32DX-A與LH32EMDIBGBXZW命名歧義未混用規格。價格／現貨仍以精確商品頁為準。",
+      "candidateModels": [
+        "S32FM702UC",
+        "S32FM703UC",
+        "S32FM501EC",
+        "S32FM803UC",
+        "S32HG732SC",
+        "S32HG806ES",
+        "EM32DX-A / LH32EMDIBGBXZW（命名有歧義）",
+        "S32HG802SC",
+        "S32H704EAC",
+        "S32FM902SC",
+        "S32DG502EC",
+        "S32FG812SC",
+        "S32CG552EC",
+        "S32FG502EC",
+        "S32D707EAC",
+        "S32D606UAC",
+        "U32R591CWC",
+        "S32DM702UC",
+        "S32BG650EC",
+        "S32D806UAC",
+        "S32DM803UC",
+        "S32H802UAC"
+      ]
+    },
+    {
+      "brand": "ViewSonic",
+      "scope": "Yahoo ViewSonic 32型以上：完整1頁6筆",
+      "url": "https://tw.buy.yahoo.com/brands/41171186?cid=31373171",
+      "status": "complete",
+      "notes": "Chrome 全部6張卡讀完：3款32型4K、2款32型FHD/QHD、1款34型曲面。符合款VG3208U-4K、VA3208-4K-MHD、VP3256-4K均已在台帳；補貨中狀態與各賣場分開保留。",
+      "candidateModels": [
+        "VG3208U-4K",
+        "VA3208-4K-MHD",
+        "VP3256-4K",
+        "VX3276-MHD-3",
+        "VX3276-2K-MHD-2",
+        "VX3418C-2K（34型）"
+      ]
+    },
+    {
+      "brand": "LG",
+      "scope": "欣亞 LG 32型關鍵字＋品牌篩選：已讀可達第1–5頁",
+      "url": "https://www.sinya.com.tw/search/9_7?spec=143&keyword=32%E5%9E%8B",
+      "status": "partial",
+      "notes": "實際開啟UI列出的全部5頁。頁1讀到4張LG卡：32GS95UV-W、32G810SA-W、32U731SA-W、32GS95UV-B；第2–5頁均無商品卡。介面仍顯示96筆（與Samsung篩選相同），該總數不能當作LG匹配數；列出此計數／分頁不一致缺口，不推論另92款已處理。翻頁URL格式為同查詢加&page=2至5，所有可達頁已讀。價格與按鈕不等同現貨確認。",
+      "candidateModels": [
+        "32GS95UV-W",
+        "32G810SA-W",
+        "32U731SA-W",
+        "32GS95UV-B"
+      ]
+    },
+    {
+      "brand": "Samsung",
+      "scope": "欣亞 Samsung 32型關鍵字＋品牌篩選：已讀可達第1–5頁",
+      "url": "https://www.sinya.com.tw/search/9_7?spec=120&keyword=32%E5%9E%8B",
+      "status": "partial",
+      "notes": "實際開啟UI列出的全部5頁。頁1讀到10張Samsung卡；第2–5頁均無商品卡。介面仍顯示96筆（與LG篩選相同），該總數不能當作Samsung匹配數；保留計數／分頁不一致缺口，不推論另86款已處理。全螢幕關鍵字首頁另發現S32D707EAC被誤標34型，以官方32型核對保留。所有32型可達頁已讀；完整賣場才作供貨判斷。",
+      "candidateModels": [
+        "S32HG732SC",
+        "S32FM702UC",
+        "S32FM803UC",
+        "S32FM902SC",
+        "S32FG812SC",
+        "S32D806UAC",
+        "S32D606UAC",
+        "S32DG502EC",
+        "S32DG802SC",
+        "S32CG552EC",
+        "S32D707EAC（全螢幕首列表補查）"
+      ]
+    },
+    {
       "brand": "HP",
-      "scope": "台灣電腦螢幕／Series7目錄、HPgo732pk、Z32k台灣支援及本地詢價頁，補查歷史U32與Z32。",
+      "scope": "台灣Series7行銷目錄、所有顯示器動態目錄29個不同商品頁、31.5吋與4K篩選；精確E32k G5完整規格與原列歷史候選。",
       "url": "https://www.hp.com/tw-zh/monitors-accessories/computer-monitors.html",
       "status": "partial",
-      "notes": "已將本輪找到的候選全數建檔；HP舊型號通路與部分QuickSpecs全文仍有缺口。732xk僅即將推出，732pk的HPgo僅可洽詢。不能宣稱HP所有歷史／平輸SKU均已完整排查。",
+      "notes": "Chrome未篩選目錄先16個、載入更多後29個；再次載入仍29個且顯示錯誤。31.5吋篩選為E32k G5與FHD532sf，疊加4K僅E32k G5；篩選後載入更多也保持錯誤，因此不能把29個當作官方所有歷史／平輸SKU或保證末頁。已補E32k G5及532sf排除紀錄；732xk仍僅即將推出，732pk僅洽詢，其他台灣供貨未知。",
       "candidateModels": [
         "732pk",
         "732xk",
         "Z32k G3",
         "U32",
-        "Z32"
+        "Z32",
+        "E32k G5（6N4D6AA）",
+        "532sf（94F51AA，FHD排除）"
       ]
     },
     {
       "brand": "Lenovo",
-      "scope": "台灣ThinkVision動態目錄、Legion介紹、精確P32UD-40台灣SKU與全球PSREF，補查舊世代4K32吋候選。",
+      "scope": "現行台灣官方顯示器商店52/52筆，精確T32UD-40/P32UD-40台灣SKU、Legion介紹與全球PSREF歷史候選。",
       "url": "https://www.lenovo.com/tw/zh/d/monitors/",
       "status": "partial",
-      "notes": "動態目錄靜態擷取不完整；P32UD-40已用Chrome確認可下單。其餘歷史／全球型號的台灣全新品供貨、部分平面與更新率欄仍待補；不由海外販售推定台灣販售。",
+      "notes": "現行商店已用Chrome逐批展開至顯示1–52之52結果，32吋4K只有P32UD-40與T32UD-40；LOQ32Q-10為QHD排除。P32UD-40保留供貨未確認，T32UD-40有價格與預估2–3周工廠出貨但現貨／正式預購承諾待確認。舊世代、企業專案及平輸未必列於現行商店，這部分仍有缺口，不由海外販售推定台灣販售。",
       "candidateModels": [
         "ThinkVision P32UD-40",
         "ThinkVision P32p-30",
@@ -14146,7 +18751,8 @@
         "ThinkVision T32UD-4v",
         "L32p-30",
         "Legion Y32p-30",
-        "Legion Pro 32UD-10"
+        "Legion Pro 32UD-10",
+        "LOQ 32Q-10（QHD排除）"
       ]
     },
     {
@@ -14160,6 +18766,18 @@
         "Pro Display XDR Nano-texture",
         "Studio Display（2026）",
         "Studio Display XDR"
+      ]
+    },
+    {
+      "brand": "Lenovo 台灣現行商店目錄",
+      "scope": "官方dc/accessories-and-software/monitors/全52筆，六批10→20→30→40→50→52",
+      "url": "https://www.lenovo.com/tw/zh/dc/accessories-and-software/monitors/",
+      "status": "complete",
+      "notes": "已完整讀取此入口列示52/52筆，並交叉核對194款既有資料。新增LOQ32Q-10排除紀錄；T32UD-40/P32UD-40已有型號，補前者台灣SKU賣場價格。完成只指本入口現行產品，不含全部歷史、企業專案與平輸。",
+      "candidateModels": [
+        "ThinkVision T32UD-40",
+        "ThinkVision P32UD-40",
+        "LOQ 32Q-10（QHD排除）"
       ]
     },
     {

@@ -23,7 +23,7 @@ test('published catalog has unique model and source identities with usable evide
       assert.ok(['manufacturer', 'measured', 'unknown'].includes(evidence.kind), product.id);
       references(evidence.sourceIds);
     }
-    for (const offer of product.offers) references([offer.sourceId]);
+    for (const offer of product.offers) references([offer.sourceId, ...(offer.warrantySourceIds || [])]);
   }
 });
 

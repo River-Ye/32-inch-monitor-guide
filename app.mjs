@@ -153,11 +153,11 @@ function openDetails(product) {
   offers.append(el('p', '', '以下資訊各自屬於該賣場，不跨賣場轉用保固、價格或數量。雙台估算不含未確認的運費、轉接座與活動折扣。'));
   for (const offer of product.offers || []) {
     const pair = pairPrice(offer), box = el('article', 'offer-box');
-    append(box, append(el('div', 'offer-heading'), el('h4', '', offer.seller), badge(offerStatus[offer.status] || offerStatus.unconfirmed, offer.status === 'inStock' || offer.status === 'preorder' ? 'available' : 'unconfirmed')), el('p', 'offer-price', pair ? `NT$${money(offer.priceTwd)} / 台` : '價格未確認'), el('p', 'price-provenance', offerDescription(offer)), el('p', '', `版本：${kindNames[offer.kind] || kindNames.unknown}`), el('p', '', `保固：${offer.warranty || '未確認'}`), el('p', '', `雙台數量：${offer.pairAvailability === 'two' ? '已確認兩台可供貨' : offer.pairAvailability === 'one' ? '僅確認一台' : '未確認'}`), el('p', '', pair ? `單價 × 2：NT$${money(pair.value)}${pair.confirmed ? '；兩台數量已確認，實付仍以賣場為準。' : '（估算；兩台供貨未確認）'}` : '雙台費用尚無法估算'), el('p', '', `查核：${offer.checkedAt || data.meta.checkedAt || '未確認'}`), externalLink('前往該型號賣場 ↗', offer.url), sourceLinks(offer.sourceId ? [offer.sourceId] : []));
+    append(box, append(el('div', 'offer-heading'), el('h4', '', offer.seller), badge(offerStatus[offer.status] || offerStatus.unconfirmed, offer.status === 'inStock' || offer.status === 'preorder' ? 'available' : 'unconfirmed')), el('p', 'offer-price', pair ? `NT$${money(offer.priceTwd)} / 台` : '價格未確認'), el('p', 'price-provenance', offerDescription(offer)), el('p', '', `版本：${kindNames[offer.kind] || kindNames.unknown}`), el('p', '', `保固：${offer.warranty || '未確認'}`), el('p', '', `雙台數量：${offer.pairAvailability === 'two' ? '已確認兩台可供貨' : offer.pairAvailability === 'one' ? '僅確認一台' : '未確認'}`), el('p', '', pair ? `單價 × 2：NT$${money(pair.value)}${pair.confirmed ? '；兩台數量已確認，實付仍以賣場為準。' : '（估算；兩台供貨未確認）'}` : '雙台費用尚無法估算'), el('p', '', `查核：${offer.checkedAt || data.meta.checkedAt || '未確認'}`), externalLink('前往該型號賣場 ↗', offer.url), sourceLinks([...(offer.sourceId ? [offer.sourceId] : []), ...(offer.warrantySourceIds || [])]));
     offers.append(box);
   }
   if (!product.offers?.length) offers.append(el('p', '', '尚無已確認的台灣賣場資料。'));
-  body.append(offers, section('原廠規格來源', sourceLinks(product.specSourceIds)));
+  body.append(offers, section('規格查核來源', sourceLinks(product.specSourceIds)));
   $('detail-dialog').showModal();
 }
 
@@ -203,7 +203,7 @@ function renderConclusions() {
       { id: 'lg-32u990a-s', note: '6144×3456、60Hz。實測文字精細，但塗層與 60Hz 捲動有取捨；裸機重量、直立操作及主機雙 6K 能力仍待核對。', sources: ['lg-32u990a-avforums', 'lg-32u990a-pcworld'] },
     ] },
     { title: '影音優先：理解 OLED 取捨', intro: '深黑與影片之外，也要看固定桌面風險。', models: [
-      { id: 'samsung-s32hg802sc-g80sh-', note: '4K 240Hz。RTINGS 肯定反射處理與 HDR，亦記錄字緣彩邊、暗部 VRR 閃爍及固定桌面烙印風險。', sources: ['samsung-g80sh-rtings'] },
+      { id: 'samsung-s32hg802sc-g80sh-', note: '4K 240Hz。RTINGS 海外受測樣機的反射處理與 HDR 佳，亦有字緣彩邊、暗部 VRR 閃爍及固定桌面烙印風險；台灣版本未交叉實測。', sources: ['samsung-g80sh-rtings'] },
       { id: 'dell-u3226q', note: '4K 120Hz。原廠列 AGLR 低反射表面及含烙印的保固；精確型號文字、亮度變化與維護頻率獨立實測仍待確認。', sources: ['dell-u3226q-spec'] },
     ] },
   ];

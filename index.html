@@ -22,7 +22,7 @@
         <h1 id="hero-title">兩個螢幕，<br>一張好好工作的桌子。</h1>
         <p class="hero-description">把台灣可購的 32 吋級平面螢幕攤開來看。從文字、面板到保固與雙台成本，讓每一個取捨都有來源。</p>
         <div class="requirement-strip" aria-label="已確認需求"><span>31.5–32 吋</span><span>4K 以上 · 60Hz 起</span><span>同型號 × 2</span><span>一橫一直</span></div>
-        <p class="checked-date">資料查核 <time id="checked-date">—</time><span>價格、庫存為當日快照</span></p>
+        <p class="checked-date">資料查核（台北時間） <time id="checked-date">—</time><span>價格、庫存為當日快照</span></p>
       </div>
       <div class="desk-note">
         <div class="note-topline"><span>YOUR DESK / 01</span><span>180 × 80 cm</span></div>
@@ -79,7 +79,7 @@
 
     <section class="setup-section page-width" id="setup" aria-labelledby="setup-title"><div class="section-heading"><div><p class="eyebrow">BEFORE THE SECOND SCREEN</p><h2 id="setup-title">買兩台之前，先對齊這三件事。</h2></div></div><div class="guide-grid">
       <article><span class="guide-number">01 / 文字與方向</span><h3>看實際的字，再逐台設定。</h3><p>LCD 與 OLED 都保留在清單。文字清晰度、反光、亮度及閃爍都看精確型號證據；OLED 的靜態內容、像素結構與保固另有取捨。</p><p>Windows：設定 → 系統 → 顯示器，先選那一台再調整縮放、原生解析度及橫／直向；進階顯示器逐台核對訊號解析度與 Hz。macOS：系統設定 → 顯示器 → 選外接螢幕 → 旋轉 90°／270°，選項依螢幕而異。</p><p class="guide-caption">先查螢幕文件確認直立操作安全，再讓系統排列與實體位置一致。</p><div id="guide-text-sources"></div></article>
-      <article><span class="guide-number">02 / 接線</span><h3>雙台輸出，先查主機上限。</h3><p>Windows 顯示卡與 Mac 晶片各有同時外接台數、解析度及 Hz 組合限制；擴充座不會增加晶片原生上限。目前主機、顯卡與擴充座型號未指定，雙 4K／6K 輸出尚未驗證。</p><p>macOS 不支援以 DisplayPort MST 取得兩個不同延伸桌面；Thunderbolt 路徑須另查主機與擴充座支援圖。USB-C 主機、螢幕、線材與轉接器須支援 DP Alt Mode 或合適 Thunderbolt 影像能力，充電瓦數無法單獨證明。</p><p class="guide-caption">兩台各接一個獨立影像輸出，仍須核對主機同時輸出組合；每條路徑皆須達目標原生解析度與更新率。</p><div id="guide-connection-sources"></div></article>
+      <article><span class="guide-number">02 / 接線</span><h3>雙台輸出，先查主機上限。</h3><p>Windows 顯示卡與 Mac 晶片各有同時外接台數、解析度及 Hz 組合限制；擴充座不會增加晶片原生上限。目前主機、顯卡與擴充座型號未指定，雙 4K／6K 輸出尚未驗證。</p><p>macOS 不支援以 DisplayPort MST 取得兩個不同延伸桌面；Thunderbolt 路徑須另查主機與擴充座支援圖。USB-C 主機、螢幕、線材與轉接器須支援 DP Alt Mode 或合適 Thunderbolt 影像能力，充電瓦數無法單獨證明。</p><p class="guide-caption">依主機及螢幕輸入，準備兩條達到目標原生解析度／Hz 的 HDMI、DisplayPort，或支援影像的 USB-C／Thunderbolt 線；轉接器也要核對。兩台各接獨立影像輸出，仍須符合主機同時輸出組合。</p><div id="guide-connection-sources"></div></article>
       <article><span class="guide-number">03 / 安裝</span><h3>重量符合，還要確認淨空。</h3><p>Arco 單臂原廠標示承重 2–27 kg、VESA 75×75／100×100、螢幕旋轉 ±90°。以拆底座後加轉接件的實際負載核對；重量落在範圍內只代表重量條件。</p><p>3.3 cm 桌板位於夾桌 1.2–4.5 cm 厚度範圍；桌板結構、桌架與夾具空間仍待現場核對。180 × 80 cm 桌面的一橫一直外廓估算可見各型號資料。</p><p class="guide-caption">原廠未公布最大 VESA 中心高度與臂長，不能確認直立 32 吋不碰桌或兩臂可完全收合；接頭、線材與實際觀看距離也待量測。</p><div id="guide-mount-sources"></div></article>
     </div></section>
 
@@ -89,6 +89,6 @@
   <div id="compare-bar" class="compare-bar" hidden><div><strong id="selection-count">0 / 3</strong><span id="selection-names">已選型號</span></div><div class="compare-actions"><button id="clear-selection" type="button" class="text-button">清空</button><button id="open-compare" type="button">並排比較 <span aria-hidden="true">↗</span></button></div></div>
   <p class="sr-only" id="announcement" role="status" aria-live="polite"></p>
   <dialog id="detail-dialog" aria-labelledby="detail-title"><div class="dialog-header"><div><p class="eyebrow">MODEL NOTES</p><h2 id="detail-title">型號與證據</h2></div><button type="button" data-close="detail-dialog" class="close-button" aria-label="關閉型號證據">×</button></div><div id="detail-body"></div></dialog>
-  <dialog id="compare-dialog" class="compare-dialog" aria-labelledby="compare-title"><div class="dialog-header"><div><p class="eyebrow">SIDE BY SIDE</p><h2 id="compare-title">把差異並排看。</h2></div><button type="button" data-close="compare-dialog" class="close-button" aria-label="關閉並排比較">×</button></div><p class="dialog-note">雙台費用為同款單價 × 2；未確認兩台供貨時，一律標為估算。各賣場保固請展開型號證據查看。</p><div id="compare-body"></div></dialog>
+  <dialog id="compare-dialog" class="compare-dialog" aria-labelledby="compare-title"><div class="dialog-header"><div><p class="eyebrow">SIDE BY SIDE</p><h2 id="compare-title">把差異並排看。</h2></div><button type="button" data-close="compare-dialog" class="close-button" aria-label="關閉並排比較">×</button></div><p class="dialog-note">雙台費用為同款單價 × 2；未確認兩台供貨時，一律標為估算。各賣場保固請展開型號證據查看。手機可左右滑動表格；鍵盤可聚焦表格後以方向鍵捲動。</p><div id="compare-body"></div></dialog>
 </body>
 </html>
